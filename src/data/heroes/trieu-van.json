@@ -1,0 +1,86 @@
+{
+  "id": "trieu-van",
+  "slug": "trieu-van",
+  "name": "Triệu Vân",
+  "chineseName": "赵云",
+  "title": "THƯỜNG SƠN TỬ LONG",
+  "regionId": "tam-quoc",
+  "roles": [
+    "Đấu Sĩ",
+    "Sát Thủ"
+  ],
+  "lanes": [
+    "RỪNG"
+  ],
+  "views": 8500,
+  "upvotes": 1240,
+  "downvotes": 35,
+  "stats": {
+    "winRate": "51,20%",
+    "banRate": "2,10%",
+    "pickRate": "15,30%"
+  },
+  "radar": {
+    "cong": 80,
+    "ky": 70,
+    "kho": 60,
+    "sinh": 50
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/trieu_van.webp",
+  "portrait": "/assets/images/heroes/trieu_van.webp",
+  "element": "hoa",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "LONG MINH",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "MIỄN THƯƠNG"
+      ],
+      "description": "Mỗi khi Triệu Vân mất đi 3% máu tối đa, anh sẽ được tăng 1% miễn thương. Càng đánh càng lì đòn.",
+      "image": "https://hokmoba.com/assets/images/heroes/trieu-van-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "KINH LÔI CHI LONG",
+      "type": "skill1",
+      "cooldown": "7s",
+      "mana": "30",
+      "tags": [
+        "LƯỚT",
+        "CƯỜNG HÓA"
+      ],
+      "description": "Triệu Vân cầm thương lướt tới phía trước gây sát thương vật lý lên đường thẳng. Đòn đánh thường tiếp theo được cường hóa gây thêm sát thương và làm chậm mục tiêu.",
+      "image": "https://hokmoba.com/assets/images/heroes/trieu-van-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "PHÁ VÂN CHI LONG",
+      "type": "skill2",
+      "cooldown": "6s",
+      "mana": "40",
+      "tags": [
+        "SÁT THƯƠNG",
+        "HỒI PHỤC"
+      ],
+      "description": "Triệu Vân đâm liên hoàn về phía trước gây sát thương vật lý 4 lần. Nếu trúng tướng địch, mỗi cú đâm sẽ hồi phục lại máu cho bản thân.",
+      "image": "https://hokmoba.com/assets/images/heroes/trieu-van-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "THIÊN TƯỜNG CHI LONG",
+      "type": "skill3",
+      "cooldown": "18s",
+      "mana": "75",
+      "tags": [
+        "HẤT TUNG",
+        "SÁT THƯƠNG CHUẨN"
+      ],
+      "description": "Triệu Vân nhảy lên không trung rồi giáng mạnh xuống mục tiêu, hất tung kẻ địch trong vùng và khắc dấu ấn. Các đòn đánh thường và kỹ năng lên mục tiêu có dấu ấn sẽ gây thêm sát thương chuẩn.",
+      "image": "https://hokmoba.com/assets/images/heroes/trieu-van-skill3.jpg"
+    }
+  ]
+}

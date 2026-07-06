@@ -1,0 +1,39 @@
+{
+  "id": "khai",
+  "slug": "khai",
+  "name": "Khải",
+  "chineseName": "铠",
+  "title": "MA KIẾM SĨ",
+  "regionId": "tay-vuc",
+  "roles": ["Đấu Sĩ", "Sát Thủ"],
+  "lanes": ["ĐƯỜNG ĐỐI KHÁNG", "ĐI RỪNG"],
+  "views": 12500,
+  "upvotes": 1100,
+  "downvotes": 30,
+  "stats": { "winRate": "52,40%", "banRate": "5,00%", "pickRate": "20,10%" },
+  "radar": { "cong": 90, "ky": 40, "kho": 30, "sinh": 70 },
+  "extraInfo": "13.888",
+  "image": "https://hokmoba.com/assets/images/heroes/khai.jpg",
+  "skills": [
+    {
+      "id": "passive", "name": "MA KIẾM", "type": "passive", "cooldown": "0s", "mana": "0", "tags": ["SÁT THƯƠNG VẬT LÝ"],
+      "description": "Nếu Khải chỉ chém trúng 1 mục tiêu, hắn gây thêm 50% sát thương.",
+      "image": "https://hokmoba.com/assets/images/heroes/khai-passive.jpg"
+    },
+    {
+      "id": "skill1", "name": "HỒI HÌNH NHẬN", "type": "skill1", "cooldown": "10s", "mana": "60", "tags": ["LÀM CHẬM", "HỒI PHỤC"],
+      "description": "Phóng đao nảy giữa các mục tiêu, làm chậm kẻ địch và hồi máu cho bản thân.",
+      "image": "https://hokmoba.com/assets/images/heroes/khai-skill1.jpg"
+    },
+    {
+      "id": "skill2", "name": "CỰC NHẬN PHONG BẠO", "type": "skill2", "cooldown": "6s", "mana": "50", "tags": ["LƯỚT", "KHỐNG CHẾ"],
+      "description": "Lướt tới chém 2 nhát, nhát thứ 2 hất tung. Đòn đánh thường kế tiếp được cường hóa.",
+      "image": "https://hokmoba.com/assets/images/heroes/khai-skill2.jpg"
+    },
+    {
+      "id": "skill3", "name": "BẤT DIỆT MA KHU", "type": "skill3", "cooldown": "50s", "mana": "120", "tags": ["CƯỜNG HÓA TÒAN DIỆN"],
+      "description": "Biến hình! Tăng mạnh công vật lý, tốc chạy, chặn sát thương và gây sát thương phép xung quanh.",
+      "image": "https://hokmoba.com/assets/images/heroes/khai-skill3.jpg"
+    }
+  ]
+}

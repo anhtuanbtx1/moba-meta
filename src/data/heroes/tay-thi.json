@@ -1,0 +1,84 @@
+{
+  "id": "tay-thi",
+  "slug": "tay-thi",
+  "name": "Tây Thi",
+  "chineseName": "西施",
+  "title": "TÂY THI",
+  "regionId": "my-nhan",
+  "roles": [
+    "Hỗ Trợ",
+    "Pháp Sư"
+  ],
+  "lanes": [
+    "HỖ TRỢ"
+  ],
+  "views": 5200,
+  "upvotes": 450,
+  "downvotes": 12,
+  "stats": {
+    "winRate": "53,10%",
+    "banRate": "4,50%",
+    "pickRate": "8,90%"
+  },
+  "radar": {
+    "cong": 30,
+    "ky": 80,
+    "kho": 70,
+    "sinh": 60
+  },
+  "extraInfo": "5.888",
+  "image": "/assets/images/heroes/tay_thi.webp",
+  "portrait": "/assets/images/heroes/tay_thi.webp",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "THỜI GIAN ĐẢO NGƯỢC",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "TĂNG TỐC"
+      ],
+      "description": "Mỗi khi sử dụng kỹ năng, Tôn Tẫn được tăng 30% tốc chạy trong 1 giây.",
+      "image": "https://hokmoba.com/assets/images/heroes/ton-tan-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "BOM THỜI KHÔNG",
+      "type": "skill1",
+      "cooldown": "6s",
+      "mana": "60",
+      "tags": [
+        "SÁT THƯƠNG PHÉP"
+      ],
+      "description": "Ném một quả bom hẹn giờ vào mục tiêu, phát nổ sau 3 giây gây sát thương phép và làm chậm.",
+      "image": "https://hokmoba.com/assets/images/heroes/ton-tan-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "GIA TỐC THỜI GIAN",
+      "type": "skill2",
+      "cooldown": "12s",
+      "mana": "40",
+      "tags": [
+        "TĂNG TỐC",
+        "HỒI PHỤC"
+      ],
+      "description": "Tăng 30% tốc chạy và 20% giảm hồi chiêu cho đồng minh lân cận. Hết hiệu lực trả lại 40% máu đã mất trong thời gian đó.",
+      "image": "https://hokmoba.com/assets/images/heroes/ton-tan-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "ĐỒNG HỒ CÁT",
+      "type": "skill3",
+      "cooldown": "45s",
+      "mana": "100",
+      "tags": [
+        "LÀM CHẬM",
+        "CÂM LẶNG"
+      ],
+      "description": "Ném một vùng năng lượng khổng lồ gây câm lặng và làm chậm kẻ địch, phát nổ sau 5s gây lượng lớn sát thương phép.",
+      "image": "https://hokmoba.com/assets/images/heroes/ton-tan-skill3.jpg"
+    }
+  ]
+}

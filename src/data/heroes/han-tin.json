@@ -1,0 +1,86 @@
+{
+  "id": "hang-vu",
+  "slug": "hang-vu",
+  "name": "Hạng Vũ",
+  "chineseName": "项羽",
+  "title": "SÁT THỦ THẦN TỐC",
+  "regionId": "tam-quoc",
+  "roles": [
+    "Sát Thủ",
+    "Đấu Sĩ"
+  ],
+  "lanes": [
+    "ĐI RỪNG"
+  ],
+  "views": 8940,
+  "upvotes": 850,
+  "downvotes": 45,
+  "stats": {
+    "winRate": "49,85%",
+    "banRate": "8,10%",
+    "pickRate": "12,40%"
+  },
+  "radar": {
+    "cong": 80,
+    "ky": 90,
+    "kho": 80,
+    "sinh": 30
+  },
+  "extraInfo": "18.888",
+  "image": "/assets/images/heroes/hang_vu.webp",
+  "portrait": "/assets/images/heroes/hang_vu.webp",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "SÁT Ý",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "TỐC ĐÁNH",
+        "KHỐNG CHẾ"
+      ],
+      "description": "Đòn đánh thứ 4 của Hàn Tín sẽ hất tung mục tiêu. Tung chiêu trúng đích tăng 50% tốc đánh.",
+      "image": "https://hokmoba.com/assets/images/heroes/han-tin-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "VÔ TÌNH XUNG PHONG",
+      "type": "skill1",
+      "cooldown": "9s",
+      "mana": "45",
+      "tags": [
+        "LƯỚT",
+        "HẤT TUNG"
+      ],
+      "description": "Hàn Tín lướt đến hất tung mục tiêu. Có thể lướt thêm lần nữa trong 5s.",
+      "image": "https://hokmoba.com/assets/images/heroes/han-tin-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "BỐI THỦY CHẾN",
+      "type": "skill2",
+      "cooldown": "5s",
+      "mana": "50",
+      "tags": [
+        "LƯỚT ngược",
+        "CƯỜNG HÓA"
+      ],
+      "description": "Hàn Tín lướt về phía sau, cường hóa đòn đánh thường tiếp theo thành đòn quét ngang.",
+      "image": "https://hokmoba.com/assets/images/heroes/han-tin-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "QUỐC SĨ VÔ SONG",
+      "type": "skill3",
+      "cooldown": "36s",
+      "mana": "100",
+      "tags": [
+        "SÁT THƯƠNG",
+        "MIỄN KHỐNG"
+      ],
+      "description": "Hàn Tín múa thương gây sát thương liên tục, ở đòn cuối hất tung kẻ địch. Trong lúc tung chiêu miễn khống chế.",
+      "image": "https://hokmoba.com/assets/images/heroes/han-tin-skill3.jpg"
+    }
+  ]
+}

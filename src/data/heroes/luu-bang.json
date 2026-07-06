@@ -1,0 +1,85 @@
+{
+  "id": "luu-bang",
+  "slug": "luu-bang",
+  "name": "Lưu Bang",
+  "chineseName": "刘邦",
+  "title": "VUA KHÔNG NGAI",
+  "regionId": "tam-quoc",
+  "roles": [
+    "Đỡ Đòn",
+    "Hỗ Trợ"
+  ],
+  "lanes": [
+    "ĐƯỜNG ĐỐI KHÁNG",
+    "HỖ TRỢ"
+  ],
+  "views": 1542,
+  "upvotes": 120,
+  "downvotes": 15,
+  "stats": {
+    "winRate": "51,20%",
+    "banRate": "2,15%",
+    "pickRate": "5,30%"
+  },
+  "radar": {
+    "cong": 40,
+    "ky": 60,
+    "kho": 40,
+    "sinh": 90
+  },
+  "extraInfo": "12.500",
+  "image": "https://hokmoba.com/assets/images/heroes/luu-bang.jpg",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "NỘI TẠI",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "SÁT THƯƠNG PHÉP"
+      ],
+      "description": "Đòn đánh thường thứ 3 của Lưu Bang sẽ gây sát thương phép theo % máu tối đa của bản thân.",
+      "image": "https://hokmoba.com/assets/images/heroes/luu-bang-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "LÁ CHẮN",
+      "type": "skill1",
+      "cooldown": "10s",
+      "mana": "60",
+      "tags": [
+        "BẢO HỘ",
+        "SÁT THƯƠNG"
+      ],
+      "description": "Lưu Bang tạo một lá chắn dựa trên máu tối đa. Sau 1.5s có thể chủ động kích nổ gây sát thương phép.",
+      "image": "https://hokmoba.com/assets/images/heroes/luu-bang-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "TRUY KÍCH",
+      "type": "skill2",
+      "cooldown": "8s",
+      "mana": "50",
+      "tags": [
+        "LƯỚT",
+        "KHỐNG CHẾ"
+      ],
+      "description": "Lưu Bang tụ lực lướt tới phía trước, gây sát thương và làm choáng kẻ địch trên đường bay.",
+      "image": "https://hokmoba.com/assets/images/heroes/luu-bang-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "TRUYỀN TỐNG",
+      "type": "skill3",
+      "cooldown": "60s",
+      "mana": "100",
+      "tags": [
+        "DỊCH CHUYỂN",
+        "BẢO HỘ"
+      ],
+      "description": "Lưu Bang chọn một đồng minh và truyền tống đến đó. Trong lúc vận sức tạo lá chắn cực lớn cho đồng minh.",
+      "image": "https://hokmoba.com/assets/images/heroes/luu-bang-skill3.jpg"
+    }
+  ]
+}
