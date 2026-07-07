@@ -1,0 +1,87 @@
+{
+  "id": "chung-quy",
+  "slug": "chung-quy",
+  "name": "Chung Quỳ",
+  "chineseName": "钟馗",
+  "title": "PHÁN QUYẾT THẦN QUAN",
+  "regionId": "ma-gioi",
+  "roles": [
+    "Hỗ Trợ",
+    "Pháp Sư"
+  ],
+  "lanes": [
+    "HỖ TRỢ"
+  ],
+  "views": 25400,
+  "upvotes": 1980,
+  "downvotes": 120,
+  "stats": {
+    "winRate": "49,80%",
+    "banRate": "45,20%",
+    "pickRate": "10,40%"
+  },
+  "radar": {
+    "cong": 50,
+    "ky": 85,
+    "kho": 70,
+    "sinh": 80
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/chung_quy.webp",
+  "portrait": "/assets/images/heroes/chung_quy.webp",
+  "element": "am",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "CHẾ THÀNH THẦN QUYẾT",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "PHẢN KÍCH BÙNG NỔ",
+        "TỬ VONG BỘC PHÁ"
+      ],
+      "description": "Khi chịu sát thương vượt quá 10% máu hiện tại, Chung Quỳ tự động kích nổ năng lượng gây sát thương phép xung quanh. Khi bị hạ gục, cơ thể Chung Quỳ biến thành một hố đen ma thuật khổng lồ, sau 3 giây sẽ nổ tung gây lượng sát thương phép hủy diệt diện rộng.",
+      "image": "https://hokmoba.com/assets/images/heroes/chung-quy-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "HƯ VÔ ANH LINH",
+      "type": "skill1",
+      "cooldown": "4s",
+      "mana": "60",
+      "tags": [
+        "SÁT THƯƠNG DIỆN RỘNG",
+        "LÀM CHẬM"
+      ],
+      "description": "Chung Quỳ dậm mạnh xuống đất giải phóng sức mạnh linh hồn, gây sát thương phép lên kẻ địch xung quanh và làm chậm 30% tốc chạy của chúng. Kẻ địch đứng sát Chung Quỳ sẽ phải gánh chịu gấp đôi sát thương.",
+      "image": "https://hokmoba.com/assets/images/heroes/chung-quy-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "CÂU HỒN ĐOẠT MỆNH",
+      "type": "skill2",
+      "cooldown": "14s",
+      "mana": "80",
+      "tags": [
+        "MÓC KÉO TẦM XA",
+        "TÍCH LŨY MÁU"
+      ],
+      "description": "Chung Quỳ phóng ra một sợi xích móc ma thuật cực dài về phía trước, gây sát thương phép và kéo kẻ địch trúng chiêu về sát bên mình. Mỗi khi hạ gục hoặc hỗ trợ, Chung Quỳ nhận thêm vĩnh viễn 180 máu tối đa (cộng dồn tối đa 20 tầng).",
+      "image": "https://hokmoba.com/assets/images/heroes/chung-quy-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "LUÂN HỒI THÔN PHỆ",
+      "type": "skill3",
+      "cooldown": "40s",
+      "mana": "130",
+      "tags": [
+        "HÚT LIÊN TỤC",
+        "KHỐNG CHẾ CỨNG"
+      ],
+      "description": "Chung Quỳ mở rộng lồng ngực ma giới tạo ra lực hút vô tận theo hình nón phía trước. Kẻ địch trong phạm vi sẽ liên tục bị hút về phía Chung Quỳ, chịu sát thương phép và bị làm choáng liên tục. Nếu kẻ địch bị trúng xích trước đó, chúng sẽ bị hút chặt không thể kháng cự.",
+      "image": "https://hokmoba.com/assets/images/heroes/chung-quy-skill3.jpg"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "ban-co",
+  "slug": "ban-co",
+  "name": "Bàn Cổ",
+  "chineseName": "盘古",
+  "title": "KHAI THIÊN THẦN TỔ",
+  "regionId": "tien-gioi",
+  "roles": [
+    "Đấu Sĩ"
+  ],
+  "lanes": [
+    "RỪNG",
+    "ĐƯỜNG ĐỐI KHÁNG"
+  ],
+  "views": 15800,
+  "upvotes": 1150,
+  "downvotes": 50,
+  "stats": {
+    "winRate": "49,90%",
+    "banRate": "0,80%",
+    "pickRate": "2,40%"
+  },
+  "radar": {
+    "cong": 80,
+    "ky": 70,
+    "kho": 60,
+    "sinh": 80
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/ban_co.webp",
+  "portrait": "/assets/images/heroes/ban_co.webp",
+  "element": "tho",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "KHAI THIÊN PHÁ RÌU",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "CHUYỂN ĐỔI VŨ KHÍ",
+        "SÁT THƯƠNG THEO THỜI GIAN"
+      ],
+      "description": "Bàn Cổ sử dụng Rìu Khai Thiên sở hữu 10 điểm độ bền. Mỗi đòn đánh thường tiêu hao 1 điểm độ bền. Khi hết độ bền, rìu biến thành Thần Thủ Chỉ. Ở dạng Rìu, đòn đánh thường gây sát thương vật lý và gây chảy máu liên tục. Ở dạng Thần Thủ Chỉ, đòn đánh thường tích luỹ dấu ấn gây thêm sát thương và hồi máu.",
+      "image": "https://hokmoba.com/assets/images/heroes/ban-co-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "CUỒNG THỐC NHẢY VỌT",
+      "type": "skill1",
+      "cooldown": "8s",
+      "mana": "60",
+      "tags": [
+        "LƯỚT ÁP SÁT",
+        "HẤT TUNG"
+      ],
+      "description": "Bàn Cổ nhảy vọt tới vị trí chỉ định gây sát thương vật lý. Nếu tái kích hoạt khi có mục tiêu gần đó, ông sẽ lao thẳng tới và hất lùi/hất tung mục tiêu.",
+      "image": "https://hokmoba.com/assets/images/heroes/ban-co-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "ÁP CHẾ THẦN LỰC",
+      "type": "skill2",
+      "cooldown": "10s",
+      "mana": "55",
+      "tags": [
+        "TƯỚC KHÍ TẤN CÔNG",
+        "HỒI MÁU"
+      ],
+      "description": "Bàn Cổ triệu hồi bàn tay thần lực tóm lấy kẻ địch, gây sát thương vật lý và làm chậm. Nếu ở dạng Rìu, chiêu này còn kích hoạt hiệu ứng Tước Khí (Disarm - khiến kẻ địch hoàn toàn không thể đánh thường trong 2 giây). Đòn đánh thường lên mục tiêu này giúp hồi phục máu cho Bàn Cổ.",
+      "image": "https://hokmoba.com/assets/images/heroes/ban-co-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "KHAI THIÊN TÍCH ĐỊA",
+      "type": "skill3",
+      "cooldown": "45s",
+      "mana": "100",
+      "tags": [
+        "TƯỚC KHÍ DIỆN RỘNG",
+        "TẠO VẾT NỨT KHỐNG CHẾ"
+      ],
+      "description": "Bàn Cổ nhảy vọt lên không trung và bổ mạnh rìu xuống đất, tạo ra 3 dòng nứt địa chấn lan tỏa gây sát thương vật lý và Tước Khí kẻ địch trong 2 giây. Mỗi đồng đội ở gần sẽ giúp tăng thêm 1 dòng nứt địa chấn (lên tới tối đa 5 dòng). Chỉ sử dụng được ở dạng Rìu.",
+      "image": "https://hokmoba.com/assets/images/heroes/ban-co-skill3.jpg"
+    }
+  ]
+}

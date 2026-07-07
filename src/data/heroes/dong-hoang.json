@@ -1,0 +1,87 @@
+{
+  "id": "dong-hoang",
+  "slug": "dong-hoang",
+  "name": "Đông Hoàng Thái Nhất",
+  "chineseName": "东皇太一",
+  "title": "THÁI CỔ MA THẦN",
+  "regionId": "ma-gioi",
+  "roles": [
+    "Đỡ Đòn",
+    "Hỗ Trợ"
+  ],
+  "lanes": [
+    "HỖ TRỢ"
+  ],
+  "views": 21800,
+  "upvotes": 1650,
+  "downvotes": 90,
+  "stats": {
+    "winRate": "50,20%",
+    "banRate": "52,40%",
+    "pickRate": "9,60%"
+  },
+  "radar": {
+    "cong": 30,
+    "ky": 70,
+    "kho": 60,
+    "sinh": 100
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/dong_hoang.webp",
+  "portrait": "/assets/images/heroes/dong_hoang.webp",
+  "element": "am",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "ÁM THỆ THÔN PHỆ",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "HỒI MÁU SONG SONG",
+        "SÁT THƯƠNG QUANH THÂN"
+      ],
+      "description": "Các quả cầu bóng tối xoay quanh Đông Hoàng Thái Nhất khi chạm vào mục tiêu sẽ gây sát thương phép và hồi phục máu cho bản thân dựa trên lượng máu tối đa của mình. Cơ chế này giúp Đông Hoàng cực kỳ mạnh mẽ khi đứng giữa đám đông kẻ địch.",
+      "image": "https://hokmoba.com/assets/images/heroes/dong-hoang-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "NHẬT THỰC TẾ LỄ",
+      "type": "skill1",
+      "cooldown": "3s",
+      "mana": "60",
+      "tags": [
+        "TRIỆU HỒI CẦU BÓNG TỐI",
+        "SÁT THƯƠNG DIỆN RỘNG"
+      ],
+      "description": "Đông Hoàng giải phóng năng lượng bóng tối gây sát thương phép xung quanh và tạo ra 1 quả cầu bóng tối xoay quanh bản thân (tối đa 3 quả cầu). Nếu kỹ năng đánh trúng tướng địch, thời gian hồi chiêu giảm 50%.",
+      "image": "https://hokmoba.com/assets/images/heroes/dong-hoang-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "DIỆU CHIẾU THẦN LUÂN",
+      "type": "skill2",
+      "cooldown": "6s",
+      "mana": "75",
+      "tags": [
+        "NÉM CẦU KHỐNG CHẾ",
+        "TĂNG TỐC ĐỘ DI CHUYỂN"
+      ],
+      "description": "Đông Hoàng phóng tất cả các quả cầu bóng tối đang có lên trời để giáng xuống khu vực chỉ định. Số lần giáng xuống tương đương số quả cầu sở hữu. Lần 1 gây làm chậm 50%, lần 2 làm chậm 90%, lần 3 hất tung và gây choáng 1.5 giây.",
+      "image": "https://hokmoba.com/assets/images/heroes/dong-hoang-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "KHẾ ƯỚC PHẤN TỨC",
+      "type": "skill3",
+      "cooldown": "50s",
+      "mana": "120",
+      "tags": [
+        "KHỐNG CHẾ TUYỆT ĐỐI BÁ THỂ",
+        "CHIA SẺ SÁT THƯƠNG"
+      ],
+      "description": "Đông Hoàng Thái Nhất áp chế hoàn toàn mục tiêu trong 2.5 giây, tạo ra 3 quả cầu bóng tối xoay quanh bản thân. Trong thời gian này, cả hai đều không thể di chuyển hoặc sử dụng kỹ năng, và bất kỳ sát thương nào một trong hai gánh chịu đều sẽ chuyển hóa 100% sang người kia.",
+      "image": "https://hokmoba.com/assets/images/heroes/dong-hoang-skill3.jpg"
+    }
+  ]
+}

@@ -46,10 +46,10 @@ export const REGIONS_MOCK = [
   { id: "vi-tay", name: "Vi Tây Lục Mạc" },
   { id: "my-nhan", name: "Mỹ Nhân" },
   { id: "tam-quoc", name: "Tam Quốc" },
-  { id: "tay-vuc", name: "Tây Vực - Mạc Địa" },
+  { id: "phong-than", name: "Phong Thần" },
   { id: "bac-vuc", name: "Bắc Vực - Băng Khâu" },
   { id: "tay-du", name: "Tây Du Ký" },
-  { id: "thanh-tu", name: "Thành Tru" }
+  { id: "ma-gioi", name: "Ma Giới" }
 ];
 
 // Load all JSON files dynamically from the heroes directory

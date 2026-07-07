@@ -1,0 +1,88 @@
+{
+  "id": "tu-ma-y",
+  "slug": "tu-ma-y",
+  "name": "Tư Mã Ý",
+  "chineseName": "司马懿",
+  "title": "UẢNH LẠC TIÊN BÌNH",
+  "regionId": "tam-quoc",
+  "roles": [
+    "Sát Thủ",
+    "Pháp Sư"
+  ],
+  "lanes": [
+    "RỪNG",
+    "ĐƯỜNG GIỮA"
+  ],
+  "views": 24200,
+  "upvotes": 1950,
+  "downvotes": 60,
+  "stats": {
+    "winRate": "51,10%",
+    "banRate": "5,60%",
+    "pickRate": "8,20%"
+  },
+  "radar": {
+    "cong": 95,
+    "ky": 80,
+    "kho": 70,
+    "sinh": 30
+  },
+  "extraInfo": "18.888",
+  "image": "/assets/images/heroes/tu_ma_y.webp",
+  "portrait": "/assets/images/heroes/tu_ma_y.webp",
+  "element": "am",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "U MINH HÀN ĐẠO",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "U HỒN CƯỜNG HÓA",
+        "NHẬN TẦM NHÌN PHÉP"
+      ],
+      "description": "Khi kẻ địch xung quanh sử dụng kỹ năng, Tư Mã Ý sẽ nhận được Năng lượng bóng tối và tầm nhìn của kẻ địch đó. Sau khi sử dụng kỹ năng, đòn đánh thường của Tư Mã Ý được cường hóa thành U Linh Trảm trong 4 giây, lướt ra sau lưng kẻ địch và gây sát thương phép cực lớn.",
+      "image": "https://hokmoba.com/assets/images/heroes/tu-ma-y-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "U LINH HÀNH TRÌNH",
+      "type": "skill1",
+      "cooldown": "7s",
+      "mana": "0",
+      "tags": [
+        "XUẤT HỒN BẤT TỬ",
+        "TỐC ĐỘ"
+      ],
+      "description": "Tư Mã Ý xuất ra linh hồn di chuyển với tốc độ cực cao, cơ thể thực của anh tạm thời đứng yên và được miễn nhiễm mọi trạng thái bất lợi. Khi linh hồn tấn công hoặc hết thời gian, cơ thể thực sẽ biến chuyển dịch chuyển ngay đến vị trí của linh hồn gây sát thương phép.",
+      "image": "https://hokmoba.com/assets/images/heroes/tu-ma-y-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "CÂM LẶNG BẢN ĐẠO",
+      "type": "skill2",
+      "cooldown": "6s",
+      "mana": "0",
+      "tags": [
+        "CÂM LẶNG diện rộng",
+        "KHỐNG CHẾ"
+      ],
+      "description": "Tư Mã Ý giải phóng luồng sóng ma thuật hắc ám xung quanh, gây sát thương phép và câm lặng (silence) mọi kẻ địch trong phạm vi. Nếu Tư Mã Ý vẫn đứng trong khu vực này sau 2 giây, anh được hồi phục một lượng năng lượng bóng tối lớn.",
+      "image": "https://hokmoba.com/assets/images/heroes/tu-ma-y-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "U LINH KÝ ỨC BỘ",
+      "type": "skill3",
+      "cooldown": "35s",
+      "mana": "0",
+      "tags": [
+        "BIẾN DỊCH TẦM CỰC XA",
+        "ÁP SÁT KẾT LIỄU"
+      ],
+      "description": "Sau một thời gian ngắn niệm chú, Tư Mã Ý lùi lại và lao vút đến một vị trí chỉ định ở khoảng cách cực kỳ xa, giáng xuống mặt đất gây sát thương phép diện rộng lên những kẻ địch trúng đòn.",
+      "image": "https://hokmoba.com/assets/images/heroes/tu-ma-y-skill3.jpg"
+    }
+  ]
+}

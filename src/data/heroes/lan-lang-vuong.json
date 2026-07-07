@@ -1,0 +1,96 @@
+{
+  "id": "lan-lang-vuong",
+  "slug": "lan-lang-vuong",
+  "name": "Lan Lăng Vương",
+  "chineseName": "兰陵王",
+  "title": "ÁMẢNH THIÊN GIA",
+  "regionId": "ma-gioi",
+  "roles": [
+    "Sát Thủ"
+  ],
+  "lanes": [
+    "RỪNG",
+    "HỖ TRỢ"
+  ],
+  "views": 30500,
+  "upvotes": 2400,
+  "downvotes": 110,
+  "stats": {
+    "winRate": "49,50%",
+    "banRate": "25,30%",
+    "pickRate": "12,40%"
+  },
+  "radar": {
+    "cong": 100,
+    "ky": 70,
+    "kho": 40,
+    "sinh": 30
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/lan_lang_vuong.webp",
+  "portrait": "/assets/images/heroes/lan_lang_vuong.webp",
+  "element": "am",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "MẬT PHÁT CHIÊU CẢNH",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "TĂNG TỐC ĐỘ DI CHUYỂN BÁM ĐUỔI"
+      ],
+      "description": "Khi Lan Lăng Vương di chuyển hướng về phía tướng địch, anh được tăng thêm 20% tốc độ di chuyển.",
+      "image": "https://hokmoba.com/assets/images/heroes/lan-lang-vuong-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "BÍ KIẾM TRẢM",
+      "type": "skill1",
+      "cooldown": "5s",
+      "mana": "50",
+      "tags": [
+        "SÁT THƯƠNG KÉP TẦM GẦN"
+      ],
+      "description": "Lan Lăng Vương chém mạnh gây sát thương vật lý lên kẻ địch xung quanh. Đồng thời, bóng ma bóng tối tự động chém thêm một phát vào mục tiêu ngẫu nhiên gần đó gây sát thương tương tự.",
+      "image": "https://hokmoba.com/assets/images/heroes/lan-lang-vuong-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "ÁM HỒN PHI CHUYÊN",
+      "type": "skill2",
+      "cooldown": "9s",
+      "mana": "60",
+      "tags": [
+        "ĐÁNH DẤU",
+        "CHOÁNG HỒI MÁU"
+      ],
+      "description": "Phóng đoản đao bóng tối theo đường thẳng gây sát thương vật lý và làm chậm mạnh kẻ địch trúng chiêu, đồng thời đánh dấu chúng trong 3 giây. Nếu Lan Lăng Vương tấn công mục tiêu mang dấu ấn, chúng sẽ bị choáng 1 giây và anh được hồi máu. Khi dấu ấn hết hạn, kẻ địch chịu thêm sát thương vật lý bằng 24% máu đã mất.",
+      "image": "https://hokmoba.com/assets/images/heroes/lan-lang-vuong-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "ÁMẢNH ĐỘT PHÁ",
+      "type": "skill3",
+      "cooldown": "30s",
+      "mana": "100",
+      "tags": [
+        "LƯỚT KẾT LIỄU"
+      ],
+      "description": "Lan Lăng Vương lao vút về phía trước theo hướng chỉ định, vung kiếm bóng tối chém nát mọi kẻ địch trên đường bay, gây lượng sát thương vật lý cực khủng.",
+      "image": "https://hokmoba.com/assets/images/heroes/lan-lang-vuong-skill3.jpg"
+    },
+    {
+      "id": "skill4",
+      "name": "ẨN THÂN VÔ HÌNH",
+      "type": "skill4",
+      "cooldown": "24s",
+      "mana": "0",
+      "tags": [
+        "ẨN THÂN TOÀN THỜI GIAN"
+      ],
+      "description": "Sau 1.5 giây vận sức, Lan Lăng Vương hòa mình vào bóng tối và tàng hình hoàn toàn. Trạng thái tàng hình kéo dài vĩnh viễn cho đến khi anh tấn công địch hoặc đứng quá gần kẻ địch quá 3 giây.",
+      "image": "https://hokmoba.com/assets/images/heroes/lan-lang-vuong-skill4.jpg"
+    }
+  ]
+}

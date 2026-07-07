@@ -1,0 +1,85 @@
+{
+  "id": "tieu-kieu",
+  "slug": "tieu-kieu",
+  "name": "Tiểu Kiều",
+  "chineseName": "小乔",
+  "title": "TÂN PHONG LỰU HUỲNH",
+  "regionId": "my-nhan",
+  "roles": [
+    "Pháp Sư"
+  ],
+  "lanes": [
+    "ĐƯỜNG GIỮA"
+  ],
+  "views": 28900,
+  "upvotes": 2400,
+  "downvotes": 70,
+  "stats": {
+    "winRate": "50,70%",
+    "banRate": "3,40%",
+    "pickRate": "15,20%"
+  },
+  "radar": {
+    "cong": 90,
+    "ky": 70,
+    "kho": 40,
+    "sinh": 30
+  },
+  "extraInfo": "5.888",
+  "image": "/assets/images/heroes/tieu_kieu.webp",
+  "portrait": "/assets/images/heroes/tieu_kieu.webp",
+  "element": "phong",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "HOA VŨ KIÊN CƯỜNG",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "TĂNG TỐC ĐỘ DI CHUYỂN"
+      ],
+      "description": "Bất cứ khi nào kỹ năng của Tiểu Kiều đánh trúng mục tiêu, cô sẽ được tăng 25% tốc độ di chuyển trong 2 giây.",
+      "image": "https://hokmoba.com/assets/images/heroes/tieu-kieu-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "QUẠT BAY HƯ VÔ",
+      "type": "skill1",
+      "cooldown": "5s",
+      "mana": "50",
+      "tags": [
+        "SÁT THƯƠNG KHỨ HỒI",
+        "CẤU RỈA TẦM XA"
+      ],
+      "description": "Tiểu Kiều ném chiếc quạt giấy khổng lồ xoay tròn bay theo đường thẳng và quay trở lại. Cả lượt đi lẫn lượt về đều gây sát thương phép lên kẻ địch trúng đòn (sát thương giảm dần qua mỗi mục tiêu).",
+      "image": "https://hokmoba.com/assets/images/heroes/tieu-kieu-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "CƠN LỐC NGỌT NGÀO",
+      "type": "skill2",
+      "cooldown": "10s",
+      "mana": "70",
+      "tags": [
+        "HẤT TUNG",
+        "KHỐNG CHẾ"
+      ],
+      "description": "Triệu hồi một cơn lốc xoáy tại vị trí chỉ định, gây sát thương phép lên mọi kẻ địch trong vùng ảnh hưởng và hất tung chúng lên trời trong 1.5 giây.",
+      "image": "https://hokmoba.com/assets/images/heroes/tieu-kieu-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "MƯA SAO BĂNG RỰC RỠ",
+      "type": "skill3",
+      "cooldown": "36s",
+      "mana": "120",
+      "tags": [
+        "SÁT THƯƠNG DIỆN RỘNG",
+        "BÃO ĐẠN PHÉP"
+      ],
+      "description": "Tiểu Kiều gọi bão sao băng tấn công liên tục vào tất cả kẻ địch xung quanh trong 5 giây, gây sát thương phép. Mỗi kẻ địch có thể bị trúng đòn tối đa 4 lần. Kỹ năng này tự động kích hoạt nội tại tăng tốc độ chạy liên tục.",
+      "image": "https://hokmoba.com/assets/images/heroes/tieu-kieu-skill3.jpg"
+    }
+  ]
+}

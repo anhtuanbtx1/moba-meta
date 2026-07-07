@@ -1,0 +1,87 @@
+{
+  "id": "than-cong-bao",
+  "slug": "than-cong-bao",
+  "name": "Thân Công Báo",
+  "chineseName": "申公豹",
+  "title": "BÁCH QUỶ ĐẠO NHÂN",
+  "regionId": "phong-than",
+  "roles": [
+    "Pháp Sư",
+    "Sát Thủ"
+  ],
+  "lanes": [
+    "ĐƯỜNG GIỮA",
+    "RỪNG"
+  ],
+  "views": 18900,
+  "upvotes": 1340,
+  "downvotes": 70,
+  "stats": {
+    "winRate": "50,20%",
+    "banRate": "3,40%",
+    "pickRate": "6,10%"
+  },
+  "radar": {
+    "cong": 85,
+    "ky": 80,
+    "kho": 60,
+    "sinh": 40
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/than_cong_bao.webp",
+  "portrait": "/assets/images/heroes/than_cong_bao.webp",
+  "element": "am",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "ĐẠO HỮU XIN DỪNG BƯỚC",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "LỜI NGUYỀN GIẢM TỐC",
+        "KHÓA MỤC TIÊU"
+      ],
+      "description": "Mỗi đòn đánh thường hoặc kỹ năng của Thân Công Báo trúng đích sẽ nguyền rủa kẻ địch trong 4 giây. Kẻ địch mang lời nguyền sẽ bị giảm 5% song giáp và làm chậm 10%.",
+      "image": "https://hokmoba.com/assets/images/heroes/than-cong-bao-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "HẮC ÁM PHI KIẾM",
+      "type": "skill1",
+      "cooldown": "6s",
+      "mana": "50",
+      "tags": [
+        "SÁT THƯƠNG KHỨ HỒI",
+        "ÁM KHÍ"
+      ],
+      "description": "Thân Công Báo phóng ra 3 lưỡi phi kiếm bóng tối càn quét theo hình rẻ quạt phía trước, gây sát thương phép và kích hoạt lời nguyền.",
+      "image": "https://hokmoba.com/assets/images/heroes/than-cong-bao-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "LINH THÚ BẠCH HỔ",
+      "type": "skill2",
+      "cooldown": "9s",
+      "mana": "60",
+      "tags": [
+        "TRIỆU HỒI ÁP SÁT"
+      ],
+      "description": "Thân Công Báo cưỡi Linh Thú Bạch Hổ lao vút theo hướng chỉ định, gây sát thương vật lý và hất tung mục tiêu đầu tiên chạm phải. Cú va chạm giúp Thân Công Báo tích năng lượng bóng tối.",
+      "image": "https://hokmoba.com/assets/images/heroes/than-cong-bao-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "BÁCH PHÁP QUỶ TRẬN",
+      "type": "skill3",
+      "cooldown": "35s",
+      "mana": "110",
+      "tags": [
+        "BÃO PHÉP HỦY DIỆT",
+        "KHỐNG CHẾ RỘNG"
+      ],
+      "description": "Thân Công Báo triệu hồi trận pháp Quỷ Thần từ mặt đất, liên tục bắn ra các luồng tà khí tấn công kẻ địch xung quanh. Kẻ địch đứng trong trận pháp quá 2 giây sẽ bị câm lặng và nhận sát thương bộc phá cực mạnh.",
+      "image": "https://hokmoba.com/assets/images/heroes/than-cong-bao-skill3.jpg"
+    }
+  ]
+}

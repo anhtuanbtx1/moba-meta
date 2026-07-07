@@ -1,0 +1,87 @@
+{
+  "id": "khuong-tu-nha",
+  "slug": "khuong-tu-nha",
+  "name": "Khương Tử Nha",
+  "chineseName": "姜子牙",
+  "title": "THÁI CỔ THẦN VƯƠNG",
+  "regionId": "phong-than",
+  "roles": [
+    "Pháp Sư"
+  ],
+  "lanes": [
+    "ĐƯỜNG GIỮA",
+    "HỖ TRỢ"
+  ],
+  "views": 22400,
+  "upvotes": 1780,
+  "downvotes": 50,
+  "stats": {
+    "winRate": "51,60%",
+    "banRate": "4,20%",
+    "pickRate": "9,80%"
+  },
+  "radar": {
+    "cong": 85,
+    "ky": 90,
+    "kho": 50,
+    "sinh": 40
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/khuong_tu_nha.webp",
+  "portrait": "/assets/images/heroes/khuong_tu_nha.webp",
+  "element": "thuy",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "PHONG THẦN THƯỢNG CỔ",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "PHONG THẦN TĂNG CẤP",
+        "HẠT NHÂN KINH NGHIỆM"
+      ],
+      "description": "Khi Khương Tử Nha hạ gục lính hoặc quái, ông sẽ tích lũy Hạt Nhân Kinh Nghiệm. Khi đạt cấp 15, Khương Tử Nha mở khóa nội tại Phong Thần, cho phép ông chọn một đồng đội để 'Phong Thần', tăng giới hạn cấp độ của cả bản thân và đồng đội đó lên tối đa cấp 25.",
+      "image": "https://hokmoba.com/assets/images/heroes/khuong-tu-nha-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "THẦN PHÁP CHẾ NGỰ",
+      "type": "skill1",
+      "cooldown": "8s",
+      "mana": "60",
+      "tags": [
+        "GIẢM GIÁP PHÉP",
+        "LÀM CHẬM LIÊN TỤC"
+      ],
+      "description": "Khương Tử Nha tạo ra một vùng năng lượng thần pháp sụp đổ, liên tục gây sát thương phép lên kẻ địch trúng chiêu. Đồng thời, kỹ năng làm giảm mạnh tốc độ di chuyển và song giáp (giáp vật lý + giáp phép) của kẻ địch trong suốt thời gian hiệu lực.",
+      "image": "https://hokmoba.com/assets/images/heroes/khuong-tu-nha-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "CÀN KHÔN BỘC PHÁ",
+      "type": "skill2",
+      "cooldown": "10s",
+      "mana": "70",
+      "tags": [
+        "HẤT TUNG",
+        "KHỐNG CHẾ"
+      ],
+      "description": "Khương Tử Nha vẽ một vòng tròn Càn Khôn trên mặt đất. Sau 1.2 giây trì hoãn, vùng ma pháp bùng nổ gây sát thương phép và hất tung toàn bộ kẻ địch bên trong lên trời.",
+      "image": "https://hokmoba.com/assets/images/heroes/khuong-tu-nha-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "VANH LẠC THẦN LỰC",
+      "type": "skill3",
+      "cooldown": "12s",
+      "mana": "120",
+      "tags": [
+        "TỤ LỰC LASER CỰC XA",
+        "HỦY DIỆT CÔNG TRÌNH"
+      ],
+      "description": "Khương Tử Nha đứng yên tụ lực và phóng ra 3 đợt sóng năng lượng laser hủy diệt cực dài theo đường thẳng chỉ định, gây sát thương phép cực lớn lên mọi kẻ địch và công trình của đối phương. Có thể di chuyển trong lúc tụ lực nhưng hướng bắn sẽ được khóa từ trước.",
+      "image": "https://hokmoba.com/assets/images/heroes/khuong-tu-nha-skill3.jpg"
+    }
+  ]
+}

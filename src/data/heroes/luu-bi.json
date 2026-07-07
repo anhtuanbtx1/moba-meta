@@ -1,0 +1,87 @@
+{
+  "id": "luu-bi",
+  "slug": "luu-bi",
+  "name": "Lưu Bị",
+  "chineseName": "刘备",
+  "title": "CHIÊU LIỆT ĐẾ",
+  "regionId": "tam-quoc",
+  "roles": [
+    "Đấu Sĩ",
+    "Sát Thủ"
+  ],
+  "lanes": [
+    "RỪNG"
+  ],
+  "views": 18200,
+  "upvotes": 1450,
+  "downvotes": 50,
+  "stats": {
+    "winRate": "50,90%",
+    "banRate": "1,20%",
+    "pickRate": "6,80%"
+  },
+  "radar": {
+    "cong": 80,
+    "ky": 60,
+    "kho": 50,
+    "sinh": 80
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/luu_bi.webp",
+  "portrait": "/assets/images/heroes/luu_bi.webp",
+  "element": "moc",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "CƠ PHÁT PHÒNG HỘ",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "TĂNG GIÁP SONG SONG",
+        "BẮN TỎA"
+      ],
+      "description": "Lưu Bị sử dụng súng hai nòng tầm gần. Mỗi phát bắn phóng ra 4 viên đạn, kẻ địch ở gần chịu sát thương cao hơn. Mỗi phát đạn trúng đích giúp tăng Giáp và Kháng Phép cho bản thân, cộng dồn tối đa 12 tầng.",
+      "image": "https://hokmoba.com/assets/images/heroes/luu-bi-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "SONG CHUYÊN CHI VIỆN",
+      "type": "skill1",
+      "cooldown": "8s",
+      "mana": "60",
+      "tags": [
+        "TĂNG TỐC",
+        "BẮN KÉP"
+      ],
+      "description": "Lưu Bị tăng 40% tốc độ di chuyển trong 3 giây. Đòn đánh thường tiếp theo sẽ bắn ra hai phát liên tiếp cực mạnh, gây lượng sát thương lớn.",
+      "image": "https://hokmoba.com/assets/images/heroes/luu-bi-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "THÂN TIÊN SĨ TỐT",
+      "type": "skill2",
+      "cooldown": "10s",
+      "mana": "80",
+      "tags": [
+        "LƯỚT",
+        "HẤT LÙI"
+      ],
+      "description": "Lưu Bị lao thẳng về phía trước, gây sát thương vật lý lên kẻ địch trúng đòn và hất lùi chúng nhẹ. Nếu đâm trúng tướng địch, chiêu thức sẽ giảm 2 giây hồi chiêu.",
+      "image": "https://hokmoba.com/assets/images/heroes/luu-bi-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "HIỀN ĐỨC CHI TRANG",
+      "type": "skill3",
+      "cooldown": "35s",
+      "mana": "120",
+      "tags": [
+        "MIỄN KHỐNG CHẾ",
+        "LÁ CHẮN HẤP THU"
+      ],
+      "description": "Lưu Bị lập tức giải trừ mọi trạng thái khống chế và nhận một lớp lá chắn khổng lồ. Khi lá chắn còn tồn tại, Lưu Bị miễn nhiễm hoàn toàn với khống chế. Một phần sát thương Lưu Bị gây ra cho mục tiêu sẽ được chuyển hóa trực tiếp thành giá trị lá chắn.",
+      "image": "https://hokmoba.com/assets/images/heroes/luu-bi-skill3.jpg"
+    }
+  ]
+}

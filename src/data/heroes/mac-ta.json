@@ -1,0 +1,87 @@
+{
+  "id": "mac-ta",
+  "slug": "mac-ta",
+  "name": "Can Tương Mạc Tà",
+  "chineseName": "干将莫邪",
+  "title": "TÀ KIẾM",
+  "regionId": "ma-gioi",
+  "roles": [
+    "Pháp Sư",
+    "Xạ Thủ Phép"
+  ],
+  "lanes": [
+    "ĐƯỜNG GIỮA"
+  ],
+  "views": 32100,
+  "upvotes": 2800,
+  "downvotes": 150,
+  "stats": {
+    "winRate": "50,20%",
+    "banRate": "8,50%",
+    "pickRate": "11,20%"
+  },
+  "radar": {
+    "cong": 100,
+    "ky": 95,
+    "kho": 85,
+    "sinh": 20
+  },
+  "extraInfo": "18.888",
+  "image": "/assets/images/heroes/mac_ta.webp",
+  "portrait": "/assets/images/heroes/mac_ta.webp",
+  "element": "am",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "THÍNH KIẾM QUYẾT",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "SÁT THƯƠNG KÉP",
+        "TÍCH LŨY SỨC MẠNH"
+      ],
+      "description": "Mỗi đòn đánh thường của Can Tương Mạc Tà sẽ phóng ra kiếm khí gây sát thương phép. Mỗi khi đánh bại một tướng địch hoặc hỗ trợ, Can Tương Mạc Tà vĩnh viễn nhận thêm sức mạnh phép thuật. Giao điểm của hai thanh kiếm khi bay chéo sẽ gây thêm một lượng lớn sát thương.",
+      "image": "https://hokmoba.com/assets/images/heroes/mac-ta-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "HỘ CHỦ TÀ KIẾM",
+      "type": "skill1",
+      "cooldown": "12s",
+      "mana": "80",
+      "tags": [
+        "ĐẨY LÙI",
+        "SINH TỒN"
+      ],
+      "description": "Can Tương lùi lại một bước, đồng thời phóng kiếm gai từ dưới đất đâm lên phía trước. Kẻ địch trúng chiêu sẽ chịu sát thương phép và bị đẩy lùi ra xa, đồng thời giảm kháng phép của mục tiêu trong thời gian ngắn.",
+      "image": "https://hokmoba.com/assets/images/heroes/mac-ta-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "THƯ HÙNG SONG KIẾM",
+      "type": "skill2",
+      "cooldown": "7s",
+      "mana": "60",
+      "tags": [
+        "SÁT THƯƠNG VÒNG CUNG",
+        "CẤU RỈA"
+      ],
+      "description": "Can Tương và Mạc Tà cùng lúc phóng ra 2 thanh kiếm theo hình vòng cung (một ngắn, một dài). Hai thanh kiếm sẽ giao nhau tại một điểm ở khoảng cách xa. Kẻ địch đứng tại điểm giao nhau sẽ phải chịu cả 2 nguồn sát thương khổng lồ.",
+      "image": "https://hokmoba.com/assets/images/heroes/mac-ta-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "KIẾM LAI",
+      "type": "skill3",
+      "cooldown": "30s",
+      "mana": "120",
+      "tags": [
+        "LÀM MỚI CHIÊU",
+        "CƯỜNG HÓA SÁT THƯƠNG"
+      ],
+      "description": "Kích hoạt để ngay lập tức làm mới thời gian hồi chiêu của Thư Hùng Song Kiếm. Hơn thế nữa, lần phóng kiếm tiếp theo sẽ phóng ra tận 4 thanh kiếm thay vì 2, tạo ra sức tàn phá khủng khiếp tại điểm giao nhau.",
+      "image": "https://hokmoba.com/assets/images/heroes/mac-ta-skill3.jpg"
+    }
+  ]
+}

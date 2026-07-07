@@ -1,0 +1,86 @@
+{
+  "id": "hau-nghe",
+  "slug": "hau-nghe",
+  "name": "Hậu Nghệ",
+  "chineseName": "后羿",
+  "title": "BÁN NGUYỆT PHÁ THƯƠNG",
+  "regionId": "tien-gioi",
+  "roles": [
+    "Xạ Thủ"
+  ],
+  "lanes": [
+    "ĐƯỜNG PHÁT TRIỂN"
+  ],
+  "views": 35400,
+  "upvotes": 2950,
+  "downvotes": 90,
+  "stats": {
+    "winRate": "51,80%",
+    "banRate": "2,40%",
+    "pickRate": "23,60%"
+  },
+  "radar": {
+    "cong": 95,
+    "ky": 60,
+    "kho": 30,
+    "sinh": 40
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/hau_nghe.webp",
+  "portrait": "/assets/images/heroes/hau_nghe.webp",
+  "element": "hoa",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "Ý TRÍ CỦA THẦN MẶT TRỜI",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "TĂNG TỐC ĐỘ ĐÁNH TỰ ĐỘNG",
+        "MƯA TÊN"
+      ],
+      "description": "Mỗi đòn đánh thường trúng đích giúp Hậu Nghệ tăng 5% tốc độ đánh (cộng dồn tối đa 3 tầng). Khi đạt đủ 3 tầng, đòn đánh thường của Hậu Nghệ sẽ bắn ra 3 mũi tên liên tiếp gây sát thương nhỏ hơn nhưng kích hoạt các hiệu ứng đòn đánh cực kỳ nhanh.",
+      "image": "https://hokmoba.com/assets/images/heroes/hau-nghe-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "HỎA TIỄN CƯỜNG HÓA",
+      "type": "skill1",
+      "cooldown": "10s",
+      "mana": "60",
+      "tags": [
+        "ĐA MỤC TIÊU TẤN CÔNG",
+        "CƯỜNG HÓA ĐÒN ĐÁNH"
+      ],
+      "description": "Hậu Nghệ cường hóa cung tên của mình, khiến đòn đánh thường gây thêm sát thương vật lý và bắn thêm tối đa 2 mục tiêu lân cận kẻ địch chính (kéo dài 5 giây).",
+      "image": "https://hokmoba.com/assets/images/heroes/hau-nghe-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "QUANG HUY GỢI Ý",
+      "type": "skill2",
+      "cooldown": "8s",
+      "mana": "50",
+      "tags": [
+        "SÁT THƯƠNG DIỆN RỘNG",
+        "LÀM CHẬM"
+      ],
+      "description": "Triệu hồi một cột sáng Thái Dương giáng xuống khu vực chỉ định, gây sát thương phép và làm chậm kẻ địch trong vùng. Kẻ địch đứng ở tâm cột sáng sẽ chịu thêm 50% sát thương.",
+      "image": "https://hokmoba.com/assets/images/heroes/hau-nghe-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "HỎA ĐIỂU TRUY PHONG",
+      "type": "skill3",
+      "cooldown": "45s",
+      "mana": "130",
+      "tags": [
+        "CHOÁNG TOÀN BẢN ĐỒ",
+        "MỞ GIAO TRANH"
+      ],
+      "description": "Hậu Nghệ bắn ra một con chim lửa (Hỏa Điểu) khổng lồ bay xuyên toàn bộ bản đồ theo hướng chỉ định. Hỏa Điểu sẽ nổ tung khi va chạm với tướng địch đầu tiên, gây sát thương vật lý diện rộng và làm choáng nạn nhân. Thời gian làm choáng tỷ lệ thuận với quãng đường bay của Hỏa Điểu (lên đến 3.5 giây làm choáng).",
+      "image": "https://hokmoba.com/assets/images/heroes/hau-nghe-skill3.jpg"
+    }
+  ]
+}

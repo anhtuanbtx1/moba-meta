@@ -1,0 +1,87 @@
+{
+  "id": "man-nguyet",
+  "slug": "man-nguyet",
+  "name": "Mẫn Nguyệt",
+  "chineseName": "芈月",
+  "title": "KHÁT HUYẾT NỮ HOÀNG",
+  "regionId": "ma-gioi",
+  "roles": [
+    "Pháp Sư",
+    "Đấu Sĩ"
+  ],
+  "lanes": [
+    "ĐƯỜNG ĐỐI KHÁNG",
+    "RỪNG"
+  ],
+  "views": 20100,
+  "upvotes": 1540,
+  "downvotes": 50,
+  "stats": {
+    "winRate": "51,40%",
+    "banRate": "3,40%",
+    "pickRate": "6,80%"
+  },
+  "radar": {
+    "cong": 70,
+    "ky": 80,
+    "kho": 60,
+    "sinh": 80
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/man_nguyet.webp",
+  "portrait": "/assets/images/heroes/man_nguyet.webp",
+  "element": "am",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "HẮC ÁM PHÓNG THÍCH",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "HỒI MÁU LIÊN TỤC DƠI BÓNG TỐI"
+      ],
+      "description": "Khi sử dụng kỹ năng, Mẫn Nguyệt tích lũy năng lượng triệu hồi các con dơi bóng tối bay xung quanh (tối đa 6 con). Những con dơi này tự động tấn công kẻ địch gần nhất gây sát thương phép và hồi phục máu cho cô.",
+      "image": "https://hokmoba.com/assets/images/heroes/man-nguyet-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "BÓNG ĐÊM ĐỘT KÍCH",
+      "type": "skill1",
+      "cooldown": "10s",
+      "mana": "0",
+      "tags": [
+        "DỊCH CHUYỂN",
+        "CẤU RỈA"
+      ],
+      "description": "Mẫn Nguyệt phóng một bầy dơi bóng tối bay chậm rãi về phía trước, gây sát thương phép lên kẻ địch dọc đường. Khi bầy dơi đang bay, cô có thể tái kích hoạt chiêu để dịch chuyển tức thời đến vị trí của bầy dơi.",
+      "image": "https://hokmoba.com/assets/images/heroes/man-nguyet-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "ẢNH CHIỀU LIÊN KẾT",
+      "type": "skill2",
+      "cooldown": "9s",
+      "mana": "0",
+      "tags": [
+        "HÚT CÔNG VẬT LÝ PHÉP",
+        "LIÊN KẾT"
+      ],
+      "description": "Phóng ra một sợi xích hắc ám liên kết với kẻ địch đầu tiên chạm phải. Trong thời gian liên kết, sợi xích liên tục hút Công vật lý, Công phép của kẻ địch để tăng cho Mẫn Nguyệt, đồng thời gây sát thương phép và làm chậm mục tiêu.",
+      "image": "https://hokmoba.com/assets/images/heroes/man-nguyet-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "ÁM DẠ MA TRẬN",
+      "type": "skill3",
+      "cooldown": "30s",
+      "mana": "0",
+      "tags": [
+        "KHÔNG THỂ BỊ CHỌN",
+        "TĂNG TỐC ĐỘ DI CHUYỂN"
+      ],
+      "description": "Mẫn Nguyệt hóa thân hoàn toàn vào bóng đêm vô hình trong 2 giây. Trong trạng thái này cô được tăng mạnh tốc chạy, miễn nhiễm hoàn toàn mọi nguồn sát thương và khống chế (không thể bị chọn làm mục tiêu). Gây sát thương phép khi kích hoạt và khi kết thúc trạng thái.",
+      "image": "https://hokmoba.com/assets/images/heroes/man-nguyet-skill3.jpg"
+    }
+  ]
+}

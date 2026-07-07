@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { HEROES_MOCK_DATA, REGIONS_MOCK } from "../data/heroesMockData";
 import Factions from "./Factions";
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
-import { Search, Map, Grid, Shield, Book, ZoomIn, ZoomOut, Maximize } from "lucide-react";
+import { Search, Map, Grid, Shield, Book, ZoomIn, ZoomOut, Maximize, Minimize, RefreshCw } from "lucide-react";
 
 export default function LoreMap() {
   const [isMobile, setIsMobile] = useState(false);
@@ -24,25 +24,49 @@ export default function LoreMap() {
 function DesktopLoreMap() {
   const navigate = useNavigate();
   const [selectedRegion, setSelectedRegion] = useState<string | null>(null);
+  const [isFullscreen, setIsFullscreen] = useState(false);
+
+  const toggleFullscreen = () => {
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen().catch((err) => {
+        console.error("Error attempting to enable fullscreen:", err);
+      });
+      setIsFullscreen(true);
+    } else {
+      document.exitFullscreen();
+      setIsFullscreen(false);
+    }
+  };
+
+  useEffect(() => {
+    const handleFullscreenChange = () => {
+      setIsFullscreen(!!document.fullscreenElement);
+    };
+    document.addEventListener("fullscreenchange", handleFullscreenChange);
+    return () => {
+      document.removeEventListener("fullscreenchange", handleFullscreenChange);
+    };
+  }, []);
 
   const regions = REGIONS_MOCK.map((r, i) => {
-    const coords = [
-      { x: 780, y: 480 }, // Center
-      { x: 380, y: 250 }, // Top left
-      { x: 30, y: 650 }, // Bottom left
-      { x: 920, y: 280 }, // Forest
-      { x: 120, y: 450 }, // Desert
-      { x: 650, y: 180 }, // New Region 1
-      { x: 1150, y: 550 }, // New Region 2
-      { x: 850, y: 700 }, // New Region 3
-      { x: 1300, y: 350 }, // New Region 4
-      { x: 250, y: 750 }  // New Region 5
-    ];
+    const coordsMap: Record<string, { x: number; y: number }> = {
+      "tien-gioi": { x: 780, y: 480 },       // Tiên Giới (Center)
+      "dong-vuc": { x: 380, y: 250 },        // Đông Vực - Cửu Châu
+      "nam-vuc": { x: 30, y: 650 },          // Nam Vực - Hoang Giao
+      "vi-tay": { x: 920, y: 280 },          // Vi Tây Lục Mạc
+      "my-nhan": { x: 120, y: 450 },         // Mỹ Nhân
+      "tam-quoc": { x: 650, y: 180 },        // Tam Quốc
+      "phong-than": { x: 1150, y: 550 },     // Phong Thần
+      "bac-vuc": { x: 850, y: 700 },         // Bắc Vực - Băng Khâu
+      "tay-du": { x: 1300, y: 350 },         // Tây Du Ký
+      "ma-gioi": { x: 310, y: 710 }          // Ma Giới
+    };
     const colors = ["#d4af37", "#ff4d4d", "#00f2fe", "#8a2be2", "#ffa500", "#ff69b4", "#00ff7f", "#ff1493", "#00ced1", "#ff4500"];
+
     return {
       ...r,
-      x: coords[i % coords.length].x,
-      y: coords[i % coords.length].y,
+      x: coordsMap[r.id]?.x ?? 780,
+      y: coordsMap[r.id]?.y ?? 480,
       color: colors[i % colors.length],
       count: HEROES_MOCK_DATA.filter(h => h.regionId === r.id).length
     };
@@ -65,7 +89,7 @@ function DesktopLoreMap() {
   });
 
   return (
-    <div 
+    <div
       className="w-full h-screen text-white flex flex-col font-sans select-none overflow-hidden relative"
       style={{
         backgroundImage: 'url(/assets/images/background/layout_dashboard.webp)',
@@ -211,7 +235,7 @@ function DesktopLoreMap() {
                   return (
                     <div
                       key={hero.id}
-                      className={`absolute -translate-x-1/2 -translate-y-1/2 transition-all duration-700 ease-out z-20 cursor-pointer ${isSelected ? "opacity-100 scale-100" : "opacity-0 scale-50 pointer-events-none"}`}
+                      className={`absolute transform -translate-x-1/2 -translate-y-1/2 transition-all duration-1000 ease-[cubic-bezier(0.34,1.56,0.64,1)] cursor-pointer z-20 hover:z-50 ${isSelected ? "opacity-100 scale-100" : "opacity-0 scale-50 pointer-events-none"}`}
                       style={{
                         left: isSelected ? hero.x : (region?.x || hero.x),
                         top: isSelected ? hero.y : (region?.y || hero.y),
@@ -283,8 +307,11 @@ function DesktopLoreMap() {
                 <button onClick={() => zoomOut()} className="w-10 h-10 bg-white text-gray-900 font-bold rounded flex items-center justify-center shadow-lg hover:bg-gray-100 transition-colors">
                   <ZoomOut size={18} />
                 </button>
-                <button onClick={() => resetTransform()} className="w-10 h-10 bg-[#151522] text-white rounded flex items-center justify-center shadow-lg border border-white/5 hover:bg-[#1a1a2d] transition-colors">
-                  <Maximize size={18} />
+                <button onClick={() => resetTransform()} className="w-10 h-10 bg-white text-gray-900 font-bold rounded flex items-center justify-center shadow-lg hover:bg-gray-100 transition-colors" title="Đặt lại thu phóng">
+                  <RefreshCw size={18} />
+                </button>
+                <button onClick={toggleFullscreen} className="w-10 h-10 bg-[#151522] text-white rounded flex items-center justify-center shadow-lg border border-white/5 hover:bg-[#1a1a2d] transition-colors" title="Toàn màn hình">
+                  {isFullscreen ? <Minimize size={18} /> : <Maximize size={18} />}
                 </button>
               </div>
             </>

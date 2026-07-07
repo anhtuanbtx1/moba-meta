@@ -1,0 +1,85 @@
+{
+  "id": "loi-chan-tu",
+  "slug": "loi-chan-tu",
+  "name": "Lôi Chấn Tử",
+  "chineseName": "雷震子",
+  "title": "PHONG LÔI THẦN TƯỚNG",
+  "regionId": "phong-than",
+  "roles": [
+    "Đấu Sĩ",
+    "Pháp Sư"
+  ],
+  "lanes": [
+    "ĐƯỜNG ĐỐI KHÁNG",
+    "RỪNG"
+  ],
+  "views": 16400,
+  "upvotes": 1250,
+  "downvotes": 40,
+  "stats": {
+    "winRate": "50,80%",
+    "banRate": "1,20%",
+    "pickRate": "5,30%"
+  },
+  "radar": {
+    "cong": 80,
+    "ky": 85,
+    "kho": 50,
+    "sinh": 70
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/loi_chan_tu.webp",
+  "portrait": "/assets/images/heroes/loi_chan_tu.webp",
+  "element": "loi",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "PHONG LÔI ĐÔI CÁNH",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "TÍCH TỐC ĐỘ DI CHUYỂN DỒN ĐIỆN"
+      ],
+      "description": "Lôi Chấn Tử sở hữu đôi cánh Phong Lôi, tăng 15% tốc độ di chuyển khi bay qua địa hình. Mỗi khi di chuyển hoặc sử dụng kỹ năng, anh tích lũy năng lượng Sấm Sét. Khi đạt 100 điểm, đòn đánh thường tiếp theo sẽ giật sét lan truyền sang 3 mục tiêu lân cận.",
+      "image": "https://hokmoba.com/assets/images/heroes/loi-chan-tu-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "LÔI ĐÌNH THƯƠNG PHÁP",
+      "type": "skill1",
+      "cooldown": "6s",
+      "mana": "45",
+      "tags": [
+        "SÁT THƯƠNG PHÉP",
+        "LÀM CHẬM"
+      ],
+      "description": "Lôi Chấn Tử đâm mạnh chiếc Thiên Lôi Thương về phía trước, phóng ra một tia sét cường độ cao gây sát thương phép và làm chậm 40% tốc chạy của kẻ địch trúng chiêu.",
+      "image": "https://hokmoba.com/assets/images/heroes/loi-chan-tu-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "PHONG LÔI TIÊN HIỆP",
+      "type": "skill2",
+      "cooldown": "10s",
+      "mana": "60",
+      "tags": [
+        "LƯỚT KHÔNG TRUNG VƯỢT ĐỊA HÌNH"
+      ],
+      "description": "Lôi Chấn Tử đập mạnh đôi cánh lướt nhanh vượt qua mọi địa hình. Trong lúc lướt, anh giải phóng các luồng gió lốc gây sát thương phép nhẹ và đẩy lùi kẻ địch xung quanh đường bay.",
+      "image": "https://hokmoba.com/assets/images/heroes/loi-chan-tu-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "CỬU THIÊN LÔI ĐỘNG",
+      "type": "skill3",
+      "cooldown": "40s",
+      "mana": "120",
+      "tags": [
+        "OANH TẠC SẤM SÉT RỘNG"
+      ],
+      "description": "Lôi Chấn Tử bay cao lên không trung và liên tục gọi sấm sét giáng xuống oanh tạc vị trí chỉ định. Cú giáng đầu tiên gây sát thương cực lớn và hất tung kẻ địch, các đợt sét tiếp theo liên tục thiêu đốt và làm chậm trầm trọng.",
+      "image": "https://hokmoba.com/assets/images/heroes/loi-chan-tu-skill3.jpg"
+    }
+  ]
+}

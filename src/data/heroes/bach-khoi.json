@@ -1,0 +1,88 @@
+{
+  "id": "bach-khoi",
+  "slug": "bach-khoi",
+  "name": "Bạch Khởi",
+  "chineseName": "白起",
+  "title": "SÁT THẦN",
+  "regionId": "tam-quoc",
+  "roles": [
+    "Đỡ Đòn",
+    "Đấu Sĩ"
+  ],
+  "lanes": [
+    "ĐƯỜNG ĐỐI KHÁNG",
+    "HỖ TRỢ"
+  ],
+  "views": 28400,
+  "upvotes": 2100,
+  "downvotes": 45,
+  "stats": {
+    "winRate": "51,80%",
+    "banRate": "12,30%",
+    "pickRate": "16,50%"
+  },
+  "radar": {
+    "cong": 40,
+    "ky": 50,
+    "kho": 60,
+    "sinh": 100
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/bach_khoi.webp",
+  "portrait": "/assets/images/heroes/bach_khoi.webp",
+  "element": "kim",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "PHẢN KÍCH CHI ĐAO",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "HỒI PHỤC",
+        "TĂNG TỐC"
+      ],
+      "description": "Khi gây sát thương hoặc gánh chịu sát thương, Bạch Khởi sẽ tích lũy Hắc Ám Năng Lượng. Năng lượng này giúp tăng tốc độ di chuyển và hiệu quả hồi máu của bản thân lên tới 80% khi đạt mức tối đa.",
+      "image": "https://hokmoba.com/assets/images/heroes/bach-khoi-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "HUYẾT TRÌ CHI ĐAO",
+      "type": "skill1",
+      "cooldown": "5s",
+      "mana": "0",
+      "tags": [
+        "SÁT THƯƠNG DIỆN RỘNG",
+        "HỒI MÁU"
+      ],
+      "description": "Bạch Khởi vung chiếc lưỡi hái khổng lồ quét một vòng tròn, gây sát thương vật lý và hồi phục lại một lượng máu dựa trên máu tối đa của bản thân. Kỹ năng này có thể gồng (tích tụ) để tăng sát thương và lượng hồi máu. Ngoài ra, khi bị tấn công, Bạch Khởi có 20% tỷ lệ tự động tung ra kỹ năng này.",
+      "image": "https://hokmoba.com/assets/images/heroes/bach-khoi-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "TỬ THẦN CHI LIỀM",
+      "type": "skill2",
+      "cooldown": "12s",
+      "mana": "0",
+      "tags": [
+        "KÉO",
+        "LÀM CHẬM"
+      ],
+      "description": "Bạch Khởi cắm 3 chiếc lưỡi hái xương tử thần xuống mặt đất theo hướng chỉ định. Sau một khoảng thời gian ngắn (độ trễ), các lưỡi hái sẽ thu lại, kéo tất cả kẻ địch trên đường đi về phía Bạch Khởi, gây sát thương và làm chậm mục tiêu. Bạch Khởi gây thêm sát thương lên những mục tiêu có lượng máu dưới 30%.",
+      "image": "https://hokmoba.com/assets/images/heroes/bach-khoi-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "SÁT THẦN CHẾN HOÀNG",
+      "type": "skill3",
+      "cooldown": "40s",
+      "mana": "0",
+      "tags": [
+        "KHIÊU KHÍCH",
+        "MỞ GIAO TRANH"
+      ],
+      "description": "Bạch Khởi nhảy vọt đến vị trí chỉ định, vung lưỡi hái chém mạnh xuống đất. Mọi kẻ địch trong phạm vi sẽ bị Khiêu khích (buộc phải đánh thường vào Bạch Khởi) trong một khoảng thời gian. Thời gian Khiêu khích sẽ tăng thêm dựa trên lượng máu cộng thêm của Bạch Khởi (tối đa lên đến 2.5 giây).",
+      "image": "https://hokmoba.com/assets/images/heroes/bach-khoi-skill3.jpg"
+    }
+  ]
+}

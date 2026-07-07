@@ -1,0 +1,87 @@
+{
+  "id": "nguu-ma-vuong",
+  "slug": "nguu-ma-vuong",
+  "name": "Ngưu Ma Vương",
+  "chineseName": "牛魔",
+  "title": "BÌNH THIÊN ĐẠI THÁNH",
+  "regionId": "tay-du",
+  "roles": [
+    "Đỡ Đòn",
+    "Hỗ Trợ"
+  ],
+  "lanes": [
+    "HỖ TRỢ"
+  ],
+  "views": 15600,
+  "upvotes": 1250,
+  "downvotes": 30,
+  "stats": {
+    "winRate": "52,80%",
+    "banRate": "1,50%",
+    "pickRate": "9,40%"
+  },
+  "radar": {
+    "cong": 30,
+    "ky": 50,
+    "kho": 80,
+    "sinh": 100
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/nguu_ma_vuong.webp",
+  "portrait": "/assets/images/heroes/nguu_ma_vuong.webp",
+  "element": "tho",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "CƯỜNG LỰC MA ĐẠO",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "BẢO KÊ",
+        "TĂNG GIÁP"
+      ],
+      "description": "Khi xung quanh Ngưu Ma Vương có đồng minh có lượng máu thấp nhất, ông sẽ cung cấp cho bản thân và đồng minh đó một lượng lớn Giáp và Kháng phép. Nội tại này giúp Ngưu Ma Vương và xạ thủ cực kỳ cứng cáp trong giai đoạn đi đường.",
+      "image": "https://hokmoba.com/assets/images/heroes/nguu-ma-vuong-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "NGƯU KHÍ XUNG THIÊN",
+      "type": "skill1",
+      "cooldown": "6s",
+      "mana": "55",
+      "tags": [
+        "SÁT THƯƠNG DIỆN RỘNG",
+        "GIẢM SÁT THƯƠNG"
+      ],
+      "description": "Ngưu Ma Vương vung chiếc rìu khổng lồ chém mạnh theo hình bán nguyệt, gây sát thương vật lý lên kẻ địch trúng chiêu. Đồng thời, kỹ năng này làm suy yếu kẻ địch, giảm 15% sát thương vật lý và phép thuật của chúng trong 3 giây.",
+      "image": "https://hokmoba.com/assets/images/heroes/nguu-ma-vuong-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "HOÀNH HÀNH BÁ ĐẠO",
+      "type": "skill2",
+      "cooldown": "10s",
+      "mana": "80",
+      "tags": [
+        "HẤT TUNG",
+        "LƯỚT"
+      ],
+      "description": "Ngưu Ma Vương vận sức rồi húc mạnh về phía trước theo một đường thẳng, gây sát thương vật lý và hất tung toàn bộ kẻ địch trên đường bay. Kẻ địch sau khi rớt xuống sẽ bị làm chậm tốc độ di chuyển.",
+      "image": "https://hokmoba.com/assets/images/heroes/nguu-ma-vuong-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "SƠN BĂNG ĐỊA LIỆT",
+      "type": "skill3",
+      "cooldown": "40s",
+      "mana": "150",
+      "tags": [
+        "KHỐNG CHẾ RỘNG",
+        "MỞ GIAO TRANH"
+      ],
+      "description": "Sau một thời gian ngắn gồng sức, Ngưu Ma Vương bổ mạnh chiếc rìu xuống đất, tạo ra một vết nứt rực lửa chia cắt chiến trường. Những kẻ địch nằm trên vết nứt sẽ bị hất tung diện rộng và chịu sát thương lớn. Sau đó vết nứt tiếp tục thiêu đốt và làm chậm trầm trọng kẻ địch bước vào.",
+      "image": "https://hokmoba.com/assets/images/heroes/nguu-ma-vuong-skill3.jpg"
+    }
+  ]
+}

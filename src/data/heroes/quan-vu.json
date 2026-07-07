@@ -1,0 +1,87 @@
+{
+  "id": "quan-vu",
+  "slug": "quan-vu",
+  "name": "Quan Vũ",
+  "chineseName": "关羽",
+  "title": "VÕ THÁNH",
+  "regionId": "tam-quoc",
+  "roles": [
+    "Đấu Sĩ",
+    "Sát Thủ"
+  ],
+  "lanes": [
+    "ĐƯỜNG ĐỐI KHÁNG"
+  ],
+  "views": 21500,
+  "upvotes": 1850,
+  "downvotes": 80,
+  "stats": {
+    "winRate": "52,10%",
+    "banRate": "15,50%",
+    "pickRate": "12,40%"
+  },
+  "radar": {
+    "cong": 80,
+    "ky": 90,
+    "kho": 80,
+    "sinh": 70
+  },
+  "extraInfo": "18.888",
+  "image": "/assets/images/heroes/quan_vu.webp",
+  "portrait": "/assets/images/heroes/quan_vu.webp",
+  "element": "moc",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "NHẤT KỴ ĐƯƠNG THIÊN",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "XUNG PHONG",
+        "TỐC ĐỘ DI CHUYỂN"
+      ],
+      "description": "Quan Vũ liên tục di chuyển sẽ tích tụ tốc độ. Khi di chuyển đủ 2000 khoảng cách, ông bước vào trạng thái Xung Phong. Trạng thái này tăng mạnh tốc độ di chuyển và khiến đòn đánh thường tiếp theo kèm theo hiệu ứng đẩy lùi và sát thương vật lý dựa trên % máu tối đa. Trạng thái sẽ bị ngắt nếu tốc độ giảm xuống dưới 375 hoặc bị khống chế cứng.",
+      "image": "https://hokmoba.com/assets/images/heroes/quan-vu-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "ĐƠN ĐAO PHÓ HỘI",
+      "type": "skill1",
+      "cooldown": "8s",
+      "mana": "0",
+      "tags": [
+        "SÁT THƯƠNG RỘNG",
+        "CHÉM"
+      ],
+      "description": "Dạng thường: Quan Vũ vung Thanh Long Yển Nguyệt Đao một vòng, gây sát thương vật lý xung quanh.\nDạng Xung Phong: Quan Vũ cưỡi ngựa lao tới chém thẳng một đao về phía trước, gây sát thương vật lý cực lớn theo đường thẳng.",
+      "image": "https://hokmoba.com/assets/images/heroes/quan-vu-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "THANH LONG ĐẠP TRẬN",
+      "type": "skill2",
+      "cooldown": "14s",
+      "mana": "0",
+      "tags": [
+        "GIẢI KHỐNG CHẾ",
+        "TĂNG TỐC"
+      ],
+      "description": "Dạng thường: Quan Vũ gầm lớn, giải trừ mọi trạng thái khống chế trên bản thân và tăng mạnh tốc độ di chuyển trong thời gian ngắn.\nDạng Xung Phong: Quan Vũ thúc ngựa nhảy chồm về phía trước, hất tung kẻ địch trong phạm vi và lập tức giải trừ khống chế.",
+      "image": "https://hokmoba.com/assets/images/heroes/quan-vu-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "ĐAO PHONG THIẾT KỴ",
+      "type": "skill3",
+      "cooldown": "50s",
+      "mana": "0",
+      "tags": [
+        "ĐẨY LÙI DIỆN RỘNG",
+        "RÚT NGẮN THỜI GIAN TÍCH TỤ"
+      ],
+      "description": "Dạng thường: Quan Vũ triệu hồi thiết kỵ, giảm 50% quãng đường cần thiết để tiến vào trạng thái Xung Phong trong vòng 10 giây.\nDạng Xung Phong: Quan Vũ và bầy thiết kỵ đồng loạt húc thẳng về phía trước, đẩy lùi toàn bộ kẻ địch trên diện rộng và cũng nhận được hiệu ứng giảm quãng đường tích tụ trạng thái Xung Phong.",
+      "image": "https://hokmoba.com/assets/images/heroes/quan-vu-skill3.jpg"
+    }
+  ]
+}

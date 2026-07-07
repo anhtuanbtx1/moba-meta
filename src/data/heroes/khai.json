@@ -4,7 +4,7 @@
   "name": "Khải",
   "chineseName": "铠",
   "title": "MA KIẾM SĨ",
-  "regionId": "tay-vuc",
+  "regionId": "ma-gioi",
   "roles": ["Đấu Sĩ", "Sát Thủ"],
   "lanes": ["ĐƯỜNG ĐỐI KHÁNG", "ĐI RỪNG"],
   "views": 12500,

@@ -1,0 +1,88 @@
+{
+  "id": "bach-long-ma",
+  "slug": "bach-long-ma",
+  "name": "Bạch Long Mã",
+  "chineseName": "白龙马",
+  "title": "TÂY HẢI LONG VƯƠNG TAM THÁI TỬ",
+  "regionId": "tay-du",
+  "roles": [
+    "Sát Thủ",
+    "Đấu Sĩ"
+  ],
+  "lanes": [
+    "RỪNG",
+    "ĐƯỜNG ĐỐI KHÁNG"
+  ],
+  "views": 12800,
+  "upvotes": 950,
+  "downvotes": 20,
+  "stats": {
+    "winRate": "50,80%",
+    "banRate": "2,50%",
+    "pickRate": "4,10%"
+  },
+  "radar": {
+    "cong": 85,
+    "ky": 90,
+    "kho": 40,
+    "sinh": 50
+  },
+  "extraInfo": "18.888",
+  "image": "/assets/images/heroes/bach_long_ma.webp",
+  "portrait": "/assets/images/heroes/bach_long_ma.webp",
+  "element": "thuy",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "LONG KHÍ CHÂN THÂN",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "CHUYỂN DẠNG",
+        "TĂNG TỐC"
+      ],
+      "description": "Bạch Long Mã có thể chuyển đổi giữa dạng Người (Dùng kiếm) và dạng Rồng. Ở dạng Rồng, anh được tăng mạnh tốc độ di chuyển khi rời giao tranh và đòn đánh thường bỏ qua một phần giáp của mục tiêu.",
+      "image": "https://hokmoba.com/assets/images/heroes/bach-long-ma-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "LONG TUYỀN KIẾM PHÁP",
+      "type": "skill1",
+      "cooldown": "6s",
+      "mana": "40",
+      "tags": [
+        "LƯỚT",
+        "SÁT THƯƠNG"
+      ],
+      "description": "Dạng Người: Lướt nhanh về phía trước chém ra một luồng thủy kiếm, gây sát thương vật lý và làm chậm mục tiêu.\nDạng Rồng: Khạc ra một quả cầu nước áp lực cao, phát nổ khi trúng địch đầu tiên, làm choáng diện rộng.",
+      "image": "https://hokmoba.com/assets/images/heroes/bach-long-ma-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "TÂY HẢI KỲ TRẬN",
+      "type": "skill2",
+      "cooldown": "10s",
+      "mana": "60",
+      "tags": [
+        "MIỄN THƯƠNG",
+        "GIẢI KHỐNG CHẾ"
+      ],
+      "description": "Bạch Long Mã vận chân khí tạo ra một vùng nước bao bọc lấy bản thân, lập tức giải trừ mọi hiệu ứng bất lợi và phản lại 30% sát thương gánh chịu trong 1.5 giây.",
+      "image": "https://hokmoba.com/assets/images/heroes/bach-long-ma-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "HÓA RỒNG",
+      "type": "skill3",
+      "cooldown": "45s",
+      "mana": "100",
+      "tags": [
+        "BIẾN HÌNH",
+        "TĂNG CƯỜNG SỨC MẠNH"
+      ],
+      "description": "Bạch Long Mã gầm vang, hóa thân thành Bạch Long khổng lồ bay vút lên trời rồi đâm sầm xuống vị trí chỉ định. Cú va chạm gây sát thương lớn và hất tung mục tiêu. Sau đó, anh tiến vào trạng thái Hóa Rồng trong 12 giây, cường hóa mọi kỹ năng và đòn đánh thường.",
+      "image": "https://hokmoba.com/assets/images/heroes/bach-long-ma-skill3.jpg"
+    }
+  ]
+}

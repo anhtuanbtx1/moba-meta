@@ -1,0 +1,87 @@
+{
+  "id": "dieu-thuyen",
+  "slug": "dieu-thuyen",
+  "name": "Điêu Thuyền",
+  "chineseName": "貂蝉",
+  "title": "TUYỆT THẾ VŨ CƠ",
+  "regionId": "my-nhan",
+  "roles": [
+    "Pháp Sư",
+    "Sát Thủ Phép"
+  ],
+  "lanes": [
+    "ĐƯỜNG GIỮA"
+  ],
+  "views": 39500,
+  "upvotes": 3600,
+  "downvotes": 120,
+  "stats": {
+    "winRate": "50,80%",
+    "banRate": "15,20%",
+    "pickRate": "18,60%"
+  },
+  "radar": {
+    "cong": 85,
+    "ky": 95,
+    "kho": 80,
+    "sinh": 40
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/dieu_thuyen.webp",
+  "portrait": "/assets/images/heroes/dieu_thuyen.webp",
+  "element": "hoa",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "NGỮ HOA HOA NGỮ",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "SÁT THƯƠNG CHUẨN",
+        "HỒI MÁU BÙNG NỔ"
+      ],
+      "description": "Mỗi lần kỹ năng của Điêu Thuyền trúng đích sẽ tích lũy 1 tầng ấn hoa sen lên kẻ địch. Khi đủ 4 tầng, hoa sen sẽ nổ tung, gây sát thương chuẩn diện rộng lên những mục tiêu lân cận, làm chậm 90% tốc chạy và hồi lại máu cho Điêu Thuyền.",
+      "image": "https://hokmoba.com/assets/images/heroes/dieu-thuyen-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "LẠC HỒNG VŨ ĐIỆU",
+      "type": "skill1",
+      "cooldown": "5s",
+      "mana": "40",
+      "tags": [
+        "SÁT THƯƠNG KHỨ HỒI",
+        "TÍCH ẤN"
+      ],
+      "description": "Điêu Thuyền tung hoa sen bay thẳng về phía trước và quay trở lại bản thân. Cả lượt đi lẫn lượt về đều gây sát thương phép lên kẻ địch trên đường bay và tích lũy tầng ấn.",
+      "image": "https://hokmoba.com/assets/images/heroes/dieu-thuyen-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "DUYÊN KHỞI VŨ",
+      "type": "skill2",
+      "cooldown": "10s",
+      "mana": "50",
+      "tags": [
+        "DỊCH CHUYỂN",
+        "KHÔNG THỂ BỊ CHỌN"
+      ],
+      "description": "Điêu Thuyền biến mất và lập tức xuất hiện tại vị trí chỉ định, đồng thời phóng ra 3 quả cầu hoa sen tấn công kẻ địch gần nhất. Khi biến mất cô nhận trạng thái không thể bị chọn làm mục tiêu (né chiêu cực mạnh). Nếu có quả cầu trúng địch, hồi chiêu thức này giảm 4 giây.",
+      "image": "https://hokmoba.com/assets/images/heroes/dieu-thuyen-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "HOA NỞ TRÊN CHIẾN TRƯỜNG",
+      "type": "skill3",
+      "cooldown": "40s",
+      "mana": "80",
+      "tags": [
+        "GIẢM HỒI CHIÊU MA VỰC",
+        "MA TRẬN"
+      ],
+      "description": "Điêu Thuyền múa một điệu tuyệt thế vẽ ra một trận đồ hoa sen khổng lồ trên mặt đất, gây sát thương phép diện rộng khi nở và khi khép lại. Khi đứng bên trong trận đồ này, kỹ năng 1 và kỹ năng 2 của Điêu Thuyền được giảm thời gian hồi chiêu cực lớn, cho phép cô lướt và xả chiêu liên tục.",
+      "image": "https://hokmoba.com/assets/images/heroes/dieu-thuyen-skill3.jpg"
+    }
+  ]
+}

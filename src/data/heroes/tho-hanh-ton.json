@@ -1,0 +1,84 @@
+{
+  "id": "tho-hanh-ton",
+  "slug": "tho-hanh-ton",
+  "name": "Thổ Hành Tôn",
+  "chineseName": "土行孙",
+  "title": "ĐỘC BỘ ĐỘN ĐỊA THẦN",
+  "regionId": "phong-than",
+  "roles": [
+    "Sát Thủ",
+    "Đấu Sĩ"
+  ],
+  "lanes": [
+    "RỪNG",
+    "ĐƯỜNG ĐỐI KHÁNG"
+  ],
+  "views": 15200,
+  "upvotes": 1050,
+  "downvotes": 30,
+  "stats": {
+    "winRate": "51,10%",
+    "banRate": "5,60%",
+    "pickRate": "4,20%"
+  },
+  "radar": {
+    "cong": 85,
+    "ky": 80,
+    "kho": 55,
+    "sinh": 50
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/tho_hanh_ton.webp",
+  "portrait": "/assets/images/heroes/tho_hanh_ton.webp",
+  "element": "tho",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "ĐỊA NĂNG ĐỘN THUẬT",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "ĐỘN ĐỊA VÔ HÌNH THỜI GIAN NGẮN"
+      ],
+      "description": "Khi đứng yên hoặc di chuyển cạnh bờ tường/địa hình, Thổ Hành Tôn ẩn mình xuống lòng đất trong 3 giây. Ở trạng thái Độn Địa, anh được tăng 25% tốc độ di chuyển và không thể bị khóa bởi đòn đánh thường của kẻ địch.",
+      "image": "https://hokmoba.com/assets/images/heroes/tho-hanh-ton-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "ĐỘN ĐỊA ĐỘT KÍCH",
+      "type": "skill1",
+      "cooldown": "7s",
+      "mana": "45",
+      "tags": [
+        "TRỒI LÊN HẤT TUNG"
+      ],
+      "description": "Thổ Hành Tôn lặn sâu xuống đất lướt nhanh về phía trước. Khi trồi lên tại điểm chỉ định, anh hất tung mọi kẻ địch trong vùng và gây sát thương vật lý.",
+      "image": "https://hokmoba.com/assets/images/heroes/tho-hanh-ton-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "THỔ PHÁP KHÓA XÍCH",
+      "type": "skill2",
+      "cooldown": "9s",
+      "mana": "55",
+      "tags": [
+        "RÀNG BUỘC DI CHUYỂN"
+      ],
+      "description": "Thổ Hành Tôn quăng chiếc dây trói thần đất vào mục tiêu, gây sát thương vật lý và khóa chân đối thủ trong 1.5 giây. Đồng thời, liên kết giúp anh hút giáp của mục tiêu truyền sang cho bản thân.",
+      "image": "https://hokmoba.com/assets/images/heroes/tho-hanh-ton-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "ĐỘN THIÊN ĐỊA SỤP ĐỔ",
+      "type": "skill3",
+      "cooldown": "36s",
+      "mana": "100",
+      "tags": [
+        "HỐ SỤP ĐẤT RỘNG"
+      ],
+      "description": "Thổ Hành Tôn độn địa rồi trồi lên tạo ra một vụ địa chấn nổ tung mặt đất tại vị trí mục tiêu, tạo ra một hố sụt lún khổng lồ kéo tuột toàn bộ kẻ địch xung quanh vào tâm, gây sát thương vật lý cực mạnh và làm chậm 80% tốc chạy.",
+      "image": "https://hokmoba.com/assets/images/heroes/tho-hanh-ton-skill3.jpg"
+    }
+  ]
+}

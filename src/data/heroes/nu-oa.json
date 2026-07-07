@@ -1,0 +1,97 @@
+{
+  "id": "nu-oa",
+  "slug": "nu-oa",
+  "name": "Nữ Oa",
+  "chineseName": "女娲",
+  "title": "THẦN KHỞI NGUYÊN",
+  "regionId": "tien-gioi",
+  "roles": [
+    "Pháp Sư"
+  ],
+  "lanes": [
+    "ĐƯỜNG GIỮA"
+  ],
+  "views": 25600,
+  "upvotes": 2050,
+  "downvotes": 80,
+  "stats": {
+    "winRate": "52,80%",
+    "banRate": "1,50%",
+    "pickRate": "3,20%"
+  },
+  "radar": {
+    "cong": 90,
+    "ky": 95,
+    "kho": 80,
+    "sinh": 40
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/nu_oa.webp",
+  "portrait": "/assets/images/heroes/nu_oa.webp",
+  "element": "kim",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "HUY HOÀNG KHỞI NGUYÊN",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "TĂNG TẦM NHÌN",
+        "TĂNG TẦM CHIÊU"
+      ],
+      "description": "Mỗi khi tăng cấp, Nữ Oa được mở rộng tầm nhìn của bản thân và gia tăng tầm thi triển kỹ năng cũng như tầm đánh thường. Kỹ năng trúng đích sẽ đánh dấu kẻ địch, đồng đội tấn công kẻ địch bị đánh dấu sẽ được tăng tốc chạy và hồi phục máu.",
+      "image": "https://hokmoba.com/assets/images/heroes/nu-oa-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "THẦN CHỈ LỆNH: CHỈ ĐOẠT",
+      "type": "skill1",
+      "cooldown": "7s",
+      "mana": "60",
+      "tags": [
+        "ĐẨY LÙI",
+        "SÁT THƯƠNG DIỆN RỘNG"
+      ],
+      "description": "Nữ Oa phóng một luồng sóng thần lực về phía trước, đẩy lùi kẻ địch trên đường bay. Khi bay hết tầm hoặc trúng đích, sóng thần lực sẽ mở rộng thành chữ thập gây thêm sát thương phép.",
+      "image": "https://hokmoba.com/assets/images/heroes/nu-oa-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "THẦN CHỈ LỆNH: KHÔNG TẠO",
+      "type": "skill2",
+      "cooldown": "10s",
+      "mana": "50",
+      "tags": [
+        "TẠO ĐỊA HÌNH KHÔNG GIAN MATRẬN"
+      ],
+      "description": "Nữ Oa triệu hồi một khối lập phương không gian tại vị trí chỉ định làm cản đường di chuyển của kẻ địch (tồn tại 3 giây). Khi khối không gian biến mất hoặc bị các kỹ năng khác của Nữ Oa kích nổ, nó sẽ gây sát thương phép diện rộng xung quanh.",
+      "image": "https://hokmoba.com/assets/images/heroes/nu-oa-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "THẦN CHỈ LỆNH: DỊCH CHUYỂN BÁ ĐẠO",
+      "type": "skill3",
+      "cooldown": "35s",
+      "mana": "100",
+      "tags": [
+        "DỊCH CHUYỂN CỰC XA",
+        "LÁ CHẮN HẤP THU"
+      ],
+      "description": "Nữ Oa niệm chú trong chốc lát rồi truyền tống bản thân tới vị trí chỉ định ở khoảng cách cực xa. Khi đáp xuống, cô gây sát thương phép và làm choáng toàn bộ mục tiêu trong khu vực. Bị động: Khi chịu sát thương lớn, cô nhận lá chắn hấp thu sát thương và làm chậm kẻ địch tấn công.",
+      "image": "https://hokmoba.com/assets/images/heroes/nu-oa-skill3.jpg"
+    },
+    {
+      "id": "skill4",
+      "name": "THẦN CHỈ LỆNH: DIỆT THẾ HỦY DIỆT",
+      "type": "skill4",
+      "cooldown": "50s",
+      "mana": "130",
+      "tags": [
+        "BẮN TIA SÁNG TOÀN BẢN ĐỒ"
+      ],
+      "description": "Nữ Oa tụ lực rồi bắn ra một luồng ánh sáng hủy diệt khổng lồ xuyên thấu toàn bộ bản đồ theo đường thẳng chỉ định, gây sát thương phép cực kỳ khủng khiếp lên mọi mục tiêu trúng chiêu.",
+      "image": "https://hokmoba.com/assets/images/heroes/nu-oa-skill4.jpg"
+    }
+  ]
+}

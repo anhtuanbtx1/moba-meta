@@ -1,0 +1,88 @@
+{
+  "id": "hang-nga",
+  "slug": "hang-nga",
+  "name": "Hằng Nga",
+  "chineseName": "嫦娥",
+  "title": "HÀN NGUYỆT CÔNG CHÚA",
+  "regionId": "tay-du",
+  "roles": [
+    "Pháp Sư",
+    "Đỡ Đòn"
+  ],
+  "lanes": [
+    "ĐƯỜNG GIỮA",
+    "ĐƯỜNG ĐỐI KHÁNG"
+  ],
+  "views": 25100,
+  "upvotes": 2050,
+  "downvotes": 85,
+  "stats": {
+    "winRate": "51,10%",
+    "banRate": "4,20%",
+    "pickRate": "6,50%"
+  },
+  "radar": {
+    "cong": 65,
+    "ky": 70,
+    "kho": 40,
+    "sinh": 85
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/hang_nga.webp",
+  "portrait": "/assets/images/heroes/hang_nga.webp",
+  "element": "thuy",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "NGUYỆT DOANH",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "KHIÊN NĂNG LƯỢNG",
+        "TĂNG SÁT THƯƠNG"
+      ],
+      "description": "Năng lượng (Mana) của Hằng Nga tạo thành một lớp khiên bảo vệ, gánh chịu 60% sát thương nhận vào (1 điểm năng lượng chặn 2 điểm sát thương). Ngoài ra, sát thương phép của Hằng Nga sẽ tăng dần dựa trên tỷ lệ năng lượng hiện tại của cô (lượng năng lượng càng cao, đánh càng đau).",
+      "image": "https://hokmoba.com/assets/images/heroes/hang-nga-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "NGUYỆT THẦN HÀN SƯƠNG",
+      "type": "skill1",
+      "cooldown": "9s",
+      "mana": "0",
+      "tags": [
+        "KHỐNG CHẾ CỨNG",
+        "ĐÁNH DẤU"
+      ],
+      "description": "Hằng Nga phóng ra một quả cầu năng lượng ánh trăng về phía trước. Kẻ địch đầu tiên chạm phải sẽ bị định thân (trói chân) và bị đánh dấu. Đòn đánh thường của Hằng Nga lên mục tiêu bị đánh dấu sẽ kích nổ gây sát thương phép và hồi lại năng lượng cho bản thân.",
+      "image": "https://hokmoba.com/assets/images/heroes/hang-nga-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "NGUYỆT TUYỀN",
+      "type": "skill2",
+      "cooldown": "8s",
+      "mana": "0",
+      "tags": [
+        "HÚT NĂNG LƯỢNG",
+        "SÁT THƯƠNG RỘNG"
+      ],
+      "description": "Hằng Nga triệu hồi 2 vòng xoáy năng lượng (một xung quanh bản thân và một tại vị trí chỉ định). Những kẻ địch đứng trong vòng xoáy sẽ bị hút dần năng lượng (nếu kẻ địch không có năng lượng sẽ bị trừ thêm máu) và Hằng Nga được hồi phục năng lượng tương ứng.",
+      "image": "https://hokmoba.com/assets/images/heroes/hang-nga-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "BÃO MƯA SAO BĂNG",
+      "type": "skill3",
+      "cooldown": "8s",
+      "mana": "0",
+      "tags": [
+        "SÁT THƯƠNG LIÊN TỤC",
+        "TIÊU HAO NĂNG LƯỢNG"
+      ],
+      "description": "Hằng Nga giải phóng toàn bộ ma lực, liên tục bắn ra những luồng đạn ma thuật ánh trăng tấn công ngẫu nhiên các mục tiêu xung quanh, đồng thời gia tăng tốc độ di chuyển. Kỹ năng này tiêu hao năng lượng cực kỳ dữ dội trong suốt thời gian duy trì.",
+      "image": "https://hokmoba.com/assets/images/heroes/hang-nga-skill3.jpg"
+    }
+  ]
+}

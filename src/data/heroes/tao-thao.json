@@ -1,0 +1,88 @@
+{
+  "id": "tao-thao",
+  "slug": "tao-thao",
+  "name": "Tào Tháo",
+  "chineseName": "曹操",
+  "title": "BÁ VƯƠNG KIÊU HÙNG",
+  "regionId": "tam-quoc",
+  "roles": [
+    "Đấu Sĩ",
+    "Sát Thủ"
+  ],
+  "lanes": [
+    "ĐƯỜNG ĐỐI KHÁNG",
+    "RỪNG"
+  ],
+  "views": 20400,
+  "upvotes": 1620,
+  "downvotes": 70,
+  "stats": {
+    "winRate": "50,50%",
+    "banRate": "2,40%",
+    "pickRate": "7,10%"
+  },
+  "radar": {
+    "cong": 80,
+    "ky": 70,
+    "kho": 50,
+    "sinh": 80
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/tao_thao.webp",
+  "portrait": "/assets/images/heroes/tao_thao.webp",
+  "element": "am",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "TRANG BỊ KIÊU HÙNG",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "TĂNG TỐC ĐỘ ĐÁNH",
+        "TÍCH LŨY"
+      ],
+      "description": "Mỗi khi sử dụng kỹ năng, Tào Tháo tăng 10% tốc độ đánh trong 5 giây, cộng dồn tối đa 5 tầng (lên tới 50% tốc độ đánh).",
+      "image": "https://hokmoba.com/assets/images/heroes/tao-thao-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "BÁ ĐẠO THUYẾT VŨ",
+      "type": "skill1",
+      "cooldown": "9s",
+      "mana": "0",
+      "tags": [
+        "LƯỚT LIÊN TỤC",
+        "HẤT TUNG"
+      ],
+      "description": "Tào Tháo lướt về phía trước và vung kiếm gây sát thương vật lý. Chiêu thức này có thể kích hoạt liên tiếp tối đa 3 lần trong vòng 5 giây. Lần kích hoạt thứ 3 sẽ hất tung kẻ địch trong phạm vi nhỏ.",
+      "image": "https://hokmoba.com/assets/images/heroes/tao-thao-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "TIÊN HUYẾT THỆ ƯỚC",
+      "type": "skill2",
+      "cooldown": "7s",
+      "mana": "0",
+      "tags": [
+        "SÁT THƯƠNG DIỆN RỘNG",
+        "LÀM CHẬM"
+      ],
+      "description": "Tào Tháo phóng ra luồng kiếm khí mạnh mẽ theo đường thẳng, gây sát thương vật lý và làm chậm 50% tốc độ di chuyển của kẻ địch trong 2 giây. Đòn đánh thường trúng đích sẽ giảm 1 giây hồi chiêu thức này.",
+      "image": "https://hokmoba.com/assets/images/heroes/tao-thao-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "DỤNG BINH NHƯ THẦN",
+      "type": "skill3",
+      "cooldown": "30s",
+      "mana": "0",
+      "tags": [
+        "HÚT MÁU KHỦNG",
+        "GIẢI KHỐNG CHẾ"
+      ],
+      "description": "Tào Tháo lập tức giải trừ mọi hiệu ứng khống chế và hồi lại 20% máu đã mất. Trong 8 giây tiếp theo, ông được tăng mạnh Công vật lý, Kháng hiệu ứng và mỗi đòn đánh thường hoặc kỹ năng trúng địch sẽ hồi phục lượng máu cực lớn.",
+      "image": "https://hokmoba.com/assets/images/heroes/tao-thao-skill3.jpg"
+    }
+  ]
+}

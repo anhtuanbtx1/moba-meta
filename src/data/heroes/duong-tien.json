@@ -1,0 +1,89 @@
+{
+  "id": "duong-tien",
+  "slug": "duong-tien",
+  "name": "Dương Tiễn",
+  "chineseName": "杨戬",
+  "title": "NHỊ LANG THẦN",
+  "regionId": "tay-du",
+  "roles": [
+    "Đấu Sĩ",
+    "Sát Thủ"
+  ],
+  "lanes": [
+    "ĐƯỜNG ĐỐI KHÁNG",
+    "RỪNG"
+  ],
+  "views": 22100,
+  "upvotes": 1850,
+  "downvotes": 75,
+  "stats": {
+    "winRate": "50,60%",
+    "banRate": "1,20%",
+    "pickRate": "5,40%"
+  },
+  "radar": {
+    "cong": 85,
+    "ky": 80,
+    "kho": 60,
+    "sinh": 70
+  },
+  "extraInfo": "18.888",
+  "image": "/assets/images/heroes/duong_tien.webp",
+  "portrait": "/assets/images/heroes/duong_tien.webp",
+  "element": "kim",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "THẦN TƯỚNG BẤT KHUẤT",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "MIỄN KHỐNG CHẾ",
+        "BỀN BỈ"
+      ],
+      "description": "Mỗi khi có một tướng địch ở gần Dương Tiễn, anh sẽ được giảm 20% thời gian chịu trạng thái khống chế. Hiệu ứng này có thể cộng dồn tối đa 3 lần (lên đến 60% kháng hiệu ứng). Giúp Nhị Lang Thần càn lướt dũng mãnh giữa đội hình địch.",
+      "image": "https://hokmoba.com/assets/images/heroes/duong-tien-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "HAO THIÊN KHUYỂN",
+      "type": "skill1",
+      "cooldown": "6s",
+      "mana": "50",
+      "tags": [
+        "ĐÁNH DẤU",
+        "ÁP SÁT",
+        "KẾT LIỄU"
+      ],
+      "description": "Dương Tiễn phóng Hao Thiên Khuyển về phía trước, gây sát thương vật lý và đánh dấu mục tiêu đầu tiên trúng phải. Nếu mục tiêu bị đánh dấu, Dương Tiễn có thể tái kích hoạt chiêu để lao thẳng đến mục tiêu, gây sát thương vật lý kèm theo % máu đã mất của mục tiêu. Nếu mục tiêu bị hạ gục trực tiếp bởi đòn lao tới này, chiêu thức sẽ lập tức hồi lại hoàn toàn.",
+      "image": "https://hokmoba.com/assets/images/heroes/duong-tien-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "HƯ VỌNG PHÁ DIỆT",
+      "type": "skill2",
+      "cooldown": "10s",
+      "mana": "60",
+      "tags": [
+        "CHOÁNG",
+        "SÁT THƯƠNG CHUẨN"
+      ],
+      "description": "Dương Tiễn vung Tam Tiên Lưỡng Nhận Đao quét ngang mặt đất, gây sát thương vật lý và làm chậm diện rộng. Nếu tỷ lệ % máu hiện tại của mục tiêu cao hơn Dương Tiễn, mục tiêu sẽ bị làm choáng trong 1 giây. Sau khi đánh trúng, đòn đánh thường tiếp theo của Dương Tiễn sẽ được cường hóa kèm sát thương chuẩn cực mạnh.",
+      "image": "https://hokmoba.com/assets/images/heroes/duong-tien-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "CĂN NGUYÊN CHI MỤC",
+      "type": "skill3",
+      "cooldown": "25s",
+      "mana": "100",
+      "tags": [
+        "SÁT THƯƠNG TỪ XA",
+        "HỒI PHỤC TỐI THƯỢNG"
+      ],
+      "description": "Dương Tiễn mở con mắt thứ ba (Thiên Nhãn), bắn ra tia sáng laser cường năng. Chiêu thức này có thể kích hoạt liên tiếp 3 lần, mỗi lần bắn ra nhiều tia sáng hơn. Tia laser gây sát thương vật lý xuyên thấu kẻ địch và hồi phục máu cho Dương Tiễn dựa trên một phần lượng sát thương gây ra.",
+      "image": "https://hokmoba.com/assets/images/heroes/duong-tien-skill3.jpg"
+    }
+  ]
+}

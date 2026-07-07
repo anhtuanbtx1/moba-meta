@@ -1,0 +1,86 @@
+{
+  "id": "ton-thuong-huong",
+  "slug": "ton-thuong-huong",
+  "name": "Tôn Thượng Hương",
+  "chineseName": "孙尚香",
+  "title": "KIÊU HÌNH CƠ TRỰC",
+  "regionId": "tam-quoc",
+  "roles": [
+    "Xạ Thủ"
+  ],
+  "lanes": [
+    "ĐƯỜNG PHÁT TRIỂN"
+  ],
+  "views": 31200,
+  "upvotes": 2700,
+  "downvotes": 90,
+  "stats": {
+    "winRate": "51,20%",
+    "banRate": "8,50%",
+    "pickRate": "21,40%"
+  },
+  "radar": {
+    "cong": 90,
+    "ky": 70,
+    "kho": 50,
+    "sinh": 30
+  },
+  "extraInfo": "5.888",
+  "image": "/assets/images/heroes/ton_thuong_huong.webp",
+  "portrait": "/assets/images/heroes/ton_thuong_huong.webp",
+  "element": "hoa",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "VỰC LỰC TIÊN PHONG",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "GIẢM HỒI CHIÊU",
+        "ĐÁNH THƯỜNG"
+      ],
+      "description": "Mỗi đòn đánh thường của Tôn Thượng Hương trúng mục tiêu sẽ giảm 0.5 giây thời gian hồi chiêu của chiêu 1 (Nhào Lộn Cường Hóa).",
+      "image": "https://hokmoba.com/assets/images/heroes/ton-thuong-huong-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "LỘN NHÀO OANH TẠC",
+      "type": "skill1",
+      "cooldown": "6s",
+      "mana": "35",
+      "tags": [
+        "LƯỚT",
+        "ĐÒN ĐÁNH CƯỜNG HÓA"
+      ],
+      "description": "Tôn Thượng Hương nhào lộn theo hướng chỉ định, cường hóa đòn đánh thường tiếp theo thành cú bắn xuyên thấu gây sát thương vật lý cực mạnh. Nếu có tướng địch ở gần sau khi lộn, cô được tăng 80% tốc độ di chuyển giảm dần.",
+      "image": "https://hokmoba.com/assets/images/heroes/ton-thuong-huong-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "LỰU ĐẠN BĂNG HỎA",
+      "type": "skill2",
+      "cooldown": "8s",
+      "mana": "50",
+      "tags": [
+        "XUYÊN GIÁP",
+        "LÀM CHẬM"
+      ],
+      "description": "Ném một quả lựu đạn vào khu vực chỉ định, gây sát thương vật lý và làm chậm 90% tốc độ di chuyển của địch trúng phải trong 1 giây. Đồng thời, đánh dấu mục tiêu giúp cô nhận thêm 25% Xuyên Giáp vật lý khi tấn công mục tiêu đó.",
+      "image": "https://hokmoba.com/assets/images/heroes/ton-thuong-huong-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "PHÁO TIỂU THƯ",
+      "type": "skill3",
+      "cooldown": "30s",
+      "mana": "100",
+      "tags": [
+        "BẮN TỪ XA",
+        "SÁT THƯƠNG KẾT LIỄU"
+      ],
+      "description": "Tôn Thượng Hương bắn một quả tên lửa tầm xa khổng lồ. Quả tên lửa phát nổ khi trúng mục tiêu đầu tiên hoặc bay hết tầm, gây sát thương vật lý diện rộng lên những kẻ địch phía sau.",
+      "image": "https://hokmoba.com/assets/images/heroes/ton-thuong-huong-skill3.jpg"
+    }
+  ]
+}

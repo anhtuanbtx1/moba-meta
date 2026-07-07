@@ -1,0 +1,94 @@
+{
+  "id": "dai-kieu",
+  "slug": "dai-kieu",
+  "name": "Đại Kiều",
+  "chineseName": "大乔",
+  "title": "THƯƠNG HẢI CHI NỮ",
+  "regionId": "my-nhan",
+  "roles": [
+    "Hỗ Trợ"
+  ],
+  "lanes": [
+    "HỖ TRỢ"
+  ],
+  "views": 33400,
+  "upvotes": 2900,
+  "downvotes": 80,
+  "stats": {
+    "winRate": "52,40%",
+    "banRate": "38,50%",
+    "pickRate": "11,80%"
+  },
+  "radar": {
+    "cong": 20,
+    "ky": 90,
+    "kho": 80,
+    "sinh": 60
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/dai_kieu.webp",
+  "portrait": "/assets/images/heroes/dai_kieu.webp",
+  "element": "thuy",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "XUYÊN DÂN GIAO THƯƠNG",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "LIÊN KẾT TĂNG TỐC"
+      ],
+      "description": "Đại Kiều liên kết với một đồng đội gần nhất có khoảng cách ngắn nhất, tăng tốc độ di chuyển cho bản thân và đồng đội đó.",
+      "image": "https://hokmoba.com/assets/images/heroes/dai-kieu-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "DÒNG NƯỚC CUỒN CUỘN",
+      "type": "skill1",
+      "cooldown": "7s",
+      "mana": "50",
+      "tags": [
+        "ĐẨY LÙI LÀM CHẬM"
+      ],
+      "description": "Đại Kiều triệu hồi một dòng cá chép bơi về phía trước, gây sát thương phép và đẩy lùi kẻ địch sang hai bên. Dòng sông nước tồn tại trên đất giúp đồng đội đi qua tăng tốc độ chạy.",
+      "image": "https://hokmoba.com/assets/images/heroes/dai-kieu-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "BIẾN VỀ TỨ THỜI",
+      "type": "skill2",
+      "cooldown": "16s",
+      "mana": "80",
+      "tags": [
+        "DỊCH CHUYỂN VỀ TẾ ĐÀN"
+      ],
+      "description": "Đại Kiều vẽ một vòng tròn ma pháp nước trên mặt đất. Sau 4 giây, vòng tròn này sẽ đưa một đồng minh (hoặc bản thân Đại Kiều) có lượng máu thấp nhất đứng bên trong lập tức biến về Tế Đàn chính của nhà mình, đồng thời hồi đầy máu và tăng tốc chạy.",
+      "image": "https://hokmoba.com/assets/images/heroes/dai-kieu-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "BIỂN CẢ CỰC HẠN",
+      "type": "skill3",
+      "cooldown": "12s",
+      "mana": "70",
+      "tags": [
+        "CÂM LẶNG"
+      ],
+      "description": "Gọi ra một vùng nước thủy triều cuộn sóng tại khu vực chỉ định gây sát thương phép. Kẻ địch bước vào vùng nước này sẽ liên tục chịu sát thương phép và bị câm lặng (silence).",
+      "image": "https://hokmoba.com/assets/images/heroes/dai-kieu-skill3.jpg"
+    },
+    {
+      "id": "skill4",
+      "name": "TRIỆU HỒI TOÀN BẢN ĐỒ",
+      "type": "skill4",
+      "cooldown": "60s",
+      "mana": "120",
+      "tags": [
+        "GỌI ĐỒNG ĐỘI TOÀN MAP"
+      ],
+      "description": "Đại Kiều mở một hồ nước khổng lồ tại vị trí chỉ định, gây sát thương phép diện rộng. Trong thời gian hồ nước tồn tại, tất cả đồng đội trên toàn bản đồ có thể nhấp chọn nút để lập tức truyền tống (teleport) đến vùng nước này, đồng thời nhận thêm tốc độ đánh cực lớn.",
+      "image": "https://hokmoba.com/assets/images/heroes/dai-kieu-skill4.jpg"
+    }
+  ]
+}

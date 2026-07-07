@@ -1,0 +1,84 @@
+{
+  "id": "thai-at",
+  "slug": "thai-at",
+  "name": "Thái Ất Chân Nhân",
+  "chineseName": "太乙真人",
+  "title": "THẦN LUYỆN ĐAN SƯ",
+  "regionId": "tien-gioi",
+  "roles": [
+    "Hỗ Trợ",
+    "Đỡ Đòn"
+  ],
+  "lanes": [
+    "HỖ TRỢ"
+  ],
+  "views": 18200,
+  "upvotes": 1420,
+  "downvotes": 40,
+  "stats": {
+    "winRate": "52,20%",
+    "banRate": "8,40%",
+    "pickRate": "7,60%"
+  },
+  "radar": {
+    "cong": 30,
+    "ky": 70,
+    "kho": 60,
+    "sinh": 90
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/thai_at.webp",
+  "portrait": "/assets/images/heroes/thai_at.webp",
+  "element": "tho",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "HOÀNG KIM LÒ LUYỆN",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "TĂNG TIỀN ĐỒNG MINH"
+      ],
+      "description": "Khi quái rừng hoặc lính bị tiêu diệt xung quanh Thái Ất Chân Nhân, ông và đồng đội đứng gần sẽ nhận thêm 20% lượng vàng nhận được. Nội tại buff kinh tế cực kỳ bá đạo cho xạ thủ gánh team.",
+      "image": "https://hokmoba.com/assets/images/heroes/thai-at-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "LÒ LUYỆN PHÁT NỔ",
+      "type": "skill1",
+      "cooldown": "8s",
+      "mana": "60",
+      "tags": [
+        "TĂNG TỐC ĐỘ DI CHUYỂN CHẠY CHỐNG BẢO VỆ CHÚNG CHỈ ĐỊNH CHOÁNG"
+      ],
+      "description": "Thái Ất điều khiển chiếc lò đan dược của mình tích tụ năng lượng, tăng dần tốc độ di chuyển và giáp song kháng. Năng lượng tích lũy tối đa sau 5 giây rồi phát nổ, gây sát thương phép và làm choáng kẻ địch xung quanh. Nếu nổ trúng tướng địch khi tích lũy đầy, chiêu thức lập tức được làm mới hồi chiêu.",
+      "image": "https://hokmoba.com/assets/images/heroes/thai-at-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "TAY LÒ VÂN KHÍ",
+      "type": "skill2",
+      "cooldown": "10s",
+      "mana": "55",
+      "tags": [
+        "KÉO LƯỚT",
+        "KHỐNG CHẾ"
+      ],
+      "description": "Thái Ất phóng chiếc tay lò đan dược ra theo hướng chỉ định. Nếu tay lò trúng mục tiêu (bao gồm cả đồng đội, kẻ địch, hoặc bẫy lính), Thái Ất sẽ kéo bản thân bay đến đó, gây sát thương phép và làm choáng 1 giây nếu mục tiêu là kẻ địch.",
+      "image": "https://hokmoba.com/assets/images/heroes/thai-at-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "ĐẠI THẦN CHUYỂN SINH PHÁP",
+      "type": "skill3",
+      "cooldown": "60s",
+      "mana": "150",
+      "tags": [
+        "HỒI SINH ĐỒNG ĐỘI"
+      ],
+      "description": "Thái Ất Chân Nhân niệm pháp bảo vệ bản thân và một đồng đội có lượng máu thấp nhất xung quanh trong 3 giây. Nếu Thái Ất hoặc đồng đội được bảo vệ bị hạ gục trong thời gian này, họ sẽ lập tức được hồi sinh tại chỗ sau 2 giây với lượng máu lớn, đồng thời gây sát thương phép diện rộng xung quanh khi sống lại.",
+      "image": "https://hokmoba.com/assets/images/heroes/thai-at-skill3.jpg"
+    }
+  ]
+}

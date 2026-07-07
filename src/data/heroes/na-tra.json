@@ -1,0 +1,86 @@
+{
+  "id": "na-tra",
+  "slug": "na-tra",
+  "name": "Na Tra",
+  "chineseName": "哪吒",
+  "title": "KIỆT NGAO VIÊM THƯƠNG",
+  "regionId": "tay-du",
+  "roles": [
+    "Đấu Sĩ"
+  ],
+  "lanes": [
+    "ĐƯỜNG ĐỐI KHÁNG"
+  ],
+  "views": 18500,
+  "upvotes": 1420,
+  "downvotes": 60,
+  "stats": {
+    "winRate": "51,50%",
+    "banRate": "2,10%",
+    "pickRate": "7,80%"
+  },
+  "radar": {
+    "cong": 70,
+    "ky": 75,
+    "kho": 50,
+    "sinh": 85
+  },
+  "extraInfo": "18.888",
+  "image": "/assets/images/heroes/na_tra.webp",
+  "portrait": "/assets/images/heroes/na_tra.webp",
+  "element": "hoa",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "CHÂN HỎA TRUYỆN THUYẾT",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "THIÊU ĐỐT",
+        "GIẢM HỒI MÁU"
+      ],
+      "description": "Bất cứ khi nào Na Tra gây sát thương lên kẻ địch, mũi thương của cậu sẽ để lại Hỏa Chủng. Kẻ địch mang Hỏa Chủng sẽ bị thiêu đốt gây sát thương chuẩn liên tục trong 3 giây. Hơn thế nữa, hiệu ứng này còn giảm 25% khả năng hồi máu của nạn nhân.",
+      "image": "https://hokmoba.com/assets/images/heroes/na-tra-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "HỎA TIÊM THƯƠNG",
+      "type": "skill1",
+      "cooldown": "5s",
+      "mana": "0",
+      "tags": [
+        "SÁT THƯƠNG DIỆN RỘNG",
+        "TĂNG TỐC"
+      ],
+      "description": "Na Tra vung Hỏa Tiêm Thương quét một vòng quanh bản thân, gây sát thương vật lý lên tất cả kẻ địch xung quanh. Mỗi khi đánh trúng một tướng địch, Na Tra sẽ được tăng tốc độ di chuyển, hiệu ứng này có thể cộng dồn nhiều lần.",
+      "image": "https://hokmoba.com/assets/images/heroes/na-tra-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "HỖN THIÊN LĂNG",
+      "type": "skill2",
+      "cooldown": "12s",
+      "mana": "0",
+      "tags": [
+        "KHỐNG CHẾ",
+        "MIỄN THƯƠNG"
+      ],
+      "description": "Na Tra dùng dải lụa Hỗn Thiên Lăng trói mục tiêu và lộn nhào ra phía sau lưng nạn nhân. Kẻ địch sẽ bị trói chân trong chốc lát. Trong lúc lộn nhào, Na Tra nhận được hiệu ứng miễn thương (giảm sát thương gánh chịu). Kỹ năng này có thể tái kích hoạt thêm 1 lần nữa trong vòng 4 giây.",
+      "image": "https://hokmoba.com/assets/images/heroes/na-tra-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "TÀI QUYẾT TỬ TRANH",
+      "type": "skill3",
+      "cooldown": "60s",
+      "mana": "0",
+      "tags": [
+        "BAY TOÀN BẢN ĐỒ",
+        "MỞ GIAO TRANH"
+      ],
+      "description": "Kích hoạt lần 1: Na Tra cung cấp tầm nhìn của tất cả tướng địch trên bản đồ và có thể ngắt quá trình biến về của chúng.\nKích hoạt lần 2: Chọn một mục tiêu và đạp Phong Hỏa Luân bay thẳng đến đó với tốc độ cực cao. Khi va chạm, Na Tra gây sát thương vật lý, hất lùi kẻ địch và nhận thêm một lượng lớn khiên ảo, đồng thời tự động kích hoạt vòng lửa thiêu đốt diện rộng xung quanh.",
+      "image": "https://hokmoba.com/assets/images/heroes/na-tra-skill3.jpg"
+    }
+  ]
+}
