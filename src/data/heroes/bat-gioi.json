@@ -1,0 +1,88 @@
+{
+  "id": "bat-gioi",
+  "slug": "bat-gioi",
+  "name": "Trư Bát Giới",
+  "chineseName": "猪八戒",
+  "title": "THIÊN BỒNG NGUYÊN SOÁI",
+  "regionId": "tay-du",
+  "roles": [
+    "Đỡ Đòn",
+    "Đấu Sĩ"
+  ],
+  "lanes": [
+    "ĐƯỜNG ĐỐI KHÁNG",
+    "RỪNG"
+  ],
+  "views": 18200,
+  "upvotes": 1200,
+  "downvotes": 40,
+  "stats": {
+    "winRate": "50,50%",
+    "banRate": "10,10%",
+    "pickRate": "15,20%"
+  },
+  "radar": {
+    "cong": 40,
+    "ky": 50,
+    "kho": 50,
+    "sinh": 100
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/bat_gioi.webp",
+  "portrait": "/assets/images/heroes/bat_gioi.webp",
+  "element": "tho",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "HÀM THỰC",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "HỒI PHỤC",
+        "MIỄN THƯƠNG"
+      ],
+      "description": "Khi Trư Bát Giới mất máu, lượng máu đó chuyển thành thanh máu ảo. Sát thương gây ra lên tướng địch sẽ chuyển hóa thành máu thật tương ứng 50% thanh máu ảo (25% nếu đánh lên lính/quái). Trư Bát Giới gây thêm sát thương vật lý dựa trên % máu tối đa.",
+      "image": "https://hokmoba.com/assets/images/heroes/bat-gioi-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "NHỤC ĐẠN BẢO XA",
+      "type": "skill1",
+      "cooldown": "8s",
+      "mana": "0",
+      "tags": [
+        "KHỐNG CHẾ",
+        "SÁT THƯƠNG DIỆN RỘNG"
+      ],
+      "description": "Bát Giới nhảy lên nện thân hình khổng lồ xuống đất 2 lần. Lần nảy thứ 2 sẽ hất tung tất cả kẻ địch xung quanh và gây sát thương vật lý.",
+      "image": "https://hokmoba.com/assets/images/heroes/bat-gioi-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "CÀO CHÍN RĂNG",
+      "type": "skill2",
+      "cooldown": "10s",
+      "mana": "0",
+      "tags": [
+        "KÉO",
+        "LÀM CHOÁNG"
+      ],
+      "description": "Bát Giới phóng đinh ba về phía trước. Nếu trúng địa hình, hắn sẽ lao đến chỗ cây đinh ba và kéo theo tất cả kẻ địch trên đường bay, gây sát thương và làm choáng nếu đập trúng tường.",
+      "image": "https://hokmoba.com/assets/images/heroes/bat-gioi-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "TRƯỢNG TƯỜNG TRẬN",
+      "type": "skill3",
+      "cooldown": "30s",
+      "mana": "0",
+      "tags": [
+        "TẠO ĐỊA HÌNH",
+        "CHẶN ĐƯỜNG"
+      ],
+      "description": "Bát Giới cào mạnh xuống đất, tạo ra một bức tường địa hình chặn mọi di chuyển trong 4 giây. Gây sát thương vật lý khi bức tường trồi lên.",
+      "image": "https://hokmoba.com/assets/images/heroes/bat-gioi-skill3.jpg"
+    }
+  ]
+}

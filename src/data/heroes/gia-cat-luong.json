@@ -1,0 +1,87 @@
+{
+  "id": "gia-cat-luong",
+  "slug": "gia-cat-luong",
+  "name": "Gia Cát Lượng",
+  "chineseName": "诸葛亮",
+  "title": "TUYỆT THẾ TRÍ TƯỚNG",
+  "regionId": "tam-quoc",
+  "roles": [
+    "Pháp Sư",
+    "Sát Thủ"
+  ],
+  "lanes": [
+    "ĐƯỜNG GIỮA"
+  ],
+  "views": 9850,
+  "upvotes": 1420,
+  "downvotes": 25,
+  "stats": {
+    "winRate": "51,80%",
+    "banRate": "15,20%",
+    "pickRate": "18,40%"
+  },
+  "radar": {
+    "cong": 90,
+    "ky": 80,
+    "kho": 80,
+    "sinh": 30
+  },
+  "extraInfo": "18.888",
+  "image": "/assets/images/heroes/gia_cat_luong.webp",
+  "portrait": "/assets/images/heroes/gia_cat_luong.webp",
+  "element": "thuy",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "SÁCH MƯU",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "SÁT THƯƠNG",
+        "TÍCH LŨY"
+      ],
+      "description": "Mỗi khi kỹ năng của Gia Cát Lượng trúng đích sẽ tích lũy 1 điểm Ấn Ký. Khi đạt đủ 5 điểm, tự động triệu hồi 5 quả cầu ma thuật xoay quanh bản thân, tự động tấn công kẻ địch lân cận gây sát thương phép.",
+      "image": "https://hokmoba.com/assets/images/heroes/gia-cat-luong-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "ĐÔNG PHONG PHÁ",
+      "type": "skill1",
+      "cooldown": "7s",
+      "mana": "50",
+      "tags": [
+        "SÁT THƯƠNG",
+        "TẦM XA"
+      ],
+      "description": "Gia Cát Lượng bắn ra 3 quả cầu năng lượng về phía trước theo hình quạt. Mỗi quả cầu trúng địch sẽ gây sát thương phép và tích lũy 1 điểm Ấn Ký. Nếu một mục tiêu trúng nhiều quả cầu, sát thương từ quả thứ 2 trở đi sẽ giảm.",
+      "image": "https://hokmoba.com/assets/images/heroes/gia-cat-luong-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "THỜI KHÔNG TIẾN",
+      "type": "skill2",
+      "cooldown": "2s",
+      "mana": "40",
+      "tags": [
+        "LƯỚT",
+        "LÀM CHẬM"
+      ],
+      "description": "Gia Cát Lượng dịch chuyển một khoảng ngắn đến vị trí chỉ định, gây sát thương phép tại điểm xuất phát và điểm đến, đồng thời tích lũy Ấn Ký. Nếu kẻ địch bị trúng cả 2 điểm sẽ bị làm chậm mạnh. Kỹ năng có thể tích trữ tối đa 3 lần.",
+      "image": "https://hokmoba.com/assets/images/heroes/gia-cat-luong-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "NGUYÊN KHÍ ĐẠN",
+      "type": "skill3",
+      "cooldown": "30s",
+      "mana": "120",
+      "tags": [
+        "KHÓA MỤC TIÊU",
+        "HỒI CHIÊU"
+      ],
+      "description": "Gia Cát Lượng tụ lực và khóa mục tiêu một tướng địch thấp máu, sau đó bắn ra một luồng năng lượng khổng lồ gây sát thương phép cực lớn dựa trên máu đã mất của mục tiêu. Nếu hạ gục mục tiêu, lập tức giảm 80% thời gian hồi chiêu kỹ năng này và kích hoạt ngay nội tại Sách Mưu.",
+      "image": "https://hokmoba.com/assets/images/heroes/gia-cat-luong-skill3.jpg"
+    }
+  ]
+}

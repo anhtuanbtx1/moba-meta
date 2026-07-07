@@ -48,6 +48,7 @@ export const REGIONS_MOCK = [
   { id: "tam-quoc", name: "Tam Quốc" },
   { id: "tay-vuc", name: "Tây Vực - Mạc Địa" },
   { id: "bac-vuc", name: "Bắc Vực - Băng Khâu" },
+  { id: "tay-du", name: "Tây Du Ký" },
   { id: "thanh-tu", name: "Thành Tru" }
 ];
 

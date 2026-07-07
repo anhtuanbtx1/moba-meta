@@ -1,0 +1,85 @@
+{
+  "id": "sa-tang",
+  "slug": "sa-tang",
+  "name": "Sa Tăng",
+  "chineseName": "沙悟净",
+  "title": "QUYỂN LIÊM ĐẠI TƯỚNG",
+  "regionId": "tay-du",
+  "roles": [
+    "Hỗ Trợ",
+    "Đấu Sĩ"
+  ],
+  "lanes": [
+    "HỖ TRỢ"
+  ],
+  "views": 8400,
+  "upvotes": 420,
+  "downvotes": 10,
+  "stats": {
+    "winRate": "49,10%",
+    "banRate": "0,50%",
+    "pickRate": "6,20%"
+  },
+  "radar": {
+    "cong": 50,
+    "ky": 50,
+    "kho": 30,
+    "sinh": 80
+  },
+  "extraInfo": "8.888",
+  "image": "/assets/images/heroes/sa_tang.webp",
+  "portrait": "/assets/images/heroes/sa_tang.webp",
+  "element": "thuy",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "LƯU SA HÀ",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "LÀM CHẬM"
+      ],
+      "description": "Kỹ năng của Sa Tăng đánh trúng địch sẽ tạo ra vũng bùn cát tại vị trí đó. Kẻ địch bước vào vũng bùn sẽ bị giảm tốc độ di chuyển và giảm kháng phép.",
+      "image": "https://hokmoba.com/assets/images/heroes/sa-tang-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "HÀNG YÊU TRƯỢNG",
+      "type": "skill1",
+      "cooldown": "6s",
+      "mana": "40",
+      "tags": [
+        "SÁT THƯƠNG DIỆN RỘNG"
+      ],
+      "description": "Sa Tăng vung trượng quét một vòng rộng, gây sát thương phép lên kẻ địch xung quanh và hồi máu cho bản thân dựa trên số tướng trúng đòn.",
+      "image": "https://hokmoba.com/assets/images/heroes/sa-tang-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "QUYỂN LIÊM BẢO VỆ",
+      "type": "skill2",
+      "cooldown": "12s",
+      "mana": "60",
+      "tags": [
+        "BẢO VỆ",
+        "CHỊU ĐÒN DÙM"
+      ],
+      "description": "Kết nối với một đồng minh, chuyển 30% sát thương đồng minh nhận phải sang cho Sa Tăng. Trong lúc này, cả hai được tăng tốc độ di chuyển.",
+      "image": "https://hokmoba.com/assets/images/heroes/sa-tang-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "ĐẠI SA MẠC",
+      "type": "skill3",
+      "cooldown": "40s",
+      "mana": "100",
+      "tags": [
+        "KHỐNG CHẾ DIỆN RỘNG",
+        "KHÓA ĐỊA HÌNH"
+      ],
+      "description": "Sa Tăng triệu hồi một sa mạc khổng lồ bao trùm khu vực. Tất cả kẻ địch bên trong bị hút dần về tâm bão cát và chịu sát thương phép liên tục.",
+      "image": "https://hokmoba.com/assets/images/heroes/sa-tang-skill3.jpg"
+    }
+  ]
+}

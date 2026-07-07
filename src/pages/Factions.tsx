@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 import { REGIONS_MOCK, getHeroesByRegion } from "../data/heroesMockData";
 import HeaderNav from "../components/HeaderNav";
@@ -10,6 +11,7 @@ const FACTIONS = REGIONS_MOCK.map(r => ({
 })).filter(f => f.heroCount > 0); // Only show factions with heroes
 
 export default function Factions() {
+  const navigate = useNavigate();
   const [activeId, setActiveId] = useState("truong-thanh");
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedHero, setSelectedHero] = useState("bach-ly-huyen-sach");
@@ -83,11 +85,12 @@ export default function Factions() {
   const currentHeroes = getHeroesByRegion(activeId) || getHeroesByRegion("truong-thanh");
 
   return (
-    <div className="h-[100dvh] bg-[#0A0A0F] text-gray-100 flex flex-col font-sans overflow-hidden relative">
+    <div className="h-[100dvh] bg-[#0A0A0F] text-gray-100 flex flex-col font-sans overflow-hidden relative hok-page-enter">
       <HeaderNav />
       <div className="px-4 py-3 bg-[#0A0A0F] z-10 border-b border-[#1A1A24] sticky top-0">
-        <div className="relative">
-          <input type="text" className="block w-full pl-10 pr-3 py-2 border border-[#d4af37]/30 rounded-2xl bg-[#12121A] text-gray-300 sm:text-sm" placeholder="Tìm tướng, skin, khu vực..." />
+        <div className="relative border border-[#d4af37]/25 rounded-2xl bg-[#12121A] hok-search-focus hok-shine">
+          <span className="absolute left-3 top-1/2 -translate-y-1/2 text-[#d4af37]/70 text-sm">⌕</span>
+          <input type="text" className="block w-full pl-10 pr-3 py-2.5 rounded-2xl bg-transparent text-gray-300 sm:text-sm outline-none placeholder:text-gray-500" placeholder="Tìm tướng, skin, khu vực..." />
         </div>
       </div>
 
@@ -98,9 +101,9 @@ export default function Factions() {
             {FACTIONS.map(f => {
               const isActive = activeId === f.id;
               return (
-                <div key={f.id} id={"nav-" + f.id} onClick={() => handleSelectFaction(f.id)} className={isActive ? "relative py-4 pl-4 pr-2 cursor-pointer transition-colors bg-gradient-to-r from-[#d4af37]/10 to-transparent text-white" : "relative py-4 pl-4 pr-2 cursor-pointer transition-colors text-gray-400 hover:text-gray-200"}>
+                <div key={f.id} id={"nav-" + f.id} onClick={() => handleSelectFaction(f.id)} className={isActive ? "relative py-4 pl-4 pr-2 cursor-pointer transition-all duration-300 bg-gradient-to-r from-[#d4af37]/10 to-transparent text-white hok-chip-active" : "relative py-4 pl-4 pr-2 cursor-pointer transition-all duration-300 text-gray-400 hover:text-gray-200 active:scale-[0.98]"}>
                   {isActive && <div className="absolute left-0 top-1/2 -translate-y-1/2 w-[3px] h-3/5 bg-[#d4af37] rounded-r-md"></div>}
-                  <div className="text-[14px] truncate w-full font-medium">{f.name}</div>
+                  <div className={isActive ? "text-[14px] truncate w-full font-semibold hok-title-shine" : "text-[14px] truncate w-full font-medium"}>{f.name}</div>
                 </div>
               );
             })}
@@ -113,12 +116,12 @@ export default function Factions() {
             {FACTIONS.map(f => {
               const isActive = activeId === f.id;
               return (
-                <div key={f.id} id={"card-" + f.id} className="faction-card snap-center shrink-0 w-full flex justify-center py-2">
-                  <div className={isActive ? "relative w-full max-w-sm rounded-[24px] flex flex-col items-center justify-center transition-all duration-300 overflow-hidden aspect-[3/4] bg-[#12121A] border-[1.5px] border-[#d4af37] shadow-[0_0_20px_rgba(212,175,55,0.2)] opacity-100 scale-100" : "relative w-full max-w-sm rounded-[24px] flex flex-col items-center justify-center transition-all duration-300 overflow-hidden aspect-[4/5] bg-[#0c0c14] border border-[#1A1A24] opacity-50 scale-90"}>
+                <div key={f.id} id={"card-" + f.id} className="faction-card snap-center shrink-0 w-full flex justify-center py-2" style={{ "--i": FACTIONS.findIndex(x => x.id === f.id) } as React.CSSProperties}>
+                  <div className={isActive ? "relative w-full max-w-sm rounded-[24px] flex flex-col items-center justify-center overflow-hidden aspect-[3/4] bg-[#12121A] border-[1.5px] border-[#d4af37] opacity-100 scale-100 hok-card-motion hok-card-active" : "relative w-full max-w-sm rounded-[24px] flex flex-col items-center justify-center overflow-hidden aspect-[4/5] bg-[#0c0c14] border border-[#1A1A24] opacity-50 scale-90 hok-card-motion"}>
                     {isActive && (
                       <div className="absolute inset-0 flex items-center justify-center opacity-30 pointer-events-none">
-                         <div className="w-48 h-48 border border-white/10 rounded-full absolute"></div>
-                         <div className="w-32 h-32 border border-[#d4af37]/20 rounded-full absolute"></div>
+                         <div className="w-48 h-48 border border-white/10 rounded-full absolute hok-mist"></div>
+                         <div className="w-32 h-32 border border-[#d4af37]/20 rounded-full absolute hok-float"></div>
                       </div>
                     )}
                     <div className="relative z-10 flex flex-col items-center p-6 w-full h-full justify-between">
@@ -128,7 +131,7 @@ export default function Factions() {
                       </div>
                       <div className="mb-6 w-full flex justify-center">
                         {isActive ? (
-                          <button onClick={() => setIsModalOpen(true)} className="w-[85%] py-[14px] bg-gradient-to-r from-[#e8bc2a] to-[#d4af37] text-[#0A0A0F] font-black text-[15px] rounded-full uppercase active:scale-95 transition-transform">XEM TƯỚNG</button>
+                          <button onClick={() => setIsModalOpen(true)} className="w-[85%] py-[14px] bg-gradient-to-r from-[#e8bc2a] to-[#d4af37] text-[#0A0A0F] font-black text-[15px] rounded-full uppercase active:scale-95 transition-transform hok-shine">XEM TƯỚNG</button>
                         ) : (
                           <button onClick={(e) => { e.stopPropagation(); handleSelectFaction(f.id); }} className="px-8 py-2.5 bg-white/5 text-gray-400 font-semibold text-xs rounded-full uppercase active:scale-95 border border-white/10">CHỌN</button>
                         )}
@@ -156,11 +159,11 @@ export default function Factions() {
       ></div>
 
       <div
-        className={isModalOpen && !isDragging ? "fixed bottom-0 left-0 right-0 bg-[#12121c] border-t border-white/5 z-50 rounded-t-[20px] transition-transform duration-300 transform translate-y-0" : "fixed bottom-0 left-0 right-0 bg-[#12121c] border-t border-white/5 z-50 rounded-t-[20px] transition-transform duration-300 transform"}
+        className={isModalOpen && !isDragging ? "fixed bottom-0 left-0 right-0 bg-[#12121c] border-t border-white/5 z-50 rounded-t-[20px] transform hok-drawer-motion translate-y-0" : "fixed bottom-0 left-0 right-0 bg-[#12121c] border-t border-white/5 z-50 rounded-t-[20px] transform hok-drawer-motion"}
         style={{
           maxHeight: "80vh",
           transform: isDragging ? "translateY(" + currentY.toString() + "px)" : (isModalOpen ? "translateY(0)" : "translateY(100%)"),
-          transition: isDragging ? "none" : "transform 300ms cubic-bezier(0.4, 0, 0.2, 1)"
+          transition: isDragging ? "none" : "transform 360ms cubic-bezier(.16,1,.3,1)"
         }}
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
@@ -199,7 +202,7 @@ export default function Factions() {
             {currentHeroes.map(hero => {
               const isSelected = selectedHero === hero.id;
               return (
-                <div key={hero.id} onClick={() => setSelectedHero(hero.id)} className="flex flex-col items-center cursor-pointer group w-full max-w-[80px]">
+                <div key={hero.id} onClick={() => { setSelectedHero(hero.id); setIsModalOpen(false); navigate("/heroes/" + hero.id); }} className="flex flex-col items-center cursor-pointer group w-full max-w-[80px] hok-avatar-enter" style={{ "--i": currentHeroes.findIndex(x => x.id === hero.id) } as React.CSSProperties}>
                   <div className={isSelected ? "w-[72px] h-[72px] rounded-full overflow-hidden mb-2.5 transition-all ring-2 ring-[#e8bc2a] p-[2.5px]" : "w-[72px] h-[72px] rounded-full overflow-hidden mb-2.5 transition-all group-hover:ring-1 ring-gray-600 p-0"}
                   >
                     <div className="w-full h-full rounded-full bg-[#1a1a2e] flex items-center justify-center overflow-hidden">

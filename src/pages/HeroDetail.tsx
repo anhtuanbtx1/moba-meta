@@ -1,12 +1,19 @@
 import React, { useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import { Home, Share2, ChevronLeft, Flag, Trophy, Shield, Info, Book, User, History, Video, Sword } from 'lucide-react';
 import { getHeroBySlug } from '../data/heroesMockData';
 import type { HeroMockData } from '../data/heroesMockData';
 
 const HeroDetail: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
+  const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState('CHIẾN ĐẤU');
+  const [isClosing, setIsClosing] = useState(false);
+
+  const closeSheet = () => {
+    setIsClosing(true);
+    window.setTimeout(() => navigate('/factions'), 320);
+  };
   const [activeSkillId, setActiveSkillId] = useState('passive');
 
   // Try to find the hero, otherwise fallback to the default 'thuong'
@@ -28,9 +35,9 @@ const HeroDetail: React.FC = () => {
   ];
 
   return (
-    <div className="flex h-[100dvh] bg-[#0d0d12] text-white font-sans overflow-hidden">
+    <div className="flex flex-col md:flex-row h-[100dvh] bg-[#0d0d12] text-white font-sans overflow-hidden hok-page-enter relative">
       {/* Sidebar Navigation */}
-      <div className="w-16 bg-[#09090b] border-r border-white/5 flex flex-col items-center py-6 z-20">
+      <div className="hidden md:flex w-16 bg-[#09090b] border-r border-white/5 flex-col items-center py-6 z-20">
         <Link to="/" className="p-3 mb-8 text-gray-400 hover:text-white transition-colors">
           <ChevronLeft size={24} />
         </Link>
@@ -51,7 +58,7 @@ const HeroDetail: React.FC = () => {
       </div>
 
       {/* Left Column: Hero Portrait & Voting */}
-      <div className="w-[35%] relative flex-shrink-0 bg-gray-900 border-r border-white/10 shadow-[20px_0_30px_rgba(0,0,0,0.5)] z-10">
+      <div className="w-full h-[65dvh] md:h-full md:w-[35%] relative flex-shrink-0 bg-gray-900 md:border-r border-white/10 shadow-[0_20px_30px_rgba(0,0,0,0.5)] md:shadow-[20px_0_30px_rgba(0,0,0,0.5)] z-10">
         {/* Background Image */}
         <div className="absolute inset-0">
           <img 
@@ -64,7 +71,19 @@ const HeroDetail: React.FC = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#0d0d12]/80"></div>
         </div>
 
+        
+        {/* Mobile Header */}
+        <div className="absolute top-0 left-0 w-full p-4 flex justify-between items-center z-50 md:hidden bg-gradient-to-b from-black/80 to-transparent">
+          <button onClick={closeSheet} className="p-2 bg-black/40 rounded-full border border-white/10 text-white backdrop-blur-md active:scale-95 transition-transform">
+            <ChevronLeft size={20} />
+          </button>
+          <div className="w-8 h-8 rounded-full bg-red-600 border-2 border-yellow-400 flex items-center justify-center shadow-lg">
+            <Flag size={14} className="text-yellow-400 fill-yellow-400" />
+          </div>
+        </div>
+
         {/* Content over portrait */}
+
         <div className="absolute bottom-10 left-8 right-8">
           <div className="flex items-center gap-2 mb-2">
             <span className="bg-red-600 text-[10px] font-black px-2 py-0.5 text-white">CN</span>
@@ -112,14 +131,17 @@ const HeroDetail: React.FC = () => {
       </div>
 
       {/* Right Column: Details */}
-      <div className="flex-1 overflow-y-auto bg-[#0d0d12] p-8 no-scrollbar">
+      <div className={`flex-1 overflow-y-auto bg-[#0d0d12] p-4 md:p-8 no-scrollbar absolute md:relative top-[55dvh] md:top-0 bottom-0 left-0 w-full md:w-auto z-20 rounded-t-3xl md:rounded-none border-t border-white/10 md:border-t-0 bg-gradient-to-b from-[#15151c] to-[#0d0d12] md:bg-none shadow-[0_-10px_40px_rgba(0,0,0,0.5)] md:shadow-none hok-sheet-enter ${isClosing ? 'translate-y-full opacity-0' : 'translate-y-0 opacity-100'}`} style={{ animationDelay: '0.05s', transition: 'transform 320ms cubic-bezier(.4,0,1,1), opacity 260ms ease' }}>
+        {/* Mobile drag handle */}
+        <button onClick={closeSheet} className="block w-12 h-1.5 bg-gray-600/50 rounded-full mx-auto mb-4 md:hidden active:bg-gray-400 transition-colors" aria-label="Đóng chi tiết tướng"></button>
+  
         {/* Tabs */}
-        <div className="flex border-b border-white/5 mb-8">
+        <div className="flex overflow-x-auto no-scrollbar border-b border-white/5 mb-6 md:mb-8">
           {tabs.map(tab => (
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
-              className={`flex items-center gap-2 px-6 py-4 text-[11px] font-bold tracking-wider transition-colors relative ${activeTab === tab.id ? 'text-white' : 'text-gray-500 hover:text-gray-300'}`}
+              className={`flex items-center gap-2 px-4 md:px-6 py-3 md:py-4 text-[10px] md:text-[11px] font-bold tracking-wider transition-colors relative shrink-0 ${activeTab === tab.id ? 'text-white' : 'text-gray-500 hover:text-gray-300'}`}
             >
               {tab.icon} {tab.id}
               {activeTab === tab.id && (
@@ -133,7 +155,7 @@ const HeroDetail: React.FC = () => {
         <div className="flex flex-col gap-6 max-w-5xl">
           
           {/* Top Row: Meta & Radar */}
-          <div className="flex gap-6">
+          <div className="flex flex-col md:flex-row gap-4 md:gap-6">
             
             {/* Meta Performance */}
             <div className="flex-1 bg-[#12121a] border border-[#1a1a24] rounded-xl p-6 relative overflow-hidden group">

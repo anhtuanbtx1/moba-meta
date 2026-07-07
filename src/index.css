@@ -11,3 +11,40 @@ body {
   margin: 0;
   padding: 0;
 }
+
+
+/* HOKMOBA extracted motion layer: sourced/adapted from D:/Tool/Scrapegraph-ai/hokmoba_animations.json */
+@keyframes hok-soft-slide-up {0%{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+@keyframes hok-soft-scale-in {0%{opacity:0;transform:scale(.93) translateY(8px)}to{opacity:1;transform:scale(1) translateY(0)}}
+@keyframes hok-slide-down {0%{transform:translateY(-20px);opacity:0}to{transform:translateY(0);opacity:1}}
+@keyframes hok-title-shine {0%,to{background-position:0% 50%}50%{background-position:100% 50%}}
+@keyframes hok-shine-sweep {0%{left:-100%}20%{left:100%}to{left:100%}}
+@keyframes hok-search-highlight-ring {0%{opacity:1;box-shadow:0 0 20px #ffd700e6,0 0 40px #ffd70080}to{opacity:.6;box-shadow:0 0 30px gold,0 0 60px #ffd700b3}}
+@keyframes hok-soft-glow {0%,to{box-shadow:0 0 6px #d4a63a40}50%{box-shadow:0 0 16px #d4a63a66,0 0 30px #d4a63a26}}
+@keyframes hok-selection-glow {0%,to{box-shadow:0 0 20px #fbbf2480}50%{box-shadow:0 0 35px #fbbf24cc,0 0 50px #fbbf2466}}
+@keyframes hok-gentle-bounce {0%,to{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes hok-mist-drift {0%,to{opacity:1;transform:translate(0)}50%{opacity:.7;transform:translate(-15px)}}
+@keyframes hok-toast-slide-in {0%{transform:translateY(100%) translate(-50%);opacity:0}to{transform:translateY(0) translate(-50%);opacity:1}}
+@keyframes hok-relation-pulse {0%,to{stroke-opacity:.6}50%{stroke-opacity:1}}
+@keyframes hok-pulse-scale {0%,to{transform:scale(1)}50%{transform:scale(1.05)}}
+
+.no-scrollbar::-webkit-scrollbar{display:none}
+.no-scrollbar{-ms-overflow-style:none;scrollbar-width:none}
+.hok-page-enter{animation:hok-soft-slide-up .55s cubic-bezier(.16,1,.3,1) both}
+.hok-nav-enter{animation:hok-slide-down .48s cubic-bezier(.16,1,.3,1) both}
+.hok-search-focus{transition:box-shadow .35s cubic-bezier(.16,1,.3,1),border-color .35s cubic-bezier(.16,1,.3,1),transform .35s cubic-bezier(.16,1,.3,1)}
+.hok-search-focus:focus-within{border-color:#d4af37;box-shadow:0 0 0 1px rgba(212,175,55,.5),0 12px 36px rgba(212,166,58,.14);transform:translateY(-1px)}
+.hok-card-motion{animation:hok-soft-scale-in .5s cubic-bezier(.16,1,.3,1) both;transition:transform .42s cubic-bezier(.16,1,.3,1),opacity .42s cubic-bezier(.16,1,.3,1),border-color .42s cubic-bezier(.16,1,.3,1),box-shadow .42s cubic-bezier(.16,1,.3,1)}
+.hok-card-active{animation:hok-selection-glow 2.6s ease-in-out infinite}
+.hok-shine{position:relative;overflow:hidden}
+.hok-shine:after{content:"";position:absolute;top:0;bottom:0;width:45%;left:-100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.24),transparent);transform:skewX(-18deg);animation:hok-shine-sweep 3.6s ease-in-out infinite;pointer-events:none}
+.hok-title-shine{background:linear-gradient(90deg,#fff,#d4af37,#fff);background-size:220% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:hok-title-shine 5s ease-in-out infinite}
+.hok-drawer-motion{transition:transform .36s cubic-bezier(.16,1,.3,1),opacity .36s cubic-bezier(.16,1,.3,1)}
+.hok-chip-active{animation:hok-soft-glow 2.8s ease-in-out infinite}
+.hok-avatar-enter{animation:hok-soft-scale-in .42s cubic-bezier(.16,1,.3,1) both;animation-delay:calc(var(--i,0) * 45ms)}
+.hok-float{animation:hok-gentle-bounce 3.4s ease-in-out infinite}
+.hok-mist{animation:hok-mist-drift 8s ease-in-out infinite}
+@media (prefers-reduced-motion: reduce){*,*:before,*:after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}}
+
+@keyframes hok-sheet-slide-up {0%{transform:translateY(100%)}to{transform:translateY(0)}}
+.hok-sheet-enter {animation:hok-sheet-slide-up 0.45s cubic-bezier(0.16, 1, 0.3, 1) both}

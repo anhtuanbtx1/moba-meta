@@ -7,8 +7,8 @@ export default function HeaderNav() {
 
   const getNavClass = (isActive: boolean) => {
     return isActive 
-      ? "flex items-center gap-2 px-3 py-1.5 rounded-full border border-blue-500/50 bg-blue-500/10 shrink-0" 
-      : "flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/5 border border-white/5 text-gray-400 shrink-0 hover:bg-white/10";
+      ? "relative flex items-center gap-2 px-3 py-1.5 rounded-full border border-blue-500/50 bg-blue-500/10 shrink-0 hok-chip-active" 
+      : "relative flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/5 border border-white/5 text-gray-400 shrink-0 hover:bg-white/10 transition-all duration-300 active:scale-[0.98]";
   };
   const getNavTextClass = (isActive: boolean) => {
     return isActive 
@@ -18,12 +18,12 @@ export default function HeaderNav() {
   const getIconColor = (isActive: boolean) => isActive ? "#60a5fa" : "#9ca3af";
 
   return (
-    <div className="w-full bg-[#0A0A0F]">
+    <div className="w-full bg-[#0A0A0F] hok-nav-enter">
       {/* Sub-navigation Horizontal Scroll */}
       <div className="flex items-center gap-2 px-4 py-3 overflow-x-auto no-scrollbar border-b border-[#1A1A24]">
         
         {/* Logo/Icon */}
-        <Link to="/" className="w-8 h-8 rounded-xl bg-white flex items-center justify-center shrink-0 shadow-sm mr-1">
+        <Link to="/" className="w-8 h-8 rounded-xl bg-white flex items-center justify-center shrink-0 shadow-sm mr-1 hok-float">
           <div className="w-5 h-5 bg-gradient-to-br from-yellow-400 to-amber-600 rounded-full flex items-center justify-center">
              <Shield size={12} className="text-white" />
           </div>

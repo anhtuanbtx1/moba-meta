@@ -139,7 +139,7 @@ function DesktopLoreMap() {
                           resetTransform(600);
                         } else {
                           setSelectedRegion(region.id);
-                          zoomToElement(region.id, 1.5, 600);
+                          zoomToElement(region.id, 1.1, 600);
                         }
                       }}
                     >
@@ -221,15 +221,16 @@ function DesktopLoreMap() {
                         />
                       </svg>
 
-                      <div className="relative z-10 group hover:scale-110 transition-transform flex flex-col items-center">
-                        {/* Outer animated rings on hover */}
-                        <div className="absolute inset-[-8px] rounded-full border-[1.5px] border-dashed border-[#00e5ff] opacity-0 group-hover:opacity-60 transition-opacity duration-300 pointer-events-none" style={{ animation: 'spin 15s linear infinite' }}></div>
-                        <div className="absolute inset-[-8px] rounded-full border-2 border-transparent border-t-[#22c55e] border-r-[#22c55e] opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" style={{ animation: 'spin 8s linear infinite reverse' }}></div>
+                      <div className={`${isSelected ? 'animate-heroReveal' : ''}`}>
+                        <div className="relative z-10 group hover:scale-110 transition-transform flex flex-col items-center">
+                          {/* Outer animated rings on hover */}
+                          <div className="absolute inset-[-8px] rounded-full border-[1.5px] border-dashed border-[#00e5ff] opacity-0 group-hover:opacity-60 transition-opacity duration-300 pointer-events-none" style={{ animation: 'spin 15s linear infinite' }}></div>
+                          <div className="absolute inset-[-8px] rounded-full border-2 border-transparent border-t-[#22c55e] border-r-[#22c55e] opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" style={{ animation: 'spin 8s linear infinite reverse' }}></div>
 
-                        {/* Avatar */}
-                        <div className="w-16 h-16 rounded-full border-[1.5px] border-[#d4af37] bg-gray-900 overflow-hidden shadow-[0_0_15px_rgba(212,175,55,0.4)] relative z-10">
-                          <img src={hero.image} alt={hero.name} className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = "none"; }} />
-                        </div>
+                          {/* Avatar */}
+                          <div className="w-16 h-16 rounded-full border-[1.5px] border-[#d4af37] bg-gray-900 overflow-hidden shadow-[0_0_15px_rgba(212,175,55,0.4)] relative z-10">
+                            <img src={hero.image} alt={hero.name} className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = "none"; }} />
+                          </div>
 
                         {/* Tooltip Card */}
                         <div className="absolute top-[120%] bg-[#1a1814] border border-[#d4af37] rounded-xl px-5 py-2.5 w-max min-w-[130px] opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none shadow-[0_10px_30px_rgba(0,0,0,0.8)] z-50 flex flex-col items-center">
@@ -251,6 +252,7 @@ function DesktopLoreMap() {
                             ♦ {hero.views} NHIỆT
                           </span>
                         </div>
+                      </div>
                       </div>
                     </div>
                   );

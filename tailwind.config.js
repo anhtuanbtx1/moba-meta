@@ -21,6 +21,21 @@ export default {
       fontFamily: {
         sans: ['"Be Vietnam Pro"', 'sans-serif'],
         chakra: ['"Chakra Petch"', 'sans-serif'],
+      },
+      keyframes: {
+        pointsFlyUp: {
+          '0%': { transform: 'translateY(0) scale(1)', opacity: '1' },
+          '100%': { transform: 'translateY(-40px) scale(1.2)', opacity: '0' },
+        },
+        heroReveal: {
+          '0%': { transform: 'scale(0.8) translateY(20px)', opacity: '0' },
+          '50%': { transform: 'scale(1.05) translateY(-5px)', opacity: '1' },
+          '100%': { transform: 'scale(1) translateY(0)', opacity: '1' },
+        }
+      },
+      animation: {
+        pointsFlyUp: 'pointsFlyUp 0.8s ease-out forwards',
+        heroReveal: 'heroReveal 0.5s ease-out forwards',
       }
     },
   },

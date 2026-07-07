@@ -1,0 +1,86 @@
+{
+  "id": "dac-ky",
+  "slug": "dac-ky",
+  "name": "Đắc Kỷ",
+  "chineseName": "妲己",
+  "title": "YÊU HỒ MÊ HOẶC",
+  "regionId": "my-nhan",
+  "roles": [
+    "Pháp Sư",
+    "Sát Thủ"
+  ],
+  "lanes": [
+    "ĐƯỜNG GIỮA"
+  ],
+  "views": 15420,
+  "upvotes": 2150,
+  "downvotes": 85,
+  "stats": {
+    "winRate": "49,50%",
+    "banRate": "5,10%",
+    "pickRate": "22,40%"
+  },
+  "radar": {
+    "cong": 90,
+    "ky": 30,
+    "kho": 20,
+    "sinh": 20
+  },
+  "extraInfo": "2888",
+  "image": "/assets/images/heroes/dac_ky.webp",
+  "portrait": "/assets/images/heroes/dac_ky.webp",
+  "element": "am",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "MẤT MÁT",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "SUY YẾU"
+      ],
+      "description": "Các kỹ năng của Đắc Kỷ khi trúng đích sẽ làm giảm kháng phép của mục tiêu. Hiệu ứng này có thể cộng dồn tối đa 3 lần, khiến mục tiêu ngày càng dễ tổn thương trước sát thương phép.",
+      "image": "https://hokmoba.com/assets/images/heroes/dac-ky-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "SÓNG ÂM",
+      "type": "skill1",
+      "cooldown": "5s",
+      "mana": "60",
+      "tags": [
+        "SÁT THƯƠNG",
+        "TẦM XA"
+      ],
+      "description": "Đắc Kỷ tung ra một làn sóng năng lượng về phía trước, gây sát thương phép lên tất cả kẻ địch trúng phải trên đường bay.",
+      "image": "https://hokmoba.com/assets/images/heroes/dac-ky-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "NỤ HÔN HÚT HỒN",
+      "type": "skill2",
+      "cooldown": "8s",
+      "mana": "90",
+      "tags": [
+        "KHỐNG CHẾ",
+        "MỤC TIÊU ĐƠN"
+      ],
+      "description": "Đắc Kỷ trao một nụ hôn ma thuật bay về phía kẻ địch, gây sát thương phép và làm choáng mục tiêu trong 1.5 giây. Kỹ năng không thể trượt khi đã khóa mục tiêu.",
+      "image": "https://hokmoba.com/assets/images/heroes/dac-ky-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "NỮ VƯƠNG NỔI GIẬN",
+      "type": "skill3",
+      "cooldown": "12s",
+      "mana": "120",
+      "tags": [
+        "SÁT THƯƠNG LIÊN TỤC",
+        "KHÓA MỤC TIÊU"
+      ],
+      "description": "Đắc Kỷ giải phóng 5 luồng mị hỏa bám theo kẻ địch xung quanh, mỗi luồng gây sát thương phép. Nếu nhiều luồng hỏa cùng đánh trúng một mục tiêu, sát thương từ luồng thứ 2 trở đi sẽ bị giảm đi 50%.",
+      "image": "https://hokmoba.com/assets/images/heroes/dac-ky-skill3.jpg"
+    }
+  ]
+}

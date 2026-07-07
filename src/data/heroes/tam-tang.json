@@ -1,0 +1,84 @@
+{
+  "id": "tam-tang",
+  "slug": "tam-tang",
+  "name": "Kim Thiền",
+  "chineseName": "金蝉",
+  "title": "ĐƯỜNG TAM TẠNG",
+  "regionId": "tay-du",
+  "roles": [
+    "Pháp Sư"
+  ],
+  "lanes": [
+    "ĐƯỜNG GIỮA"
+  ],
+  "views": 11200,
+  "upvotes": 850,
+  "downvotes": 35,
+  "stats": {
+    "winRate": "52,80%",
+    "banRate": "25,10%",
+    "pickRate": "11,50%"
+  },
+  "radar": {
+    "cong": 85,
+    "ky": 70,
+    "kho": 60,
+    "sinh": 40
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/tam_tang.webp",
+  "portrait": "/assets/images/heroes/tam_tang.webp",
+  "element": "kim",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "CẨM LAN CÀ SA",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "MIỄN THƯƠNG"
+      ],
+      "description": "Sát thương một lần nhận vào không bao giờ vượt quá 10% lượng máu tối đa. Hiệu ứng này cũng áp dụng cho các đồng minh đang đứng trong vòng hào quang của Kim Thiền (khi kích hoạt chiêu cuối).",
+      "image": "https://hokmoba.com/assets/images/heroes/tam-tang-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "KHẨN CÔ CHÚ",
+      "type": "skill1",
+      "cooldown": "9s",
+      "mana": "50",
+      "tags": [
+        "TRÓI BUỘC",
+        "KHỐNG CHẾ"
+      ],
+      "description": "Kim Thiền ném ra một vòng kim cô trói buộc mục tiêu. Mục tiêu không thể sử dụng các kỹ năng lướt hoặc di chuyển nhanh để thoát ra khỏi vòng tròn này.",
+      "image": "https://hokmoba.com/assets/images/heroes/tam-tang-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "CỬU TÍCH TRƯỢNG",
+      "type": "skill2",
+      "cooldown": "7s",
+      "mana": "60",
+      "tags": [
+        "SÁT THƯƠNG TRẬN PHÁP"
+      ],
+      "description": "Tạo ra 9 đóa hoa sen tại một khu vực, gây sát thương phép liên tục. Nếu kết hợp với Khẩn Cô Chú, kẻ địch bị trói sẽ tự động thu hút hoa sen tấn công.",
+      "image": "https://hokmoba.com/assets/images/heroes/tam-tang-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "ĐẠI THỪA PHẬT PHÁP",
+      "type": "skill3",
+      "cooldown": "45s",
+      "mana": "100",
+      "tags": [
+        "BẢO KÊ TEAM",
+        "BỘT PHÁT"
+      ],
+      "description": "Kim Thiền tỏa hào quang Cẩm Lan Cà Sa ra toàn bộ đồng minh xung quanh, chia sẻ hiệu ứng nội tại. Tái kích hoạt để bắn ra một chưởng lực phật giáo khổng lồ về phía trước.",
+      "image": "https://hokmoba.com/assets/images/heroes/tam-tang-skill3.jpg"
+    }
+  ]
+}

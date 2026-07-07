@@ -1,0 +1,88 @@
+{
+  "id": "ngo-khong",
+  "slug": "ngo-khong",
+  "name": "Tôn Ngộ Không",
+  "chineseName": "孙悟空",
+  "title": "TỀ THIÊN ĐẠI THÁNH",
+  "regionId": "tay-du",
+  "roles": [
+    "Sát Thủ",
+    "Đấu Sĩ"
+  ],
+  "lanes": [
+    "RỪNG",
+    "ĐƯỜNG ĐỐI KHÁNG"
+  ],
+  "views": 25800,
+  "upvotes": 3500,
+  "downvotes": 120,
+  "stats": {
+    "winRate": "51,20%",
+    "banRate": "45,50%",
+    "pickRate": "30,80%"
+  },
+  "radar": {
+    "cong": 100,
+    "ky": 70,
+    "kho": 40,
+    "sinh": 40
+  },
+  "extraInfo": "18.888",
+  "image": "/assets/images/heroes/ngo_khong.webp",
+  "portrait": "/assets/images/heroes/ngo_khong.webp",
+  "element": "loi",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "ĐẠI THÁNH THẦN UY",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "CHÍ MẠNG",
+        "CƯỜNG HÓA"
+      ],
+      "description": "Mỗi lần tung chiêu, đòn đánh thường tiếp theo của Ngộ Không được cường hóa thành đập gậy, đột kích đến sát kẻ địch và gây lượng lớn sát thương vật lý. Ngộ Không bẩm sinh sở hữu 20% tỷ lệ chí mạng nhưng sát thương chí mạng cơ bản chỉ bằng 150%.",
+      "image": "https://hokmoba.com/assets/images/heroes/ngo-khong-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "HỘ THÂN CHÚ",
+      "type": "skill1",
+      "cooldown": "10s",
+      "mana": "50",
+      "tags": [
+        "MIỄN KHỐNG CHẾ",
+        "TÀNG HÌNH"
+      ],
+      "description": "Ngộ Không niệm chú giúp bản thân miễn nhiễm một lần kỹ năng của kẻ địch trong 1.5 giây. Nếu chặn thành công, Ngộ Không nhận được một lớp khiên ảo và tàng hình trong 1 giây.",
+      "image": "https://hokmoba.com/assets/images/heroes/ngo-khong-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "CÂN ĐẨU VÂN",
+      "type": "skill2",
+      "cooldown": "8s",
+      "mana": "40",
+      "tags": [
+        "LƯỚT",
+        "VƯỢT ĐỊA HÌNH"
+      ],
+      "description": "Ngộ Không lướt về phía trước. Nếu lướt trúng mục tiêu (kể cả lính, quái hoặc đồng minh), Ngộ Không sẽ mượn lực nhảy vọt thêm một đoạn nữa trên không.",
+      "image": "https://hokmoba.com/assets/images/heroes/ngo-khong-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "NHƯ Ý KIM CÔ BẢNG",
+      "type": "skill3",
+      "cooldown": "36s",
+      "mana": "100",
+      "tags": [
+        "KHỐNG CHẾ",
+        "SÁT THƯƠNG DIỆN RỘNG"
+      ],
+      "description": "Ngộ Không cắm cây gậy Như Ý khổng lồ xuống đất, làm choáng tất cả kẻ địch trong phạm vi 1 giây và khắc 3 dấu ấn lên chúng. Các đòn đánh thường lên kẻ có dấu ấn sẽ gây thêm sát thương và tiêu hao 1 dấu ấn.",
+      "image": "https://hokmoba.com/assets/images/heroes/ngo-khong-skill3.jpg"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "truong-phi",
+  "slug": "truong-phi",
+  "name": "Trương Phi",
+  "chineseName": "张飞",
+  "title": "CẤM HUYẾT CUỒNG THÚ",
+  "regionId": "tam-quoc",
+  "roles": [
+    "Hỗ Trợ",
+    "Đỡ Đòn"
+  ],
+  "lanes": [
+    "HỖ TRỢ"
+  ],
+  "views": 4320,
+  "upvotes": 580,
+  "downvotes": 12,
+  "stats": {
+    "winRate": "52,40%",
+    "banRate": "1,50%",
+    "pickRate": "10,20%"
+  },
+  "radar": {
+    "cong": 20,
+    "ky": 60,
+    "kho": 40,
+    "sinh": 100
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/truong_phi.webp",
+  "portrait": "/assets/images/heroes/truong_phi.webp",
+  "element": "tho",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "ÁM CẢNH QUẦN SÁT",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "CUỒNG Ý",
+        "KHỐNG CHẾ"
+      ],
+      "description": "Các đòn đánh thường của Trương Phi sẽ tích lũy Cuồng Ý. Khi giải phóng sức mạnh biến hình, Trương Phi nhận được khiên ảo khổng lồ và cường hóa toàn bộ kỹ năng.",
+      "image": "https://hokmoba.com/assets/images/heroes/truong-phi-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "HOA TỰ BÁT TRẬN",
+      "type": "skill1",
+      "cooldown": "6s",
+      "mana": "0",
+      "tags": [
+        "SÁT THƯƠNG",
+        "ĐẨY LÙI"
+      ],
+      "description": "Trương Phi vung xà mâu đẩy lùi kẻ địch xung quanh, gây sát thương vật lý và nhận thêm Cuồng Ý.",
+      "image": "https://hokmoba.com/assets/images/heroes/truong-phi-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "THỦ HỘ CƠ QUAN",
+      "type": "skill2",
+      "cooldown": "10s",
+      "mana": "0",
+      "tags": [
+        "LƯỚT",
+        "TẠO KHIÊN"
+      ],
+      "description": "Trương Phi nhảy đến vị trí chỉ định, tạo một lớp khiên cho bản thân và đồng minh xung quanh, đồng thời nhận thêm Cuồng Ý.",
+      "image": "https://hokmoba.com/assets/images/heroes/truong-phi-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "CUỒNG THÚ HUYẾT TÍNH",
+      "type": "skill3",
+      "cooldown": "40s",
+      "mana": "0",
+      "tags": [
+        "BIẾN HÌNH",
+        "LÀM CHOÁNG"
+      ],
+      "description": "Khi Cuồng Ý đạt tối đa, Trương Phi có thể rống lên hất văng và làm choáng kẻ địch trên một đường thẳng, bản thân hóa thành Cự thú nhận lượng khiên ảo bằng 40% máu tối đa.",
+      "image": "https://hokmoba.com/assets/images/heroes/truong-phi-skill3.jpg"
+    }
+  ]
+}
