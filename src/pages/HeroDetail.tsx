@@ -303,7 +303,7 @@ const HeroDetail: React.FC = () => {
       </div>
       
       {/* Floating Action Button */}
-      <button className="fixed bottom-8 right-8 w-12 h-12 bg-transparent border border-[#d4af37]/30 rounded-full flex items-center justify-center text-[#d4af37] hover:bg-[#d4af37]/10 transition-colors backdrop-blur-sm z-50">
+      <button className="hidden md:flex fixed bottom-8 right-8 w-12 h-12 bg-transparent border border-[#d4af37]/30 rounded-full items-center justify-center text-[#d4af37] hover:bg-[#d4af37]/10 transition-colors backdrop-blur-sm z-50">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-5 h-5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path><line x1="12" y1="9" x2="12" y2="15"></line><line x1="9" y1="12" x2="15" y2="12"></line></svg>
       </button>
     </div>
