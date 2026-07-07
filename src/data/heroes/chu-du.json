@@ -1,0 +1,86 @@
+{
+  "id": "chu-du",
+  "slug": "chu-du",
+  "name": "Chu Du",
+  "chineseName": "周瑜",
+  "title": "THIẾT HUYẾT ĐÔ ĐỐC",
+  "regionId": "tam-quoc",
+  "roles": [
+    "Pháp Sư"
+  ],
+  "lanes": [
+    "ĐƯỜNG GIỮA"
+  ],
+  "views": 10500,
+  "upvotes": 950,
+  "downvotes": 20,
+  "stats": {
+    "winRate": "50,80%",
+    "banRate": "1,20%",
+    "pickRate": "9,60%"
+  },
+  "radar": {
+    "cong": 85,
+    "ky": 75,
+    "kho": 60,
+    "sinh": 40
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/chu_du.webp",
+  "portrait": "/assets/images/heroes/chu_du.webp",
+  "element": "hoa",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "DẪN HỎA",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "THIÊU ĐỐT",
+        "SÁT THƯƠNG CHUẨN"
+      ],
+      "description": "Các kỹ năng và đòn đánh thường của Chu Du sẽ khắc dấu ấn Hỏa Diệm lên kẻ địch. Khi tích đủ 4 dấu ấn, mục tiêu sẽ bị bốc cháy, chịu sát thương phép liên tục và bị giảm tốc độ di chuyển trong thời gian ngắn.",
+      "image": "https://hokmoba.com/assets/images/heroes/chu-du-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "ĐÔNG PHONG",
+      "type": "skill1",
+      "cooldown": "5s",
+      "mana": "50",
+      "tags": [
+        "ĐẨY LÙI",
+        "LAN TRUYỀN"
+      ],
+      "description": "Chu Du vung tay tạo ra một trận cuồng phong thổi theo hướng chỉ định. Gió không chỉ đẩy lùi kẻ địch ở gần mà còn giúp thổi bùng và lan rộng các vùng lửa (tạo ra từ chiêu 2) về phía trước.",
+      "image": "https://hokmoba.com/assets/images/heroes/chu-du-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "LƯU HỎA",
+      "type": "skill2",
+      "cooldown": "8s",
+      "mana": "60",
+      "tags": [
+        "KHU VỰC",
+        "SÁT THƯƠNG LIÊN TỤC"
+      ],
+      "description": "Chu Du gọi xuống một cơn mưa lửa tại vị trí chỉ định, gây sát thương phép và tạo ra một vùng hỏa diệm. Kẻ địch đứng trong vùng lửa sẽ chịu sát thương liên tục và bị khắc dấu ấn. Kỹ năng có thể tích trữ tối đa 3 lần.",
+      "image": "https://hokmoba.com/assets/images/heroes/chu-du-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "PHONG HỎA LIÊU NGUYÊN",
+      "type": "skill3",
+      "cooldown": "40s",
+      "mana": "100",
+      "tags": [
+        "KHỐNG CHẾ",
+        "SÁT THƯƠNG RỘNG"
+      ],
+      "description": "Chu Du phóng ra một luồng lửa khổng lồ về phía trước, gây sát thương phép cực lớn. Nếu ngọn lửa này quét qua các vùng lửa (tạo từ chiêu 2), ngọn lửa sẽ bùng phát và làm choáng những kẻ địch đứng trong đó.",
+      "image": "https://hokmoba.com/assets/images/heroes/chu-du-skill3.jpg"
+    }
+  ]
+}

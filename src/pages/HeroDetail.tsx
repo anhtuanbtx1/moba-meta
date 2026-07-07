@@ -35,7 +35,16 @@ const HeroDetail: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-col md:flex-row h-[100dvh] bg-[#0d0d12] text-white font-sans overflow-hidden hok-page-enter relative">
+    <div 
+      className="flex flex-col md:flex-row h-[100dvh] text-white font-sans overflow-hidden hok-page-enter relative"
+      style={{
+        backgroundImage: 'url(/assets/images/background/layout_dashboard.webp)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed',
+        backgroundColor: '#0d0d12'
+      }}
+    >
       {/* Sidebar Navigation */}
       <div className="hidden md:flex w-16 bg-[#09090b] border-r border-white/5 flex-col items-center py-6 z-20">
         <Link to="/" className="p-3 mb-8 text-gray-400 hover:text-white transition-colors">
@@ -158,7 +167,7 @@ const HeroDetail: React.FC = () => {
           <div className="flex flex-col md:flex-row gap-4 md:gap-6">
             
             {/* Meta Performance */}
-            <div className="flex-1 bg-[#12121a] border border-[#1a1a24] rounded-xl p-6 relative overflow-hidden group">
+            <div className="flex-1 bg-[#12121a]/80 border border-[#1a1a24] rounded-xl p-6 relative overflow-hidden group">
               <div className="absolute top-0 left-0 w-1.5 h-full bg-gradient-to-b from-[#d4af37] to-transparent"></div>
               
               <div className="flex justify-between items-start mb-8">
@@ -232,17 +241,41 @@ const HeroDetail: React.FC = () => {
           </div>
 
           {/* Skills Section */}
-          <div className="mt-4">
-            <div className="flex gap-6 mb-8 relative">
-              {hero.skills.map(skill => (
-                <div key={skill.id} className="flex flex-col items-center gap-3 cursor-pointer group" onClick={() => setActiveSkillId(skill.id)}>
-                  <div className={`w-16 h-16 rounded-xl border-2 transition-all overflow-hidden ${activeSkillId === skill.id ? 'border-[#d4af37] shadow-[0_0_15px_rgba(212,175,55,0.4)] scale-110' : 'border-gray-700 opacity-50 group-hover:opacity-100 group-hover:border-gray-500'}`}>
-                    <img src={skill.image} alt={skill.name} className="w-full h-full object-cover bg-gray-800" onError={(e) => { e.currentTarget.src = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="%23666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 8v4l3 3"></path></svg>'; }} />
+          <div className="mt-8">
+            {/* Tabs */}
+            <div className="flex mb-6">
+              <div className="bg-[#d4af37] text-black font-black text-[11px] px-6 py-2 uppercase tracking-widest cursor-pointer">
+                KỸ NĂNG CHÍNH
+              </div>
+              <div className="bg-[#1a1a24] text-gray-500 font-bold text-[11px] px-6 py-2 uppercase tracking-widest cursor-pointer hover:text-gray-300 transition-colors">
+                DẠNG HÓA THÚ
+              </div>
+            </div>
+
+            <div className="flex items-center gap-4 mb-8 w-full">
+              {hero.skills.map((skill) => {
+                const isActive = activeSkillId === skill.id;
+                const skillLabel = skill.type === 'passive' ? 'NỘI TẠI' : skill.type === 'skill1' ? 'CHIÊU 1' : skill.type === 'skill2' ? 'CHIÊU 2' : 'CHIÊU CUỐI';
+                
+                return (
+                  <div key={skill.id} className="flex flex-col items-center gap-3 cursor-pointer group" onClick={() => setActiveSkillId(skill.id)}>
+                    {/* Octagonal Frame */}
+                    <div className={`w-[72px] h-[72px] flex items-center justify-center transition-all duration-300 ${isActive ? 'bg-gradient-to-br from-[#ffd700] via-[#d4af37] to-[#aa8022] scale-105 shadow-[0_0_20px_rgba(212,175,55,0.4)]' : 'bg-[#333] opacity-50 group-hover:opacity-100 group-hover:bg-[#555]'}`} style={{ clipPath: 'polygon(15% 0%, 85% 0%, 100% 15%, 100% 85%, 85% 100%, 15% 100%, 0% 85%, 0% 15%)' }}>
+                      <div className="w-[68px] h-[68px] bg-black flex items-center justify-center relative overflow-hidden" style={{ clipPath: 'polygon(15% 0%, 85% 0%, 100% 15%, 100% 85%, 85% 100%, 15% 100%, 0% 85%, 0% 15%)' }}>
+                        <img src={skill.image} alt={skill.name} className={`w-full h-full object-cover transition-transform duration-500 ${isActive ? 'scale-110' : 'grayscale'}`} onError={(e) => { e.currentTarget.style.display = "none"; }} />
+                      </div>
+                    </div>
+                    {/* Label */}
+                    <span className={`text-[11px] font-black italic tracking-wider ${isActive ? 'text-white' : 'text-gray-600'}`}>{skillLabel}</span>
                   </div>
-                  <span className={`text-[10px] font-bold ${activeSkillId === skill.id ? 'text-white' : 'text-gray-500'}`}>{skill.name}</span>
-                </div>
-              ))}
-              <div className="absolute bottom-6 left-[300px] right-0 h-px bg-gradient-to-r from-[#d4af37] to-transparent opacity-50"></div>
+                );
+              })}
+              
+              {/* Decorative Line */}
+              <div className="flex-1 ml-4 mt-[-20px] flex">
+                <div className="h-[2px] w-24 bg-[#d4af37]"></div>
+                <div className="h-[2px] flex-1 bg-[#222]"></div>
+              </div>
             </div>
 
             <div className="pl-2 border-l-4 border-[#d4af37] mb-6">

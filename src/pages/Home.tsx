@@ -4,7 +4,16 @@ import { Sword, Trophy, Newspaper } from 'lucide-react';
 
 const Home: React.FC = () => {
   return (
-    <div className="min-h-screen bg-[#080810] text-gray-100 flex flex-col items-center justify-center p-6 text-center">
+    <div 
+      className="min-h-screen text-gray-100 flex flex-col items-center justify-center p-6 text-center"
+      style={{
+        backgroundImage: 'url(/assets/images/background/layout_dashboard.webp)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed',
+        backgroundColor: '#080810'
+      }}
+    >
       <div className="max-w-3xl">
         <h1 className="text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-gold-primary to-yellow-500 tracking-wider mb-6 font-chakra">
           HOK GAME MOBA CLONE

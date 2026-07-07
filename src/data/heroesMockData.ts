@@ -40,7 +40,7 @@ export interface HeroMockData {
 }
 
 export const REGIONS_MOCK = [
-  { id: "trung-vuc", name: "Trung Vực - Hà Lạc" },
+  { id: "tien-gioi", name: "Tiên Giới" },
   { id: "dong-vuc", name: "Đông Vực - Cửu Châu" },
   { id: "nam-vuc", name: "Nam Vực - Hoang Giao" },
   { id: "vi-tay", name: "Vi Tây Lục Mạc" },

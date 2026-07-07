@@ -3,7 +3,16 @@ import { Link } from 'react-router-dom';
 
 const MetaList: React.FC = () => {
   return (
-    <div className="min-h-screen bg-[#080810] text-gray-100 p-8">
+    <div 
+      className="min-h-screen text-gray-100 p-8"
+      style={{
+        backgroundImage: 'url(/assets/images/background/layout_dashboard.webp)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed',
+        backgroundColor: '#080810'
+      }}
+    >
       <div className="max-w-6xl mx-auto">
         <div className="flex items-center justify-between mb-8 border-b border-gray-800 pb-4">
           <h2 className="text-3xl font-black font-chakra text-gold-primary tracking-wider uppercase">

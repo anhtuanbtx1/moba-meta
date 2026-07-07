@@ -85,7 +85,16 @@ export default function Factions() {
   const currentHeroes = getHeroesByRegion(activeId) || getHeroesByRegion("truong-thanh");
 
   return (
-    <div className="h-[100dvh] bg-[#0A0A0F] text-gray-100 flex flex-col font-sans overflow-hidden relative hok-page-enter">
+    <div 
+      className="h-[100dvh] text-gray-100 flex flex-col font-sans overflow-hidden relative hok-page-enter"
+      style={{
+        backgroundImage: 'url(/assets/images/background/layout_dashboard.webp)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed',
+        backgroundColor: '#0A0A0F'
+      }}
+    >
       <HeaderNav />
       <div className="px-4 py-3 bg-[#0A0A0F] z-10 border-b border-[#1A1A24] sticky top-0">
         <div className="relative border border-[#d4af37]/25 rounded-2xl bg-[#12121A] hok-search-focus hok-shine">

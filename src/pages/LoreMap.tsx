@@ -27,9 +27,9 @@ function DesktopLoreMap() {
 
   const regions = REGIONS_MOCK.map((r, i) => {
     const coords = [
-      { x: 380, y: 250 }, // Jixia Academy
-      { x: 780, y: 480 }, // Chang An
-      { x: 420, y: 650 }, // Sea
+      { x: 780, y: 480 }, // Center
+      { x: 380, y: 250 }, // Top left
+      { x: 30, y: 650 }, // Bottom left
       { x: 920, y: 280 }, // Forest
       { x: 120, y: 450 }, // Desert
       { x: 650, y: 180 }, // New Region 1
@@ -65,9 +65,16 @@ function DesktopLoreMap() {
   });
 
   return (
-    <div className="w-full h-screen bg-[#0c0c16] text-white flex flex-col font-sans select-none overflow-hidden relative">
-      {/* Background Grid Pattern */}
-      <div className="absolute inset-0 bg-[radial-gradient(#1e1e38_1px,transparent_1px)] [background-size:24px_24px] opacity-30 z-0"></div>
+    <div 
+      className="w-full h-screen text-white flex flex-col font-sans select-none overflow-hidden relative"
+      style={{
+        backgroundImage: 'url(/assets/images/background/layout_dashboard.webp)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed',
+        backgroundColor: '#0c0c16'
+      }}
+    >
 
       {/* Top Header */}
       <header className="px-6 py-4 flex justify-between items-center border-b border-white/5 backdrop-blur-md bg-[#0c0c16]/80 z-20">
@@ -114,14 +121,23 @@ function DesktopLoreMap() {
                       <stop offset="100%" stopColor="#ff4d4d" stopOpacity="0.2" />
                     </linearGradient>
                   </defs>
-                  {/* Connect Jixia to Chang An */}
-                  <line x1="380" y1="250" x2="780" y2="480" stroke="url(#line-grad)" strokeWidth="2" strokeDasharray="5,5" />
-                  {/* Connect Desert to Jixia */}
-                  <line x1="120" y1="450" x2="380" y2="250" stroke="url(#line-grad)" strokeWidth="1.5" strokeDasharray="3,3" />
-                  {/* Connect Jixia to Sea */}
-                  <line x1="380" y1="250" x2="420" y2="650" stroke="url(#line-grad)" strokeWidth="1.5" strokeDasharray="3,3" />
-                  {/* Connect Chang An to Forest */}
-                  <line x1="780" y1="480" x2="920" y2="280" stroke="url(#line-grad)" strokeWidth="2" strokeDasharray="5,5" />
+                  {/* Dynamic connection lines from Center (index 0) to others */}
+                  {regions.map((region, index) => {
+                    if (index === 0) return null; // Skip center itself
+                    const center = regions[0];
+                    return (
+                      <line
+                        key={`line-${index}`}
+                        x1={center.x}
+                        y1={center.y}
+                        x2={region.x}
+                        y2={region.y}
+                        stroke="url(#line-grad)"
+                        strokeWidth="1.5"
+                        strokeDasharray="4,4"
+                      />
+                    );
+                  })}
                 </svg>
 
                 {/* Region Nodes */}
@@ -232,27 +248,27 @@ function DesktopLoreMap() {
                             <img src={hero.image} alt={hero.name} className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = "none"; }} />
                           </div>
 
-                        {/* Tooltip Card */}
-                        <div className="absolute top-[120%] bg-[#1a1814] border border-[#d4af37] rounded-xl px-5 py-2.5 w-max min-w-[130px] opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none shadow-[0_10px_30px_rgba(0,0,0,0.8)] z-50 flex flex-col items-center">
-                          <span className="text-white font-black text-sm tracking-widest uppercase drop-shadow-md">
-                            {hero.name}
-                          </span>
-                          <span className="text-[#d4af37] font-bold text-[9px] tracking-widest uppercase mt-0.5">
-                            {hero.roles.join(" - ")}
-                          </span>
+                          {/* Tooltip Card */}
+                          <div className="absolute top-[120%] bg-[#1a1814] border border-[#d4af37] rounded-xl px-5 py-2.5 w-max min-w-[130px] opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none shadow-[0_10px_30px_rgba(0,0,0,0.8)] z-50 flex flex-col items-center">
+                            <span className="text-white font-black text-sm tracking-widest uppercase drop-shadow-md">
+                              {hero.name}
+                            </span>
+                            <span className="text-[#d4af37] font-bold text-[9px] tracking-widest uppercase mt-0.5">
+                              {hero.roles.join(" - ")}
+                            </span>
 
-                          {/* Decorative Divider */}
-                          <div className="flex items-center justify-center w-full my-2">
-                            <div className="w-[3px] h-[3px] rotate-45 bg-[#d4af37]"></div>
-                            <div className="h-[1px] bg-[#d4af37]/60 flex-1 mx-1"></div>
-                            <div className="w-[3px] h-[3px] rotate-45 bg-[#d4af37]"></div>
+                            {/* Decorative Divider */}
+                            <div className="flex items-center justify-center w-full my-2">
+                              <div className="w-[3px] h-[3px] rotate-45 bg-[#d4af37]"></div>
+                              <div className="h-[1px] bg-[#d4af37]/60 flex-1 mx-1"></div>
+                              <div className="w-[3px] h-[3px] rotate-45 bg-[#d4af37]"></div>
+                            </div>
+
+                            <span className="text-[#d4af37] font-bold text-[10px] tracking-widest uppercase">
+                              ♦ {hero.views} NHIỆT
+                            </span>
                           </div>
-
-                          <span className="text-[#d4af37] font-bold text-[10px] tracking-widest uppercase">
-                            ♦ {hero.views} NHIỆT
-                          </span>
                         </div>
-                      </div>
                       </div>
                     </div>
                   );

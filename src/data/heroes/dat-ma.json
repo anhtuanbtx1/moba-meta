@@ -1,0 +1,88 @@
+{
+  "id": "dat-ma",
+  "slug": "dat-ma",
+  "name": "Đạt Ma",
+  "chineseName": "达摩",
+  "title": "ĐẠT MA SƯ TỔ",
+  "regionId": "tien-gioi",
+  "roles": [
+    "Đấu Sĩ",
+    "Đỡ Đòn"
+  ],
+  "lanes": [
+    "ĐƯỜNG ĐỐI KHÁNG",
+    "RỪNG"
+  ],
+  "views": 14200,
+  "upvotes": 1350,
+  "downvotes": 30,
+  "stats": {
+    "winRate": "51,40%",
+    "banRate": "2,50%",
+    "pickRate": "14,80%"
+  },
+  "radar": {
+    "cong": 70,
+    "ky": 60,
+    "kho": 60,
+    "sinh": 80
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/dat_ma.webp",
+  "portrait": "/assets/images/heroes/dat_ma.webp",
+  "element": "kim",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "CHÂN NGÔN - TÂM KINH",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "TĂNG GIÁP",
+        "HỒI PHỤC"
+      ],
+      "description": "Mỗi lần tung chiêu trúng đích, Đạt Ma được tăng giáp vật lý (có thể cộng dồn tối đa 3 lần). Đồng thời, 2 đòn đánh thường tiếp theo sẽ được tăng tốc độ đánh và hồi phục một lượng máu nhỏ.",
+      "image": "https://hokmoba.com/assets/images/heroes/dat-ma-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "CHÂN NGÔN - VÔ TƯỚNG",
+      "type": "skill1",
+      "cooldown": "7s",
+      "mana": "0",
+      "tags": [
+        "LƯỚT",
+        "HẤT TUNG"
+      ],
+      "description": "Đạt Ma lao về phía trước, tung một cú đấm uy lực. Kẻ địch trúng chiêu sẽ chịu sát thương vật lý và bị hất tung trong thời gian ngắn.",
+      "image": "https://hokmoba.com/assets/images/heroes/dat-ma-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "CHÂN NGÔN - MINH VƯƠNG",
+      "type": "skill2",
+      "cooldown": "6s",
+      "mana": "0",
+      "tags": [
+        "LIÊN HOÀN",
+        "GIẢM GIÁP"
+      ],
+      "description": "Đạt Ma tung ra một chuỗi quyền cước chớp nhoáng về phía trước, mỗi cú đấm gây sát thương vật lý và giảm giáp của mục tiêu. Hiệu ứng giảm giáp có thể cộng dồn lên đến 5 lần.",
+      "image": "https://hokmoba.com/assets/images/heroes/dat-ma-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "CHÂN NGÔN - PHỔ ĐỘ",
+      "type": "skill3",
+      "cooldown": "35s",
+      "mana": "0",
+      "tags": [
+        "ĐẨY LÙI",
+        "CHOÁNG ĐỊA HÌNH"
+      ],
+      "description": "Đạt Ma tung cú đá cực mạnh đẩy lùi kẻ địch theo hướng chỉ định. Nếu kẻ địch bị đẩy va vào vách đá (địa hình), chúng sẽ bị làm choáng và chịu thêm sát thương vật lý. Khi đó, Đạt Ma có thể kích hoạt chiêu này lần 2 để bay đến tung cú đá kết liễu dựa trên máu đã mất của mục tiêu.",
+      "image": "https://hokmoba.com/assets/images/heroes/dat-ma-skill3.jpg"
+    }
+  ]
+}
