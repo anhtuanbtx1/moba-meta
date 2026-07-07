@@ -1,0 +1,35 @@
+{
+  "id": "tieu-du",
+  "slug": "tieu-du",
+  "name": "Tiêu Dự",
+  "chineseName": "萧玉",
+  "title": "HỒNG YỂN MỸ NHÂN",
+  "regionId": "my-nhan",
+  "roles": [
+    "Đấu Sĩ",
+    "Hỗ Trợ"
+  ],
+  "lanes": [
+    "ĐƯỜNG TÀI CHÁNH",
+    "HỖ TRỢ"
+  ],
+  "views": 7600,
+  "upvotes": 540,
+  "downvotes": 19,
+  "stats": {
+    "winRate": "50,70%",
+    "banRate": "1,90%",
+    "pickRate": "3,10%"
+  },
+  "radar": {
+    "cong": 68,
+    "ky": 72,
+    "kho": 60,
+    "sinh": 58
+  },
+  "extraInfo": "9.888",
+  "image": "/assets/images/heroes/tieu_du.webp",
+  "portrait": "/assets/images/heroes/tieu_du.webp",
+  "element": "thuy",
+  "skills": []
+}

@@ -1,0 +1,88 @@
+{
+  "id": "ham-huong",
+  "slug": "ham-huong",
+  "name": "Hàm Hương",
+  "chineseName": "香妃",
+  "title": "HƯƠNG PHI TÂY VỰC",
+  "regionId": "my-nhan",
+  "roles": [
+    "Pháp Sư",
+    "Hỗ Trợ"
+  ],
+  "lanes": [
+    "ĐƯỜNG GIỮA",
+    "HỖ TRỢ"
+  ],
+  "views": 12600,
+  "upvotes": 980,
+  "downvotes": 24,
+  "stats": {
+    "winRate": "51,40%",
+    "banRate": "3,20%",
+    "pickRate": "7,60%"
+  },
+  "radar": {
+    "cong": 75,
+    "ky": 90,
+    "kho": 70,
+    "sinh": 45
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/ham_huong.webp",
+  "portrait": "/assets/images/heroes/ham_huong.webp",
+  "element": "phong",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "DỊ HƯƠNG DẪN ĐIỆP",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "HƯƠNG ẤN",
+        "LÀM CHẬM"
+      ],
+      "description": "Kỹ năng của Hàm Hương để lại Hương Ấn lên kẻ địch trong vài giây. Khi mục tiêu bị đánh dấu nhận sát thương phép lần nữa, đàn bướm hương sẽ kích hoạt gây thêm sát thương phép và làm chậm ngắn hạn.",
+      "image": "https://hokmoba.com/assets/images/heroes/ham-huong-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "HƯƠNG VŨ PHI HOA",
+      "type": "skill1",
+      "cooldown": "6s",
+      "mana": "50",
+      "tags": [
+        "SÁT THƯƠNG PHÉP",
+        "CẤU RỈA"
+      ],
+      "description": "Hàm Hương phóng một dải hương hoa theo hướng chỉ định, gây sát thương phép lên kẻ địch trên đường bay. Nếu trúng mục tiêu đang có Hương Ấn, kỹ năng được giảm hồi chiêu một phần.",
+      "image": "https://hokmoba.com/assets/images/heroes/ham-huong-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "ĐIỆP ẢNH MÊ HƯƠNG",
+      "type": "skill2",
+      "cooldown": "10s",
+      "mana": "70",
+      "tags": [
+        "KHỐNG CHẾ",
+        "TẠO VÙNG"
+      ],
+      "description": "Tạo một vùng hương thơm tại vị trí chỉ định. Kẻ địch trong vùng bị giảm tốc độ di chuyển; sau một khoảng trễ ngắn, vùng hương bùng nở gây sát thương phép và mê hoặc mục tiêu trong thoáng chốc.",
+      "image": "https://hokmoba.com/assets/images/heroes/ham-huong-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "THIÊN HƯƠNG VẠN ĐIỆP",
+      "type": "ultimate",
+      "cooldown": "36s",
+      "mana": "120",
+      "tags": [
+        "DIỆN RỘNG",
+        "HỖ TRỢ ĐỒNG ĐỘI"
+      ],
+      "description": "Hàm Hương triệu hồi đàn bướm bao phủ khu vực lớn, liên tục gây sát thương phép lên kẻ địch và hồi phục nhẹ cho đồng minh bên trong. Kẻ địch mang Hương Ấn sẽ chịu thêm sát thương và bị làm chậm mạnh hơn.",
+      "image": "https://hokmoba.com/assets/images/heroes/ham-huong-skill3.jpg"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "truong-le",
+  "slug": "truong-le",
+  "name": "Trương Lệ",
+  "chineseName": "张丽华",
+  "title": "VŨ KHÚC THIÊN HƯƠNG",
+  "regionId": "my-nhan",
+  "roles": [
+    "Sát Thủ",
+    "Pháp Sư"
+  ],
+  "lanes": [
+    "RỪNG",
+    "ĐƯỜNG GIỮA"
+  ],
+  "views": 9800,
+  "upvotes": 770,
+  "downvotes": 21,
+  "stats": {
+    "winRate": "50,20%",
+    "banRate": "2,90%",
+    "pickRate": "4,60%"
+  },
+  "radar": {
+    "cong": 80,
+    "ky": 82,
+    "kho": 74,
+    "sinh": 38
+  },
+  "extraInfo": "11.888",
+  "image": "/assets/images/heroes/truong_le.webp",
+  "portrait": "/assets/images/heroes/truong_le.webp",
+  "element": "hoa",
+  "skills": []
+}

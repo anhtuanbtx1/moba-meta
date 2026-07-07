@@ -1,0 +1,35 @@
+{
+  "id": "ma-nguyet",
+  "slug": "ma-nguyet",
+  "name": "Mã Nguyệt",
+  "chineseName": "马月",
+  "title": "NGUYỆT ẢNH HUYỀN CUNG",
+  "regionId": "my-nhan",
+  "roles": [
+    "Xạ Thủ",
+    "Pháp Sư"
+  ],
+  "lanes": [
+    "ĐƯỜNG RỒNG",
+    "ĐƯỜNG GIỮA"
+  ],
+  "views": 11400,
+  "upvotes": 890,
+  "downvotes": 33,
+  "stats": {
+    "winRate": "49,90%",
+    "banRate": "3,70%",
+    "pickRate": "5,20%"
+  },
+  "radar": {
+    "cong": 84,
+    "ky": 76,
+    "kho": 72,
+    "sinh": 44
+  },
+  "extraInfo": "12.888",
+  "image": "/assets/images/heroes/ma_nguyet.webp",
+  "portrait": "/assets/images/heroes/ma_nguyet.webp",
+  "element": "nguyet",
+  "skills": []
+}

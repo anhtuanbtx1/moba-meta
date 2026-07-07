@@ -1,0 +1,35 @@
+{
+  "id": "duong-quy-phi",
+  "slug": "duong-quy-phi",
+  "name": "Dương Quý Phi",
+  "chineseName": "杨玉环",
+  "title": "ĐỆ NHẤT MỸ NHÂN",
+  "regionId": "my-nhan",
+  "roles": [
+    "Pháp Sư",
+    "Hỗ Trợ"
+  ],
+  "lanes": [
+    "ĐƯỜNG GIỮA",
+    "HỖ TRỢ"
+  ],
+  "views": 18400,
+  "upvotes": 1510,
+  "downvotes": 40,
+  "stats": {
+    "winRate": "51,80%",
+    "banRate": "6,40%",
+    "pickRate": "8,90%"
+  },
+  "radar": {
+    "cong": 72,
+    "ky": 88,
+    "kho": 66,
+    "sinh": 48
+  },
+  "extraInfo": "15.888",
+  "image": "/assets/images/heroes/duong_quy_phi.webp",
+  "portrait": "/assets/images/heroes/duong_quy_phi.webp",
+  "element": "phong",
+  "skills": []
+}

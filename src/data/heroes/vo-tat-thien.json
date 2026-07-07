@@ -1,0 +1,86 @@
+{
+  "id": "vo-tat-thien",
+  "slug": "vo-tat-thien",
+  "name": "Võ Tắc Thiên",
+  "chineseName": "武则天",
+  "title": "NỮ ĐẾ THIÊN MỆNH",
+  "regionId": "my-nhan",
+  "roles": [
+    "Pháp Sư"
+  ],
+  "lanes": [
+    "ĐƯỜNG GIỮA"
+  ],
+  "views": 36800,
+  "upvotes": 3200,
+  "downvotes": 88,
+  "stats": {
+    "winRate": "52,10%",
+    "banRate": "18,40%",
+    "pickRate": "9,80%"
+  },
+  "radar": {
+    "cong": 90,
+    "ky": 85,
+    "kho": 70,
+    "sinh": 35
+  },
+  "extraInfo": "18.888",
+  "image": "/assets/images/heroes/vo_tat_thien.webp",
+  "portrait": "/assets/images/heroes/vo_tat_thien.webp",
+  "element": "kim",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "THIÊN MỆNH NỮ ĐẾ",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "TĂNG SỨC MẠNH",
+        "KHỐNG CHẾ"
+      ],
+      "description": "Sau mỗi lần sử dụng kỹ năng trúng tướng địch, Võ Tắc Thiên tích lũy Thiên Mệnh. Khi đạt đủ cộng dồn, kỹ năng kế tiếp được cường hóa, gây thêm sát thương phép và làm chậm mục tiêu trong thời gian ngắn.",
+      "image": "https://hokmoba.com/assets/images/heroes/vo-tat-thien-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "NỮ ĐẾ HUY HOÀNG",
+      "type": "skill1",
+      "cooldown": "5s",
+      "mana": "50",
+      "tags": [
+        "CẤU RỈA",
+        "SÁT THƯƠNG PHÉP"
+      ],
+      "description": "Võ Tắc Thiên phóng ra một luồng kim quang theo hướng chỉ định, gây sát thương phép lên kẻ địch trên đường bay. Nếu kỹ năng được cường hóa bởi Thiên Mệnh, luồng sáng sẽ nổ rộng tại điểm cuối và làm chậm kẻ địch.",
+      "image": "https://hokmoba.com/assets/images/heroes/vo-tat-thien-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "PHƯỢNG NGHI THIÊN HẠ",
+      "type": "skill2",
+      "cooldown": "10s",
+      "mana": "70",
+      "tags": [
+        "ĐẨY LÙI",
+        "BẢO VỆ"
+      ],
+      "description": "Triệu hồi uy áp đế vương quanh bản thân, đẩy lùi kẻ địch áp sát và gây sát thương phép. Đồng thời Võ Tắc Thiên nhận một lớp khiên mỏng và tăng tốc độ di chuyển để tái định vị trong giao tranh.",
+      "image": "https://hokmoba.com/assets/images/heroes/vo-tat-thien-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "THIÊN ĐỊNH CHIẾU MỆNH",
+      "type": "skill3",
+      "cooldown": "55s",
+      "mana": "120",
+      "tags": [
+        "TOÀN BẢN ĐỒ",
+        "LÀM CHOÁNG"
+      ],
+      "description": "Võ Tắc Thiên ra lệnh cho thiên uy giáng xuống tất cả tướng địch đang hiện diện trên bản đồ, gây sát thương phép và làm choáng trong thời gian ngắn. Đây là kỹ năng mở giao tranh hoặc kết liễu từ xa cực kỳ mạnh.",
+      "image": "https://hokmoba.com/assets/images/heroes/vo-tat-thien-skill3.jpg"
+    }
+  ]
+}
