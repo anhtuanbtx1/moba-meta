@@ -1,0 +1,87 @@
+{
+  "id": "tru-vuong",
+  "slug": "tru-vuong",
+  "name": "Trụ Vương",
+  "chineseName": "纣王",
+  "title": "BẠO CHÚA THƯƠNG TRIỀU",
+  "regionId": "phong-than",
+  "roles": [
+    "Đấu Sĩ",
+    "Đỡ Đòn"
+  ],
+  "lanes": [
+    "ĐƯỜNG ĐỐI KHÁNG"
+  ],
+  "views": 19400,
+  "upvotes": 1520,
+  "downvotes": 80,
+  "stats": {
+    "winRate": "50,40%",
+    "banRate": "3,20%",
+    "pickRate": "6,80%"
+  },
+  "radar": {
+    "cong": 75,
+    "ky": 70,
+    "kho": 50,
+    "sinh": 90
+  },
+  "extraInfo": "18.888",
+  "image": "/assets/images/heroes/tru_vuong.webp",
+  "portrait": "/assets/images/heroes/tru_vuong.webp",
+  "element": "am",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "LỘC ĐÀI THIÊU ĐỐT",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "NĂNG LƯỢNG NỔI GIẬN",
+        "THIÊU ĐỐT XUNG QUANH"
+      ],
+      "description": "Khi Trụ Vương chịu sát thương hoặc tấn công kẻ địch, ông tích lũy Cuồng Nộ. Khi thanh Cuồng Nộ đầy, Trụ Vương giải phóng lửa thiêu từ Lộc Đài ra xung quanh, gây sát thương phép liên tục lên kẻ địch lân cận và giảm 15% tốc độ đánh của chúng.",
+      "image": "https://hokmoba.com/assets/images/heroes/tru-vuong-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "BẠO VƯƠNG PHI TRẢM",
+      "type": "skill1",
+      "cooldown": "7s",
+      "mana": "50",
+      "tags": [
+        "LƯỚT GÂY SÁT THƯƠNG",
+        "HẤT LÙI"
+      ],
+      "description": "Trụ Vương vung cự kiếm lao về phía trước, gây sát thương vật lý và hất lùi toàn bộ kẻ địch trên đường lướt. Kẻ địch bị hất va chạm vào địa hình sẽ bị làm choáng trong 1 giây.",
+      "image": "https://hokmoba.com/assets/images/heroes/tru-vuong-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "TỬU TRÌ NHỤC LÂM",
+      "type": "skill2",
+      "cooldown": "10s",
+      "mana": "60",
+      "tags": [
+        "HỒI PHỤC MÁU TỐI THƯỢNG",
+        "KHU VỰC LÀM CHẬM"
+      ],
+      "description": "Trụ Vương triệu hồi khu vực Tửu Trì Nhục Lâm tại vị trí chỉ định tồn tại trong 4 giây. Kẻ địch đứng trong vùng này sẽ bị làm chậm 40% tốc chạy và gánh chịu sát thương phép, đồng thời Trụ Vương được hồi phục máu dựa trên lượng máu đã mất mỗi giây khi đứng trong vùng này.",
+      "image": "https://hokmoba.com/assets/images/heroes/tru-vuong-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "BẠO NGƯỢC CHI THỂ",
+      "type": "skill3",
+      "cooldown": "40s",
+      "mana": "120",
+      "tags": [
+        "BIẾN HÌNH KHỔNG LỒ",
+        "CƯỜNG HÓA SONG KHÁNG"
+      ],
+      "description": "Trụ Vương hóa thành Ác Ma Bạo Quân khổng lồ trong 10 giây. Tăng ngay 20% máu tối đa, 150 Giáp và Kháng Phép. Đòn đánh thường trong trạng thái này chuyển thành đòn đánh lan diện rộng, gây thêm sát thương vật lý tỷ lệ thuận với lượng máu tối đa của bản thân.",
+      "image": "https://hokmoba.com/assets/images/heroes/tru-vuong-skill3.jpg"
+    }
+  ]
+}

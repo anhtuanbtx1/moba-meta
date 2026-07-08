@@ -1,0 +1,87 @@
+{
+  "id": "ngu-co",
+  "slug": "ngu-co",
+  "name": "Ngu Cơ",
+  "chineseName": "虞姬",
+  "title": "VŨ ĐIỆU CỦA GIÓ",
+  "regionId": "my-nhan",
+  "roles": [
+    "Xạ Thủ"
+  ],
+  "lanes": [
+    "ĐƯỜNG PHÁT TRIỂN"
+  ],
+  "views": 28400,
+  "upvotes": 2450,
+  "downvotes": 75,
+  "stats": {
+    "winRate": "51,20%",
+    "banRate": "4,80%",
+    "pickRate": "18,90%"
+  },
+  "radar": {
+    "cong": 90,
+    "ky": 70,
+    "kho": 40,
+    "sinh": 50
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/ngu_co.webp",
+  "portrait": "/assets/images/heroes/ngu_co.webp",
+  "element": "phong",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "THƯỜNG PHONG THẦN DUỆ",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "ĐÁNH THƯỜNG KÉP",
+        "LÀM CHẬM"
+      ],
+      "description": "Ngu Cơ có 25% cơ chế bắn ra 2 mũi tên đồng thời khi đánh thường, gây sát thương vật lý và làm chậm 15% tốc chạy của kẻ địch (cộng dồn tối đa 3 lần).",
+      "image": "https://hokmoba.com/assets/images/heroes/ngu-co-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "SỞ CA TIÊN TIỄN",
+      "type": "skill1",
+      "cooldown": "5s",
+      "mana": "50",
+      "tags": [
+        "TẬM BẮN KHỦNG",
+        "SÁT THƯƠNG ĐƯỜNG THẲNG"
+      ],
+      "description": "Ngu Cơ tụ lực rồi bắn ra một mũi tên cực mạnh theo hướng chỉ định, xuyên qua mọi kẻ địch trên đường bay. Mũi tên gây sát thương vật lý lớn, lượng sát thương giảm dần 15% qua mỗi mục tiêu xuyên qua (tối thiểu 60%).",
+      "image": "https://hokmoba.com/assets/images/heroes/ngu-co-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "ĐẠI PHONG LAI",
+      "type": "skill2",
+      "cooldown": "12s",
+      "mana": "60",
+      "tags": [
+        "MIỄN SÁT THƯƠNG VẬT LÝ",
+        "TĂNG TỐC DI CHUYỂN CHẠY"
+      ],
+      "description": "Ngu Cơ kích hoạt thần lực của gió, tăng ngay 30% tốc chạy và hoàn toàn miễn nhiễm với mọi nguồn sát thương vật lý gánh chịu trong 2 giây. Đồng thời, kỹ năng tăng mạnh tốc độ đánh ở đòn đánh tiếp theo.",
+      "image": "https://hokmoba.com/assets/images/heroes/ngu-co-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "TRẬN GIÓ HỒI HƯỚNG",
+      "type": "skill3",
+      "cooldown": "20s",
+      "mana": "100",
+      "tags": [
+        "NHẢY ĐÁP ÁP SÁT",
+        "LÀM CHOÁNG",
+        "RÚT LUI AN TOÀN"
+      ],
+      "description": "Ngu Cơ lao thẳng vào kẻ địch chỉ định, làm choáng mục tiêu trong 0.5 giây và làm chậm 90% tốc chạy. Sau đó, cô lộn nhào ngược về vị trí an toàn xa hơn tầm đánh thường, liên tục bắn ra 2 mũi tên chí mạng lên mục tiêu trong quá trình di chuyển.",
+      "image": "https://hokmoba.com/assets/images/heroes/ngu-co-skill3.jpg"
+    }
+  ]
+}

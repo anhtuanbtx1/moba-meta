@@ -1,0 +1,87 @@
+{
+  "id": "van-trung-quan",
+  "slug": "van-trung-quan",
+  "name": "Vân Trung Quân",
+  "chineseName": "云中君",
+  "title": "LƯU VÂN BẤT KHỞI",
+  "regionId": "nam-vuc",
+  "roles": [
+    "Sát Thủ",
+    "Đấu Sĩ"
+  ],
+  "lanes": [
+    "ĐI RỪNG"
+  ],
+  "views": 17800,
+  "upvotes": 1280,
+  "downvotes": 45,
+  "stats": {
+    "winRate": "50,80%",
+    "banRate": "1,50%",
+    "pickRate": "4,90%"
+  },
+  "radar": {
+    "cong": 85,
+    "ky": 70,
+    "kho": 65,
+    "sinh": 50
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/van_trung_quan.webp",
+  "portrait": "/assets/images/heroes/van_trung_quan.webp",
+  "element": "phong",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "VÂN THỂ HIỆP VŨ",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "BAY VƯỢT ĐỊA HÌNH",
+        "SÁT THƯƠNG CHẢY MÁU"
+      ],
+      "description": "Vân Trung Quân duy trì trạng thái Bay tự do khi thanh Năng Lượng Thần Vũ đầy, cho phép anh bay vượt qua mọi địa hình. Đòn đánh thường trong trạng thái bay sẽ cào xé mục tiêu gây chảy máu liên tục. Khi cạn năng lượng, anh sẽ tiếp đất và không thể bay cho đến khi tích đầy lại.",
+      "image": "https://hokmoba.com/assets/images/heroes/van-trung-quan-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "CÁNH GIÓ BÙNG NỔ",
+      "type": "skill1",
+      "cooldown": "9s",
+      "mana": "50",
+      "tags": [
+        "TĂNG TỐC LAO LẶN",
+        "CHOÁNG MỤC TIÊU"
+      ],
+      "description": "Vân Trung Quân tụ lực tăng mạnh tốc độ di chuyển chạy rồi lao thẳng vào kẻ địch, gây sát thương vật lý và làm choáng nhẹ. Đồng thời làm giảm 30% sát thương của mục tiêu gây ra lên Vân Trung Quân trong 3 giây.",
+      "image": "https://hokmoba.com/assets/images/heroes/van-trung-quan-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "VŨ LẠC PHƯƠNG HOA",
+      "type": "skill2",
+      "cooldown": "6s",
+      "mana": "45",
+      "tags": [
+        "MIỄN KHỐNG CHẾ",
+        "PHÓNG VŨ TIỄN"
+      ],
+      "description": "Vân Trung Quân xoay người giải phóng lông vũ sắc nhọn ra xung quanh, gây sát thương vật lý lên kẻ địch lân cận. Kích hoạt chiêu giúp anh nhận trạng thái miễn nhiễm khống chế trong 1 giây.",
+      "image": "https://hokmoba.com/assets/images/heroes/van-trung-quan-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "PHONG LÔI VÂN LẬP",
+      "type": "skill3",
+      "cooldown": "40s",
+      "mana": "110",
+      "tags": [
+        "KHÔNG THỂ BỊ CHỌN LÀM MỤC TIÊU",
+        "BÃO LÔNG VŨ KHỐNG CHẾ"
+      ],
+      "description": "Vân Trung Quân bay vút lên bầu trời, nhận trạng thái không thể bị chọn làm mục tiêu và hồi đầy năng lượng Thần Vũ. Sau đó, anh lao thẳng xuống mặt đất tạo ra một trận bão lông vũ dữ dội gây sát thương vật lý diện rộng và hất tung kẻ địch đứng ở trung tâm bão.",
+      "image": "https://hokmoba.com/assets/images/heroes/van-trung-quan-skill3.jpg"
+    }
+  ]
+}

@@ -104,7 +104,7 @@ const HeroDetail: React.FC = () => {
           </div>
           
           <h3 className="text-gray-300 text-sm tracking-[0.3em] font-semibold mb-1 uppercase">{hero.title}</h3>
-          <h1 className="text-6xl font-serif font-black text-[#f8f5ec] tracking-wider mb-8 uppercase" style={{ textShadow: '2px 2px 10px rgba(0,0,0,0.8)' }}>
+          <h1 className="text-6xl font-sans font-black text-[#f8f5ec] tracking-wider mb-8 uppercase" style={{ textShadow: '2px 2px 10px rgba(0,0,0,0.8)' }}>
             {hero.name}
             <span className="text-3xl text-orange-600 ml-4 align-top font-sans opacity-80">{hero.chineseName}</span>
           </h1>
