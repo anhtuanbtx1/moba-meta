@@ -1,0 +1,86 @@
+{
+  "id": "hong-that-cong",
+  "slug": "hong-that-cong",
+  "name": "Hồng Thất Công",
+  "chineseName": "洪七公",
+  "title": "BẮC CÁI BANG CHỦ",
+  "regionId": "dong-vuc",
+  "roles": [
+    "Đấu Sĩ"
+  ],
+  "lanes": [
+    "ĐƯỜNG ĐỐI KHÁNG",
+    "ĐI RỪNG"
+  ],
+  "views": 21500,
+  "upvotes": 1820,
+  "downvotes": 40,
+  "stats": {
+    "winRate": "50,90%",
+    "banRate": "2,80%",
+    "pickRate": "7,20%"
+  },
+  "radar": {
+    "cong": 80,
+    "ky": 75,
+    "kho": 55,
+    "sinh": 80
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/hong_that_cong.webp",
+  "portrait": "/assets/images/heroes/hong_that_cong.webp",
+  "element": "hoa",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "ĐẢ CẨU BỔNG LUẬT",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "CƯỜNG HÓA SONG KHÁNG ĐÒN ĐÁNH"
+      ],
+      "description": "Mỗi đòn đánh thường bằng gậy đả cẩu giúp Hồng Thất Công tăng 5 Giáp và Kháng Phép (cộng dồn tối đa 10 tầng). Khi tích đủ 10 tầng, đòn đánh tiếp theo sẽ kích hoạt Giáng Long lực, gây thêm sát thương vật lý theo % máu tối đa của đối thủ và hồi máu cho bản thân.",
+      "image": "https://hokmoba.com/assets/images/heroes/hong-that-cong-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "ĐẢ CẨU BỔNG PHÁP: TRANH ĐẤU",
+      "type": "skill1",
+      "cooldown": "7s",
+      "mana": "45",
+      "tags": [
+        "SÁT THƯƠNG DIỆN RỘNG",
+        "LÀM CHẬM"
+      ],
+      "description": "Hồng Thất Công quật mạnh gậy Đả Cẩu xuống đất theo hình quạt phía trước, gây sát thương vật lý lên toàn bộ kẻ địch trúng chiêu và làm chậm 35% tốc chạy của chúng trong 2 giây.",
+      "image": "https://hokmoba.com/assets/images/heroes/hong-that-cong-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "TIÊU DIÊU DU THÂN",
+      "type": "skill2",
+      "cooldown": "9s",
+      "mana": "50",
+      "tags": [
+        "LƯỚT NHANH GIÀNH LÁ CHẮN"
+      ],
+      "description": "Hồng Thất Công thi triển khinh công Tiêu Diêu Du lướt nhanh về phía trước. Nếu lướt trúng tướng địch, ông lập tức tung một cú đá quét gây sát thương vật lý và nhận được một lớp lá chắn hấp thụ sát thương.",
+      "image": "https://hokmoba.com/assets/images/heroes/hong-that-cong-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "GIÁNG LONG THẦN CHƯỞNG: KHÁNG LONG HỮU HỐI",
+      "type": "skill3",
+      "cooldown": "38s",
+      "mana": "100",
+      "tags": [
+        "TỤ KÌNH RỒNG LỬA",
+        "KHỐNG CHẾ HẤT TUNG",
+        "BÁ THỂ"
+      ],
+      "description": "Hồng Thất Công tụ kình lực rồi đẩy mạnh lòng bàn tay ra trước, phóng ra một con rồng lửa khổng lồ gầm rú lao theo đường thẳng. Rồng lửa gây sát thương vật lý cực mạnh và hất tung toàn bộ kẻ địch trên đường bay. Trong suốt quá trình vận chiêu, ông nhận trạng thái Bá Thể miễn dịch hoàn toàn khống chế.",
+      "image": "https://hokmoba.com/assets/images/heroes/hong-that-cong-skill3.jpg"
+    }
+  ]
+}

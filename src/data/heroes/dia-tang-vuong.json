@@ -1,0 +1,88 @@
+{
+  "id": "dia-tang-vuong",
+  "slug": "dia-tang-vuong",
+  "name": "Địa Tạng Vương",
+  "chineseName": "地藏王",
+  "title": "PHÁP VƯƠNG ĐỘ SINH",
+  "regionId": "ma-gioi",
+  "roles": [
+    "Pháp Sư",
+    "Đỡ Đòn"
+  ],
+  "lanes": [
+    "ĐƯỜNG GIỮA",
+    "HỖ TRỢ"
+  ],
+  "views": 24500,
+  "upvotes": 2080,
+  "downvotes": 35,
+  "stats": {
+    "winRate": "52,10%",
+    "banRate": "3,80%",
+    "pickRate": "8,40%"
+  },
+  "radar": {
+    "cong": 70,
+    "ky": 85,
+    "kho": 60,
+    "sinh": 85
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/dia_tang_vuong.webp",
+  "portrait": "/assets/images/heroes/dia_tang_vuong.webp",
+  "element": "tho",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "ĐỊA NGỤC VỊ KHÔNG, THỆ BẤT THÀNH PHẬT",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "HÓA LINH HỒN CỨU TRỢ",
+        "KHÔNG THỂ CHẾT NGAY"
+      ],
+      "description": "Khi nhận sát thương chí tử, Địa Tạng Vương không chết ngay lập tức mà hóa thành một Linh thể Kim Cang bất hoại trong 4 giây. Ở trạng thái linh thể, ông không thể di chuyển nhưng vẫn có thể thi triển kỹ năng bình thường (không tốn mana) và hồi máu liên tục cho tất cả đồng minh xung quanh, trước khi thực sự biến về Tế Đàn.",
+      "image": "https://hokmoba.com/assets/images/heroes/dia-tang-vuong-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "U MINH PHÁP TRƯỢNG",
+      "type": "skill1",
+      "cooldown": "7s",
+      "mana": "55",
+      "tags": [
+        "SÁT THƯƠNG PHÉP DÒNG",
+        "TĂNG TỐC ĐỒNG MINH"
+      ],
+      "description": "Địa Tạng Vương vung tích trượng phóng ra luồng phật quang hình sóng năng lượng vàng rực về phía trước, gây sát thương phép và làm chậm 30% tốc chạy của kẻ địch. Phật quang để lại một con đường ánh sáng giúp đồng minh đi qua tăng 20% tốc độ di chuyển.",
+      "image": "https://hokmoba.com/assets/images/heroes/dia-tang-vuong-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "ĐẾ THÍNH GẦM VANG",
+      "type": "skill2",
+      "cooldown": "11s",
+      "mana": "70",
+      "tags": [
+        "HẤT TUNG",
+        "PHÁT HIỆN TÀNG HÌNH"
+      ],
+      "description": "Địa Tạng Vương triệu hồi thần thú Đế Thính dẫm mạnh xuống đất, gây sát thương phép và hất tung toàn bộ kẻ địch trong vùng ảnh hưởng trong 1 giây. Sóng âm quét qua cũng lập tức phát hiện các kẻ địch đang tàng hình trong phạm vi rộng.",
+      "image": "https://hokmoba.com/assets/images/heroes/dia-tang-vuong-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "ĐỘ SINH PHÁP TRẬN",
+      "type": "skill3",
+      "cooldown": "45s",
+      "mana": "120",
+      "tags": [
+        "MA TRẬN GIẢM SÁT THƯƠNG",
+        "HỒI PHỤC DIỆN RỘNG"
+      ],
+      "description": "Địa Tạng Vương tụ lực niệm Phật chú, vẽ ra một trận pháp Vạn Tự Phật Giáo khổng lồ bao quanh bản thân tồn tại trong 5 giây. Đồng minh đứng trong trận pháp được giảm 35% sát thương gánh chịu và được hồi máu mỗi giây. Kẻ địch đứng bên trong sẽ chịu sát thương phép liên tục và bị giảm 25% công vật lý lẫn công phép.",
+      "image": "https://hokmoba.com/assets/images/heroes/dia-tang-vuong-skill3.jpg"
+    }
+  ]
+}

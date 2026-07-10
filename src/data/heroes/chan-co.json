@@ -1,0 +1,84 @@
+{
+  "id": "chan-co",
+  "slug": "chan-co",
+  "name": "Chân Cơ",
+  "chineseName": "甄姬",
+  "title": "LẠC THỦY THẦN NỮ",
+  "regionId": "my-nhan",
+  "roles": [
+    "Pháp Sư"
+  ],
+  "lanes": [
+    "ĐƯỜNG GIỮA"
+  ],
+  "views": 26800,
+  "upvotes": 2180,
+  "downvotes": 60,
+  "stats": {
+    "winRate": "51,50%",
+    "banRate": "11,20%",
+    "pickRate": "24,60%"
+  },
+  "radar": {
+    "cong": 85,
+    "ky": 80,
+    "kho": 40,
+    "sinh": 40
+  },
+  "extraInfo": "2.888",
+  "image": "/assets/images/heroes/chan_co.webp",
+  "portrait": "/assets/images/heroes/chan_co.webp",
+  "element": "thuy",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "NGƯNG KHÍ LẠC THỦY",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "ĐÓNG BĂNG MỤC TIÊU",
+        "DỒN DẤU ẤN BĂNG"
+      ],
+      "description": "Các kỹ năng của Chân Cơ trúng đích sẽ để lại dấu ấn dòng nước lạnh trên kẻ địch trong 7 giây. Khi cộng dồn đủ 3 tầng dấu ấn, kẻ địch sẽ bị đóng băng hoàn toàn trong 1.2 giây và chịu thêm sát thương phép lớn.",
+      "image": "https://hokmoba.com/assets/images/heroes/chan-co-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "LỆNH: LẠC THỦY UẤN ĐỘNG",
+      "type": "skill1",
+      "cooldown": "8s",
+      "mana": "60",
+      "tags": [
+        "HẤT TUNG MỤC TIÊU GÂY SÁT THƯƠNG"
+      ],
+      "description": "Chân Cơ triệu hồi một cột nước phun trào từ lòng đất tại vị trí chỉ định, gây sát thương phép và hất tung toàn bộ kẻ địch trúng chiêu lên không trung trong 1 giây.",
+      "image": "https://hokmoba.com/assets/images/heroes/chan-co-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "LỆNH: THỦY LƯU DẪN KHÚC",
+      "type": "skill2",
+      "cooldown": "6s",
+      "mana": "50",
+      "tags": [
+        "SÓNG NƯỚC NẢY DIỆN RỘNG"
+      ],
+      "description": "Chân Cơ phóng ra một luồng nước ma thuật nảy liên tục qua lại giữa các kẻ địch lân cận (tối đa 6 lần nảy). Mỗi lần nảy gây sát thương phép và tích luỹ 1 tầng dấu ấn Lạc Thủy lên mục tiêu.",
+      "image": "https://hokmoba.com/assets/images/heroes/chan-co-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "LỆNH: LẠC THỦY HOA HỒNG",
+      "type": "skill3",
+      "cooldown": "40s",
+      "mana": "110",
+      "tags": [
+        "MA TRẬN NƯỚC HỦY DIỆT CHẬM",
+        "KHỐNG CHẾ CỰC MẠNH"
+      ],
+      "description": "Chân Cơ phóng một luồng thủy triều dữ dội về phía trước. Khi trúng tướng địch hoặc bay hết tầm, thủy triều sẽ mở rộng thành một vũng nước sâu băng giá tồn tại trong 5 giây. Kẻ địch đứng trong vùng này sẽ gánh chịu sát thương phép liên tục, bị làm chậm 90% tốc chạy và liên tục bị tích luỹ dấu ấn đóng băng.",
+      "image": "https://hokmoba.com/assets/images/heroes/chan-co-skill3.jpg"
+    }
+  ]
+}

@@ -171,7 +171,7 @@ function DesktopLoreMap() {
                     <div
                       key={region.id}
                       className="absolute cursor-pointer group z-10"
-                      style={{ left: region.x - 100, top: region.y - 100, width: 220 }}
+                      style={{ left: region.x - 110, top: region.y - 110, width: 220, height: 220 }}
                       onClick={(e) => {
                         e.stopPropagation();
                         if (selectedRegion === region.id) {
@@ -184,26 +184,47 @@ function DesktopLoreMap() {
                       }}
                     >
                       {/* Floating miniature avatars around node */}
-                      <div id={region.id} className={`relative w-full h-full flex flex-col items-center transition-opacity duration-700 ${selectedRegion && selectedRegion !== region.id ? 'opacity-30' : 'opacity-100'}`}>
+                      <div id={region.id} className={`relative w-full h-full flex items-center justify-center transition-opacity duration-700 ${selectedRegion && selectedRegion !== region.id ? 'opacity-30' : 'opacity-100'}`}>
                         <style>{`
                           @keyframes flow {
                             from { stroke-dashoffset: 28; }
                             to { stroke-dashoffset: 0; }
                           }
                         `}</style>
-                        <div className={`absolute -top-12 flex gap-1 z-20 transition-opacity duration-300 ${selectedRegion === region.id ? 'opacity-0' : 'opacity-100'}`}>
-                          {nodeHeroes.map((hero, index) => (
-                            <div
-                              key={hero.id}
-                              className="w-8 h-8 rounded-full border border-[#d4af37]/40 bg-gray-900 overflow-hidden shadow-md transform hover:scale-125 transition-transform"
-                              style={{
-                                transform: `translateY(${index % 2 * 6}px)`,
-                                transitionDelay: `${index * 50}ms`
-                              }}
-                            >
-                              <img src={hero.image} alt={hero.name} className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = "none"; }} />
-                            </div>
-                          ))}
+                        <div className={`absolute inset-0 z-20 pointer-events-none transition-opacity duration-300 ${selectedRegion === region.id ? 'opacity-0' : 'opacity-100'}`}>
+                          {nodeHeroes.map((hero, index) => {
+                            // Seeded pseudo-random hash to make offsets organic, randomized, but stable
+                            const seed = hero.id + index;
+                            let hash = 0;
+                            for (let j = 0; j < seed.length; j++) {
+                              hash = seed.charCodeAt(j) + ((hash << 5) - hash);
+                            }
+                            
+                            // Base sector angle to prevent overlaps + small random angle offset to guarantee no collision (max -12 to +12 degrees)
+                            const sectorAngle = (index / nodeHeroes.length) * 2 * Math.PI - Math.PI / 2;
+                            const randomAngleOffset = (((hash & 0xFFFF) / 65535) * 2 - 1) * (Math.PI / 15);
+                            const finalAngle = sectorAngle + randomAngleOffset;
+                            
+                            // Random radius between 70px and 88px to place them in different orbits
+                            const randomRadius = 70 + (((hash >> 16) & 0xFF) / 255) * 18;
+                            
+                            const left = 110 + randomRadius * Math.cos(finalAngle) - 16; // 16px is half of 32px (w-8)
+                            const top = 110 + randomRadius * Math.sin(finalAngle) - 16;  // 16px is half of 32px (h-8)
+                            
+                            return (
+                              <div
+                                key={hero.id}
+                                className="absolute w-8 h-8 rounded-full border border-[#d4af37]/60 bg-gray-900 overflow-hidden shadow-lg transform hover:scale-125 transition-transform pointer-events-auto"
+                                style={{
+                                  left,
+                                  top,
+                                  transitionDelay: `${index * 50}ms`
+                                }}
+                              >
+                                <img src={hero.image} alt={hero.name} className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = "none"; }} />
+                              </div>
+                            );
+                          })}
                         </div>
 
                         {/* Hexagonal Core Faction Button */}
