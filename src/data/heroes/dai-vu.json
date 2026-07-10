@@ -1,0 +1,88 @@
+{
+  "id": "dai-vu",
+  "slug": "dai-vu",
+  "name": "Đại Vũ",
+  "chineseName": "大禹",
+  "title": "TRỊ THỦY THẦN VƯƠNG",
+  "regionId": "tien-gioi",
+  "roles": [
+    "Đỡ Đòn",
+    "Đấu Sĩ"
+  ],
+  "lanes": [
+    "ĐƯỜNG ĐỐI KHÁNG",
+    "HỖ TRỢ"
+  ],
+  "views": 22800,
+  "upvotes": 1950,
+  "downvotes": 50,
+  "stats": {
+    "winRate": "51,80%",
+    "banRate": "6,50%",
+    "pickRate": "11,20%"
+  },
+  "radar": {
+    "cong": 65,
+    "ky": 75,
+    "kho": 60,
+    "sinh": 90
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/dai_vu.webp",
+  "portrait": "/assets/images/heroes/dai_vu.webp",
+  "element": "thuy",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "THẦN KHÍ BÌNH THỦY",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "KHÁNG HIỆU ỨNG LÀM CHẬM",
+        "LÁ CHẮN NƯỚC THẦN"
+      ],
+      "description": "Đại Vũ nhận một tầng Lá Chắn Nước mỗi khi tung kỹ năng trúng mục tiêu, giúp hấp thụ sát thương dựa trên lượng phòng thủ vật lý và phép của bản thân. Khi lá chắn này tồn tại, Đại Vũ hoàn toàn miễn nhiễm với mọi hiệu ứng làm chậm tốc chạy.",
+      "image": "https://hokmoba.com/assets/images/heroes/dai-vu-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "KHAI SƠN THẦN PHỦ",
+      "type": "skill1",
+      "cooldown": "8s",
+      "mana": "55",
+      "tags": [
+        "ĐẬP ĐẤT GÂY CHẤN ĐỘNG",
+        "KHE NỨT LÀM CHẬM"
+      ],
+      "description": "Đại Vũ dẫm mạnh đất và vung rìu khai sơn đập mạnh xuống đất, tạo ra một vết nứt kéo dài gây sát thương vật lý và hất tung kẻ địch đứng ở trung tâm. Vết nứt tồn tại trong 3 giây, làm chậm 40% tốc chạy của kẻ địch đi qua.",
+      "image": "https://hokmoba.com/assets/images/heroes/dai-vu-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "LẠC THƯ ĐỊNH BA",
+      "type": "skill2",
+      "cooldown": "12s",
+      "mana": "60",
+      "tags": [
+        "ĐẨY LÙI KẺ ĐỊCH XUNG QUANH",
+        "CẢN ĐẠN MA THUẬT"
+      ],
+      "description": "Đại Vũ triệu hồi luồng nước từ Lạc Thư xoáy mạnh quanh thân, đẩy lùi toàn bộ kẻ địch đang tiếp cận ra xa và gây sát thương phép. Luồng nước xoáy đồng thời phá hủy toàn bộ các luồng đạn đạo (projectiles) bay tới của kẻ địch trong vòng 1.5 giây.",
+      "image": "https://hokmoba.com/assets/images/heroes/dai-vu-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "HỒNG THỦY TIÊU TRỪ",
+      "type": "skill3",
+      "cooldown": "42s",
+      "mana": "110",
+      "tags": [
+        "CÀN QUÉT LUỒNG NƯỚC LŨ",
+        "HẤT TÙNG DIỆN RỘNG"
+      ],
+      "description": "Đại Vũ giải phóng sức mạnh thần vương trị thủy, triệu hồi một con sóng lũ khổng lồ quét nhanh về phía trước. Con sóng cuốn phăng và gây sát thương phép cực đại lên toàn bộ kẻ địch trúng phải, đẩy lùi chúng dọc theo đường sóng chảy và hất tung ở cuối chặng.",
+      "image": "https://hokmoba.com/assets/images/heroes/dai-vu-skill3.jpg"
+    }
+  ]
+}

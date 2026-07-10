@@ -54,12 +54,12 @@ function DesktopLoreMap() {
       "dong-vuc": { x: 380, y: 250 },        // Đông Vực - Cửu Châu
       "nam-vuc": { x: 30, y: 650 },          // Nam Vực - Hoang Giao
       "vi-tay": { x: 920, y: 280 },          // Vi Tây Lục Mạc
-      "my-nhan": { x: 120, y: 450 },         // Mỹ Nhân
+      "my-nhan": { x: 120, y: 250 },         // Mỹ Nhân
       "tam-quoc": { x: 650, y: 180 },        // Tam Quốc
       "phong-than": { x: 1150, y: 550 },     // Phong Thần
       "bac-vuc": { x: 850, y: 700 },         // Bắc Vực - Băng Khâu
       "tay-du": { x: 1300, y: 350 },         // Tây Du Ký
-      "ma-gioi": { x: 310, y: 710 }          // Ma Giới
+      "ma-gioi": { x: 410, y: 510 }          // Ma Giới
     };
     const colors = ["#d4af37", "#ff4d4d", "#00f2fe", "#8a2be2", "#ffa500", "#ff69b4", "#00ff7f", "#ff1493", "#00ced1", "#ff4500"];
 
@@ -199,18 +199,18 @@ function DesktopLoreMap() {
                             for (let j = 0; j < seed.length; j++) {
                               hash = seed.charCodeAt(j) + ((hash << 5) - hash);
                             }
-                            
+
                             // Base sector angle to prevent overlaps + small random angle offset to guarantee no collision (max -12 to +12 degrees)
                             const sectorAngle = (index / nodeHeroes.length) * 2 * Math.PI - Math.PI / 2;
                             const randomAngleOffset = (((hash & 0xFFFF) / 65535) * 2 - 1) * (Math.PI / 15);
                             const finalAngle = sectorAngle + randomAngleOffset;
-                            
+
                             // Random radius between 70px and 88px to place them in different orbits
                             const randomRadius = 70 + (((hash >> 16) & 0xFF) / 255) * 18;
-                            
+
                             const left = 110 + randomRadius * Math.cos(finalAngle) - 16; // 16px is half of 32px (w-8)
                             const top = 110 + randomRadius * Math.sin(finalAngle) - 16;  // 16px is half of 32px (h-8)
-                            
+
                             return (
                               <div
                                 key={hero.id}

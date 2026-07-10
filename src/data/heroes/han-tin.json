@@ -1,9 +1,9 @@
 {
-  "id": "hang-vu",
-  "slug": "hang-vu",
-  "name": "Hạng Vũ",
-  "chineseName": "项羽",
-  "title": "SÁT THỦ THẦN TỐC",
+  "id": "han-tin",
+  "slug": "han-tin",
+  "name": "Hàn Tín",
+  "chineseName": "韩信",
+  "title": "QUỐC SĨ VÔ SONG",
   "regionId": "tam-quoc",
   "roles": [
     "Sát Thủ",
@@ -12,35 +12,36 @@
   "lanes": [
     "ĐI RỪNG"
   ],
-  "views": 8940,
-  "upvotes": 850,
-  "downvotes": 45,
+  "views": 28940,
+  "upvotes": 2450,
+  "downvotes": 75,
   "stats": {
     "winRate": "49,85%",
     "banRate": "8,10%",
     "pickRate": "12,40%"
   },
   "radar": {
-    "cong": 80,
+    "cong": 90,
     "ky": 90,
     "kho": 80,
     "sinh": 30
   },
   "extraInfo": "18.888",
-  "image": "/assets/images/heroes/hang_vu.webp",
-  "portrait": "/assets/images/heroes/hang_vu.webp",
+  "image": "/assets/images/heroes/han_tin.webp",
+  "portrait": "/assets/images/heroes/han_tin.webp",
+  "element": "kim",
   "skills": [
     {
       "id": "passive",
-      "name": "SÁT Ý",
+      "name": "SÁT Ý CHI THƯƠNG",
       "type": "passive",
       "cooldown": "0s",
       "mana": "0",
       "tags": [
-        "TỐC ĐÁNH",
-        "KHỐNG CHẾ"
+        "HẤT TUNG ĐÒN THỨ 4",
+        "TĂNG TỐC ĐỘ ĐÁNH"
       ],
-      "description": "Đòn đánh thứ 4 của Hàn Tín sẽ hất tung mục tiêu. Tung chiêu trúng đích tăng 50% tốc đánh.",
+      "description": "Đòn đánh thường thứ 4 của Hàn Tín sẽ hất tung mục tiêu trong 0.5 giây. Khi Hàn Tín tung kỹ năng trúng mục tiêu, ông lập tức nhận thêm 50% tốc độ đánh trong 3 giây.",
       "image": "https://hokmoba.com/assets/images/heroes/han-tin-passive.jpg"
     },
     {
@@ -50,23 +51,23 @@
       "cooldown": "9s",
       "mana": "45",
       "tags": [
-        "LƯỚT",
+        "LƯỚT KÉP GÂY SÁT THƯƠNG",
         "HẤT TUNG"
       ],
-      "description": "Hàn Tín lướt đến hất tung mục tiêu. Có thể lướt thêm lần nữa trong 5s.",
+      "description": "Hàn Tín lướt nhanh về phía trước theo hướng chỉ định, vung thương hất tung kẻ địch trên đường bay và gây sát thương vật lý. Trong vòng 5 giây tiếp theo, kỹ năng có thể được tái kích hoạt để lướt thêm một lần nữa (lần thứ hai không gây hất tung).",
       "image": "https://hokmoba.com/assets/images/heroes/han-tin-skill1.jpg"
     },
     {
       "id": "skill2",
-      "name": "BỐI THỦY CHẾN",
+      "name": "BỐI THỦY NHẤT CHIẾN",
       "type": "skill2",
       "cooldown": "5s",
       "mana": "50",
       "tags": [
-        "LƯỚT ngược",
-        "CƯỜNG HÓA"
+        "LƯỚT NGƯỢC THOÁT THÂN",
+        "ĐÒN QUÉT NGANG CƯỜNG HÓA"
       ],
-      "description": "Hàn Tín lướt về phía sau, cường hóa đòn đánh thường tiếp theo thành đòn quét ngang.",
+      "description": "Hàn Tín lướt lùi về phía sau (ngược hướng chỉ định), nhưng cường hóa đòn đánh thường tiếp theo trong 3 giây thành một cú quét ngang cực mạnh, gây sát thương vật lý lan diện rộng.",
       "image": "https://hokmoba.com/assets/images/heroes/han-tin-skill2.jpg"
     },
     {
@@ -76,10 +77,11 @@
       "cooldown": "36s",
       "mana": "100",
       "tags": [
-        "SÁT THƯƠNG",
-        "MIỄN KHỐNG"
+        "LOẠN THƯƠNG DIỆN RỘNG",
+        "BÁ THỂ GIẢM SÁT THƯƠNG",
+        "HẤT TUNG KẾT LIỄU"
       ],
-      "description": "Hàn Tín múa thương gây sát thương liên tục, ở đòn cuối hất tung kẻ địch. Trong lúc tung chiêu miễn khống chế.",
+      "description": "Hàn Tín đứng yên múa thương liên tục chém 4 nhát vào phạm vi trước mặt gây sát thương vật lý. Nhát đâm cuối cùng sẽ hất tung kẻ địch trong 0.5 giây. Trong lúc múa thương, ông nhận trạng thái Bá Thể miễn dịch hoàn toàn khống chế và được giảm 30% sát thương gánh chịu.",
       "image": "https://hokmoba.com/assets/images/heroes/han-tin-skill3.jpg"
     }
   ]

@@ -1,6 +1,6 @@
 {
-  "id": "dong-hoang",
-  "slug": "dong-hoang",
+  "id": "dong-hoang-thai-nhat",
+  "slug": "dong-hoang-thai-nhat",
   "name": "Đông Hoàng Thái Nhất",
   "chineseName": "东皇太一",
   "title": "THÁI CỔ MA THẦN",
@@ -27,8 +27,8 @@
     "sinh": 100
   },
   "extraInfo": "13.888",
-  "image": "/assets/images/heroes/dong_hoang.webp",
-  "portrait": "/assets/images/heroes/dong_hoang.webp",
+  "image": "/assets/images/heroes/dong_hoang_thai_nhat.webp",
+  "portrait": "/assets/images/heroes/dong_hoang_thai_nhat.webp",
   "element": "am",
   "skills": [
     {
