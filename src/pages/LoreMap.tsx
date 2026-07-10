@@ -190,6 +190,10 @@ function DesktopLoreMap() {
                             from { stroke-dashoffset: 28; }
                             to { stroke-dashoffset: 0; }
                           }
+                          @keyframes hok-moving-border {
+                            from { stroke-dashoffset: 386; }
+                            to { stroke-dashoffset: 0; }
+                          }
                         `}</style>
                         <div className={`absolute inset-0 z-20 pointer-events-none transition-opacity duration-300 ${selectedRegion === region.id ? 'opacity-0' : 'opacity-100'}`}>
                           {nodeHeroes.map((hero, index) => {
@@ -229,13 +233,33 @@ function DesktopLoreMap() {
 
                         {/* Hexagonal Core Faction Button */}
                         <div
-                          className={`w-28 h-32 flex flex-col items-center justify-center border transition-all duration-300 relative shadow-2xl ${selectedRegion === region.id ? 'bg-[#151522]/40 opacity-50' : 'bg-[#151522]/90 group-hover:scale-105'}`}
+                          className={`w-28 h-32 flex flex-col items-center justify-center transition-all duration-300 relative shadow-2xl ${selectedRegion === region.id ? 'bg-[#151522]/40 opacity-50' : 'bg-[#151522]/90 group-hover:scale-105'}`}
                           style={{
                             clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
-                            borderColor: region.color + (selectedRegion === region.id ? "30" : "60"),
                             boxShadow: selectedRegion === region.id ? 'none' : `0 0 25px ${region.color}15`
                           }}
                         >
+                          {/* Glowing Animated Moving Border */}
+                          <svg className="absolute inset-0 w-full h-full pointer-events-none z-30">
+                            <defs>
+                              <linearGradient id={`grad-${region.id}`} x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stopColor={region.color} stopOpacity="1" />
+                                <stop offset="50%" stopColor="#ffffff" stopOpacity="0.9" />
+                                <stop offset="100%" stopColor={region.color} stopOpacity="1" />
+                              </linearGradient>
+                            </defs>
+                            <polygon
+                              points="56,1 111,32 111,96 56,127 1,96 1,32"
+                              fill="none"
+                              stroke={`url(#grad-${region.id})`}
+                              strokeWidth="2.5"
+                              strokeDasharray="80 306"
+                              style={{
+                                animation: "hok-moving-border 4s linear infinite"
+                              }}
+                            />
+                          </svg>
+
                           <Map size={24} color={region.color} className="mb-1" />
                           <span className="text-white text-center font-black text-[11px] leading-tight px-2 tracking-wide uppercase">
                             {region.name.replace(/\n/g, ' ')}

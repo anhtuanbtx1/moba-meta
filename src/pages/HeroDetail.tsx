@@ -45,6 +45,12 @@ const HeroDetail: React.FC = () => {
         backgroundColor: '#0d0d12'
       }}
     >
+      <style>{`
+        @keyframes hok-moving-border-rect {
+          from { stroke-dashoffset: 460; }
+          to { stroke-dashoffset: 0; }
+        }
+      `}</style>
       {/* Sidebar Navigation */}
       <div className="hidden md:flex w-16 bg-[#09090b] border-r border-white/5 flex-col items-center py-6 z-20">
         <Link to="/" className="p-3 mb-8 text-gray-400 hover:text-white transition-colors">
@@ -103,32 +109,71 @@ const HeroDetail: React.FC = () => {
             </span>
           </div>
           
-          <h3 className="text-gray-300 text-sm tracking-[0.3em] font-semibold mb-1 uppercase">{hero.title}</h3>
-          <h1 className="text-6xl font-sans font-black text-[#f8f5ec] tracking-wider mb-8 uppercase" style={{ textShadow: '2px 2px 10px rgba(0,0,0,0.8)' }}>
-            {hero.name}
-            <span className="text-3xl text-orange-600 ml-4 align-top font-sans opacity-80">{hero.chineseName}</span>
-          </h1>
 
           <div className="flex gap-4">
             <button className="flex-1 bg-[#1a1a24]/80 backdrop-blur-md border border-white/5 rounded-lg p-4 flex flex-col hover:bg-[#1a1a24] transition-colors relative overflow-hidden group">
-              <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-[#d4af37] to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              {/* Moving Border on Hover */}
+              <svg className="absolute inset-0 w-full h-full pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
+                <rect
+                  x="1"
+                  y="1"
+                  width="98%"
+                  height="97%"
+                  rx="8"
+                  ry="8"
+                  fill="none"
+                  stroke="url(#upvote-grad)"
+                  strokeWidth="2.5"
+                  strokeDasharray="60 200"
+                  style={{ animation: "hok-moving-border-rect 3s linear infinite" }}
+                />
+                <defs>
+                  <linearGradient id="upvote-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stopColor="#d4af37" stopOpacity="1" />
+                    <stop offset="50%" stopColor="#ffffff" stopOpacity="0.8" />
+                    <stop offset="100%" stopColor="#d4af37" stopOpacity="1" />
+                  </linearGradient>
+                </defs>
+              </svg>
               <div className="flex items-center gap-2 text-[#d4af37] font-bold text-xs mb-3">
                 <span className="text-lg">👍</span> ỦNG HỘ
               </div>
               <div className="flex justify-between items-end">
                 <span className="text-3xl font-black text-[#d4af37]">{hero.upvotes} <span className="text-[10px] font-normal text-gray-400">LƯỢT</span></span>
-                <span className="text-[10px] bg-black/50 text-[#d4af37] px-1.5 py-0.5 rounded">+50 KNB</span>
+                <span className="text-[10px] bg-black/50 text-[#d4af37] px-1.5 py-0.5 rounded-sm">+50 KNB</span>
               </div>
             </button>
 
             <button className="flex-1 bg-[#1a1a24]/80 backdrop-blur-md border border-white/5 rounded-lg p-4 flex flex-col hover:bg-[#1a1a24] transition-colors relative overflow-hidden group">
-              <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-red-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              {/* Moving Border on Hover */}
+              <svg className="absolute inset-0 w-full h-full pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
+                <rect
+                  x="1"
+                  y="1"
+                  width="98%"
+                  height="97%"
+                  rx="8"
+                  ry="8"
+                  fill="none"
+                  stroke="url(#downvote-grad)"
+                  strokeWidth="2.5"
+                  strokeDasharray="60 200"
+                  style={{ animation: "hok-moving-border-rect 3s linear infinite" }}
+                />
+                <defs>
+                  <linearGradient id="downvote-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stopColor="#ef4444" stopOpacity="1" />
+                    <stop offset="50%" stopColor="#ffffff" stopOpacity="0.8" />
+                    <stop offset="100%" stopColor="#ef4444" stopOpacity="1" />
+                  </linearGradient>
+                </defs>
+              </svg>
               <div className="flex items-center gap-2 text-gray-400 font-bold text-xs mb-3 group-hover:text-red-400 transition-colors">
                 <span className="text-lg grayscale group-hover:grayscale-0">👎</span> PHẢN ĐỐI
               </div>
               <div className="flex justify-between items-end">
                 <span className="text-3xl font-black text-white">{hero.downvotes} <span className="text-[10px] font-normal text-gray-500">LƯỢT</span></span>
-                <span className="text-[10px] bg-black/50 text-red-400 px-1.5 py-0.5 rounded">-10 KNB</span>
+                <span className="text-[10px] bg-black/50 text-red-400 px-1.5 py-0.5 rounded-sm">-10 KNB</span>
               </div>
             </button>
           </div>
@@ -167,7 +212,30 @@ const HeroDetail: React.FC = () => {
           <div className="flex flex-col md:flex-row gap-4 md:gap-6">
             
             {/* Meta Performance */}
-            <div className="flex-1 bg-[#12121a]/80 border border-[#1a1a24] rounded-xl p-6 relative overflow-hidden group">
+            <div className="flex-1 bg-[#12121a]/80 rounded-xl p-6 relative overflow-hidden group">
+              {/* Glowing Animated Moving Border */}
+              <svg className="absolute inset-0 w-full h-full pointer-events-none z-30">
+                <rect
+                  x="1"
+                  y="1"
+                  width="99%"
+                  height="98%"
+                  rx="12"
+                  ry="12"
+                  fill="none"
+                  stroke="url(#card-grad-gold)"
+                  strokeWidth="2"
+                  strokeDasharray="100 350"
+                  style={{ animation: "hok-moving-border-rect 6s linear infinite" }}
+                />
+                <defs>
+                  <linearGradient id="card-grad-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stopColor="#d4af37" stopOpacity="1" />
+                    <stop offset="50%" stopColor="#ffffff" stopOpacity="0.8" />
+                    <stop offset="100%" stopColor="#d4af37" stopOpacity="1" />
+                  </linearGradient>
+                </defs>
+              </svg>
               <div className="absolute top-0 left-0 w-1.5 h-full bg-gradient-to-b from-[#d4af37] to-transparent"></div>
               
               <div className="flex justify-between items-start mb-8">
@@ -209,7 +277,23 @@ const HeroDetail: React.FC = () => {
             </div>
 
             {/* Element (Hệ) */}
-            <div className="w-[280px] bg-[#12121a] border border-[#1a1a24] rounded-xl p-6 relative flex flex-col">
+            <div className="w-[280px] bg-[#12121a]/80 rounded-xl p-6 relative flex flex-col overflow-hidden group">
+              {/* Glowing Animated Moving Border */}
+              <svg className="absolute inset-0 w-full h-full pointer-events-none z-30">
+                <rect
+                  x="1"
+                  y="1"
+                  width="98%"
+                  height="98%"
+                  rx="12"
+                  ry="12"
+                  fill="none"
+                  stroke="url(#card-grad-gold)"
+                  strokeWidth="2"
+                  strokeDasharray="100 350"
+                  style={{ animation: "hok-moving-border-rect 6s linear infinite" }}
+                />
+              </svg>
                <div className="absolute top-0 right-0 w-1.5 h-full bg-gradient-to-b from-[#d4af37] to-transparent"></div>
                <div className="flex items-center gap-3 mb-6">
                  <div className="w-8 h-8 rounded-full bg-[#1a1a24] flex items-center justify-center border border-[#d4af37]/30">
