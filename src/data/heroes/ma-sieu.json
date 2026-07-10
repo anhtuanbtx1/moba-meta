@@ -1,0 +1,88 @@
+{
+  "id": "ma-sieu",
+  "slug": "ma-sieu",
+  "name": "Mã Siêu",
+  "chineseName": "马超",
+  "title": "THẦN UY TƯỚNG QUÂN",
+  "regionId": "tam-quoc",
+  "roles": [
+    "Đấu Sĩ",
+    "Sát Thủ"
+  ],
+  "lanes": [
+    "ĐƯỜNG TÀ THẦN",
+    "RỪNG"
+  ],
+  "views": 12500,
+  "upvotes": 2100,
+  "downvotes": 55,
+  "stats": {
+    "winRate": "50,50%",
+    "banRate": "22,30%",
+    "pickRate": "12,80%"
+  },
+  "radar": {
+    "cong": 85,
+    "ky": 90,
+    "kho": 85,
+    "sinh": 60
+  },
+  "extraInfo": "18.888",
+  "image": "/assets/images/heroes/ma_sieu.webp",
+  "portrait": "/assets/images/heroes/ma_sieu.webp",
+  "element": "kim",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "MA THƯƠNG TRẬN",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "TĂNG TỐC",
+        "ĐỒN ĐÁNH CƯỜNG HÓA"
+      ],
+      "description": "Mã Siêu ném ra một ngọn thương từ các chiêu thức. Mỗi khi rút thương dưới đất, tăng 3% tốc độ di chuyển (tối đa 3 tầng) và cường hóa đòn đánh thường kế tiếp lướt tới mục tiêu gây sát thương vật lý cực mạnh đồng thời hồi phục sinh lực bản thân.",
+      "image": "https://hokmoba.com/assets/images/heroes/ma-sieu-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "TIÊU ĐỘC THƯƠNG",
+      "type": "skill1",
+      "cooldown": "8s",
+      "mana": "0",
+      "tags": [
+        "SÁT THƯƠNG",
+        "NÉM THƯƠNG"
+      ],
+      "description": "Mã Siêu ném một ngọn thương về phía chỉ định gây sát thương vật lý cho kẻ địch dọc đường và cắm tại mặt đất phía cuối quỹ đạo. Nếu hạ gục mục tiêu dọc đường, ngọn thương tiếp tục bay ra phía sau gây sát thương tiếp.",
+      "image": "https://hokmoba.com/assets/images/heroes/ma-sieu-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "LẠC SA THƯƠNG",
+      "type": "skill2",
+      "cooldown": "8s",
+      "mana": "0",
+      "tags": [
+        "DIỆN RỘNG",
+        "LÀM CHẬM"
+      ],
+      "description": "Triệu hồi một ngọn thương rơi từ trên trời xuống vị trí chỉ định, gây sát thương vật lý diện rộng và làm chậm 30% tốc độ di chuyển của kẻ địch trúng chiêu. Thương sau đó được cắm lại trên mặt đất.",
+      "image": "https://hokmoba.com/assets/images/heroes/ma-sieu-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "VẠN THƯƠNG QUY TÔNG",
+      "type": "skill3",
+      "cooldown": "40s",
+      "mana": "0",
+      "tags": [
+        "HỒI THƯƠNG",
+        "DỨT ĐIỂM"
+      ],
+      "description": "Ma Siêu kích hoạt khả năng triệu hồi thương, hút ngọn thương gần nhất dưới đất bay trở lại bản thân. Thương trên đường bay về sẽ gây sát thương vật lý diện rộng lên kẻ địch và tăng thêm 12% sát thương dựa trên lượng máu đã mất của mục tiêu.",
+      "image": "https://hokmoba.com/assets/images/heroes/ma-sieu-skill3.jpg"
+    }
+  ]
+}

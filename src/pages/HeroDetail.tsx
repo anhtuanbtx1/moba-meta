@@ -109,6 +109,12 @@ const HeroDetail: React.FC = () => {
             </span>
           </div>
           
+          <h1 className="text-6xl font-sans font-black text-[#f8f5ec] tracking-wider uppercase" style={{ textShadow: '2px 2px 10px rgba(0,0,0,0.8)' }}>
+            {hero.name}
+            <span className="text-3xl text-orange-600 ml-4 align-top font-sans opacity-80">{hero.chineseName}</span>
+          </h1>
+          <h3 className="text-gray-300 text-sm tracking-[0.3em] font-semibold mt-3 mb-8 uppercase">{hero.title}</h3>
+
 
           <div className="flex gap-4">
             <button className="flex-1 bg-[#1a1a24]/80 backdrop-blur-md border border-white/5 rounded-lg p-4 flex flex-col hover:bg-[#1a1a24] transition-colors relative overflow-hidden group">
@@ -177,10 +183,7 @@ const HeroDetail: React.FC = () => {
               </div>
             </button>
           </div>
-          
-          <p className="text-[9px] text-gray-500 mt-4 leading-relaxed max-w-[80%]">
-            * MỖI TƯỚNG GIỚI HẠN 1 LƯỢT BÌNH CHỌN / TUẦN (LÀM MỚI VÀO NỮA THỨ 2 HÀNG TUẦN)
-          </p>
+
         </div>
       </div>
 
@@ -309,19 +312,6 @@ const HeroDetail: React.FC = () => {
                  )}
                </div>
             </div>
-          </div>
-
-          {/* Extra Info Banner */}
-          <div className="bg-[#12121a] border border-[#1a1a24] rounded-xl p-4 flex justify-between items-center relative overflow-hidden">
-             <div className="absolute left-0 top-0 h-full w-1 bg-[#d4af37]"></div>
-             <div className="flex items-center gap-3 ml-2">
-               <ChevronLeft size={16} className="text-[#d4af37]" />
-               <span className="text-sm font-bold text-gray-300 tracking-wider">THÔNG TIN THÊM</span>
-             </div>
-             <div className="flex items-center gap-2 bg-[#1a1a24] px-3 py-1.5 rounded border border-[#d4af37]/30 text-[#d4af37] text-xs font-bold shadow-[0_0_10px_rgba(212,175,55,0.1)]">
-               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-3.5 h-3.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
-               {hero.extraInfo}
-             </div>
           </div>
 
           {/* Skills Section */}

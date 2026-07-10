@@ -1,0 +1,88 @@
+{
+  "id": "truong-tam-phong",
+  "slug": "truong-tam-phong",
+  "name": "Trương Tam Phong",
+  "chineseName": "张三丰",
+  "title": "THÁI CỰC TÔNG SƯ",
+  "regionId": "dong-vuc",
+  "roles": [
+    "Đấu Sĩ",
+    "Đỡ Đòn"
+  ],
+  "lanes": [
+    "ĐƯỜNG TÀ THẦN",
+    "TRỢ THỦ"
+  ],
+  "views": 18000,
+  "upvotes": 3500,
+  "downvotes": 42,
+  "stats": {
+    "winRate": "52,40%",
+    "banRate": "35,10%",
+    "pickRate": "15,60%"
+  },
+  "radar": {
+    "cong": 60,
+    "ky": 85,
+    "kho": 70,
+    "sinh": 95
+  },
+  "extraInfo": "18.888",
+  "image": "/assets/images/heroes/truong_tam_phong.webp",
+  "portrait": "/assets/images/heroes/truong_tam_phong.webp",
+  "element": "thuy",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "THÁI CỰC HÌNH Ý",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "Ý CẢNH thái cực",
+        "HỒI PHỤC"
+      ],
+      "description": "Nhận sát thương hoặc gây sát thương giúp tích lũy Ý Cảnh Thái Cực. Mỗi tầng Ý Cảnh tăng 2% miễn thương (tối đa 10 tầng). Khi tích lũy đầy 10 tầng, Trương Tam Phong lập tức giải mọi khống chế và hồi phục 10% máu đã mất.",
+      "image": "https://hokmoba.com/assets/images/heroes/truong-tam-phong-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "VÔ CỰC PHÂN LƯỠNG NGHI",
+      "type": "skill1",
+      "cooldown": "9s",
+      "mana": "60",
+      "tags": [
+        "KHỐNG CHẾ DỊCH CHUYỂN",
+        "LÀM CHẬM"
+      ],
+      "description": "Trương Tam Phong vẽ một vòng tròn Thái Cực tại vùng chỉ định gây sát thương phép và làm chậm kẻ địch bên trong. Kẻ địch cố gắng bước ra khỏi rìa vòng tròn Thái Cực sẽ bị lực hút âm dương kéo ngược trở lại tâm.",
+      "image": "https://hokmoba.com/assets/images/heroes/truong-tam-phong-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "TỨ LẠNG BẠT THIÊN CÂN",
+      "type": "skill2",
+      "cooldown": "11s",
+      "mana": "70",
+      "tags": [
+        "PHẢN SÁT THƯƠNG",
+        "MIỄN THƯƠNG"
+      ],
+      "description": "Vận khí thủ thế trong 1.5 giây, giảm 50% sát thương nhận vào từ phía trước. Nếu nhận sát thương từ tướng địch, lập tức phản kích gây sát thương phép diện rộng và đẩy lùi kẻ địch xung quanh.",
+      "image": "https://hokmoba.com/assets/images/heroes/truong-tam-phong-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "THÁI CỰC THƯƠNG SINH",
+      "type": "skill3",
+      "cooldown": "45s",
+      "mana": "120",
+      "tags": [
+        "THÁI CỰC KẾT GIỚI",
+        "HỒI PHỤC ĐỒNG ĐỘI"
+      ],
+      "description": "Kích hoạt kình lực tạo ra kết giới Âm Dương khổng lồ đẩy lùi toàn bộ kẻ địch xung quanh. Đồng đội đứng trong kết giới nhận thêm 40% giáp phép và được hồi phục sinh lực liên tục, bản thân miễn nhiễm khống chế hoàn toàn trong 3 giây.",
+      "image": "https://hokmoba.com/assets/images/heroes/truong-tam-phong-skill3.jpg"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "hoang-trung",
+  "slug": "hoang-trung",
+  "name": "Hoàng Trung",
+  "chineseName": "黄忠",
+  "title": "LÃO TƯỚNG BÁCH PHÁT",
+  "regionId": "tam-quoc",
+  "roles": [
+    "Xạ Thủ"
+  ],
+  "lanes": [
+    "ĐƯỜNG RỒNG"
+  ],
+  "views": 9800,
+  "upvotes": 1150,
+  "downvotes": 30,
+  "stats": {
+    "winRate": "49,80%",
+    "banRate": "5,40%",
+    "pickRate": "9,20%"
+  },
+  "radar": {
+    "cong": 95,
+    "ky": 60,
+    "kho": 45,
+    "sinh": 40
+  },
+  "extraInfo": "13.888",
+  "image": "/assets/images/heroes/hoang_trung.webp",
+  "portrait": "/assets/images/heroes/hoang_trung.webp",
+  "element": "hoa",
+  "skills": [
+    {
+      "id": "passive",
+      "name": "PHÁO LUỸ PHƯƠNG THỨC",
+      "type": "passive",
+      "cooldown": "0s",
+      "mana": "0",
+      "tags": [
+        "TĂNG SÁT THƯƠNG",
+        "CHÍ MẠNG"
+      ],
+      "description": "Đòn đánh thường liên tục trúng đích sẽ tích lũy nộ khí, tăng 1.5% công vật lý và 1.5% tỉ lệ chí mạng (tối đa 5 tầng). Trong trạng thái dựng Pháo Luỹ (Chiêu Cuối), các hiệu ứng tăng cường này được nhân đôi.",
+      "image": "https://hokmoba.com/assets/images/heroes/hoang-trung-passive.jpg"
+    },
+    {
+      "id": "skill1",
+      "name": "HÀNH QUÂN TỐC ĐỘ",
+      "type": "skill1",
+      "cooldown": "8s",
+      "mana": "50",
+      "tags": [
+        "TĂNG TỐC",
+        "HỦY TRẠNG THÁI"
+      ],
+      "description": "Hoàng Trung nhận thêm 70% tốc độ di chuyển giảm dần trong 2 giây. Nếu đang trong trạng thái dựng Pháo Luỹ (Chiêu Cuối), lập tức hủy trạng thái pháo luỹ để hồi phục tính cơ động nhanh chóng.",
+      "image": "https://hokmoba.com/assets/images/heroes/hoang-trung-skill1.jpg"
+    },
+    {
+      "id": "skill2",
+      "name": "CẢNH BÁO MÌN",
+      "type": "skill2",
+      "cooldown": "8s",
+      "mana": "60",
+      "tags": [
+        "MÌN CẢNH BÁO",
+        "LÁ CHẮN"
+      ],
+      "description": "Ném mìn cảnh báo đến vị trí chỉ định. Kẻ địch giẫm phải sẽ kích nổ nhận sát thương vật lý, bị làm chậm 50%, giảm 25% giáp vật lý và lộ diện tầm nhìn. Đồng thời Hoàng Trung nhận được một lớp lá chắn hấp thụ sát thương.",
+      "image": "https://hokmoba.com/assets/images/heroes/hoang-trung-skill2.jpg"
+    },
+    {
+      "id": "skill3",
+      "name": "ĐẠI PHÁO OANH TẠC",
+      "type": "skill3",
+      "cooldown": "32s",
+      "mana": "120",
+      "tags": [
+        "DỰNG PHÁO",
+        "SIÊU TẦM XA"
+      ],
+      "description": "Dựng đại pháo cố định tại chỗ, nhận thêm tối đa 360 giáp vật lý và giáp phép. Tầm đánh thường được mở rộng cực đại, gây sát thương vật lý diện rộng chí mạng cực khủng lên mục tiêu trung tâm. Tối đa oanh tạc 7 lần.",
+      "image": "https://hokmoba.com/assets/images/heroes/hoang-trung-skill3.jpg"
+    }
+  ]
+}
